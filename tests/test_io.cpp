@@ -31,6 +31,8 @@ int main() {
         require(content.find("Load&lt;&amp;&gt;") != std::string::npos, "SVG label not escaped");
         in.close();
         require(lf::ascii(c, &r).find("Line,1") != std::string::npos, "ASCII missing branch");
+        require(lf::ascii(c, &r).find("P=0.5 Q=0.5 pu") != std::string::npos,
+                "ASCII must show solved slack injections, not input placeholders");
         rejects([&]{ lf::empty_destination(dir); });
         rejects([]{ lf::number("nan"); }); rejects([]{ lf::number("1oops"); });
         auto malformed = dir / "malformed.csv";
