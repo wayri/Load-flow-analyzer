@@ -264,3 +264,7 @@ __pycache__/
 /.task-check/
 /build/
 /results/
+
+# NRlarge Python bytecode
+__pycache__/
+*.py[cod]

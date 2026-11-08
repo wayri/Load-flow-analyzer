@@ -1,0 +1,5 @@
+-r requirements-nrlarge.txt
+# OpenCL uses the installed native ICD loader through ctypes; no pyopencl needed.
+# OpenGL compute additionally requires a working OpenGL 4.3+ FP64 driver/context.
+PyOpenGL>=3.1.7,<4
+glfw>=2.7,<3
