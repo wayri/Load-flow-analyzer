@@ -1,0 +1,4 @@
+id,type,p_pu,q_pu,vm_pu,va_deg,qmin_pu,qmax_pu
+1,SLACK,0,0,1.04,0,,
+2,PV,0.4,0,1.02,0,-0.4,0.5
+3,PQ,-0.7,-0.3,1,0,,
