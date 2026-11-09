@@ -259,3 +259,8 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+# Local verification and generated reports
+/task-check/
+/.task-check/
+/build/
+/results/

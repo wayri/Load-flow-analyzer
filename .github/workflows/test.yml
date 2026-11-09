@@ -1,0 +1,21 @@
+name: Build and verify
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  test:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - run: cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
+      - run: cmake --build build --config Release
+      - run: ctest --test-dir build -C Release --output-on-failure
+      - name: Example solve
+        shell: bash
+        run: |
+          if [ -f build/Release/load_flow.exe ]; then
+            build/Release/load_flow.exe --buses examples/three_bus/buses.csv --branches examples/three_bus/branches.csv --out results
+          else
+            build/load_flow --buses examples/three_bus/buses.csv --branches examples/three_bus/branches.csv --out results
+          fi
