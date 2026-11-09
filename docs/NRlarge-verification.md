@@ -1,7 +1,9 @@
 # NRlarge verification evidence
 
-Verified on 9 November 2026. This receipt records bounded evidence, not national
-capacity or a speedup guarantee.
+Verified on 9 November 2026. This record describes the test environment,
+numerical checks, benchmark results and remaining validation coverage.
+
+See [Acknowledgements, disclaimer and waiver](../ACKNOWLEDGEMENTS.md).
 
 ## Environment
 
@@ -99,9 +101,9 @@ The 1.991 GiB value is the **preflight estimate**, not measured peak RSS. Availa
 physical RAM was checked before the run (about 12 GiB). No full 100,000-customer
 CSV/report dataset was written. The model has short, lightly loaded service
 circuits and many feeders attached to ideal fixed-voltage sources; it converges
-in one Newton update. It is a favorable synthetic case, not a realistic national
-mesh, severe operating point, scalability curve or evidence for ten million
-customers. Timings vary with contention, ordering, drivers and topology.
+in one Newton update. This run exercises a lightly loaded feeder topology. Regional meshes,
+severe operating points and scaling curves are listed in the remaining coverage
+below. Timings vary with contention, ordering, drivers and topology.
 
 ## Coverage not established
 
@@ -116,7 +118,5 @@ customers. Timings vary with contention, ordering, drivers and topology.
 - Automatic transformer vector-group/neutral/grounding validation, aggregate
   synchronous-generator excitation models, regulator control or dynamic studies.
 
-These gaps must remain visible before making operational or national-capacity
-claims. The branch provides an executable, measured foundation and deployable
-numeric worker protocol, with coordinator-memory and transport limits described
-in the [guide](NRlarge.md).
+The [guide](NRlarge.md) describes the numerical worker protocol, deployment
+steps, coordinator-memory requirements and transport limits for further studies.

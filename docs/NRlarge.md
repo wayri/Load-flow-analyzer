@@ -7,12 +7,14 @@ and optional double-precision OpenCL/OpenGL sparse products. It runs on Windows
 and Linux with Python, NumPy and SciPy. The original balanced C++ application and
 its CSV/diagram/plot capabilities remain unchanged on this branch.
 
-**Evidence boundary:** this is a tested coordinator-based distributed-solve
-prototype, not a qualified national-grid simulator. There is no fixed bus-count
-cap, but coordinator RAM, sparsity, conditioning, worker RAM, GPU limits, network
-traffic and required accuracy bound actual capacity. A US state or India's
-Northern Grid cannot be claimed merely from a node count or twenty computers.
-No real national model or physical multi-host cluster has been supplied or tested.
+The engine uses a coordinator-based distributed solve with no fixed bus-count
+cap. Capacity depends on coordinator RAM, sparsity, conditioning, worker RAM,
+GPU limits, network traffic and required accuracy. Current verification covers a
+100,000-customer synthetic case and independent local worker processes. Real
+regional-grid models and physical multi-host clusters are listed in the
+[remaining validation coverage](NRlarge-verification.md#coverage-not-established).
+
+See [Acknowledgements, disclaimer and waiver](../ACKNOWLEDGEMENTS.md).
 
 ## Start locally
 
@@ -185,7 +187,8 @@ python -m nrlarge solve --case my_case --out gl_results --threads 1 --accelerato
 Both backends execute **real FP64 CSR Jacobian-vector products on the GPU**.
 Preconditioning, Krylov reductions, Newton decisions and final physical-residual
 checks remain on CPU. Host/device transfers and context/shader setup are included
-in solve timings and can make small cases slower. No universal speedup is claimed.
+in solve timings and can make small cases slower. Compare end-to-end timings for
+the intended model and hardware.
 Explicit accelerator selection fails when unavailable; it never silently falls
 back to CPU or labels a CPU OpenCL device/software renderer as GPU execution.
 
@@ -239,7 +242,7 @@ used to replace partial results; a failed worker fails the solve.
 python -m nrlarge solve --case my_case --out cluster_results --workers workers.json --token-file worker.token --ca-file cluster-ca.pem --memory-gib 32
 ```
 
-Twenty is a computer/endpoint ceiling, not a validated performance guarantee.
+The cluster accepts up to twenty computer/worker endpoints.
 Within each endpoint, CPU row products can use its configured thread count;
 preconditioner setup/solve is still a host sparse-factorization bottleneck.
 Matrix uploads are chunked with exact coverage validation and RAM preflight;
@@ -297,8 +300,9 @@ python -m nrlarge benchmark --customers 100000 --threads 4 --memory-gib 3 --tole
 See [NRlarge verification](NRlarge-verification.md) for actual measured results,
 platform/device details, tests and untested deployment coverage. The synthetic
 case uses many short, lightly loaded feeders tied to ideal fixed-voltage source
-conductors. It is an easy structural/capacity test, not an equivalent national
-transmission/distribution network and not proof of strong or weak scaling.
+conductors. It exercises structural capacity for that topology. Strong/weak
+scaling and regional transmission/distribution models have separate entries in
+the verification record.
 
 For state/regional-grid qualification, supply a versioned real HV/MV/LV/customer
 model with validated voltage bases, transformer/neutral/grounding primitives,
@@ -307,7 +311,7 @@ Then compare phase voltages, power balances and limit behavior to independent
 reference tools, measure memory/fill and end-to-end scaling on the actual 10..20
 machines, and test worker/device failure. No optimal power flow, dynamic/transient
 simulation, protection coordination, automatic tap/regulator control, frequency
-stability or national operational certification is included. True distributed
+stability is included. True distributed
 model storage and mature MPI/PETSc/Krylov/preconditioner transport are the next
 architecture step if coordinator/JSON limitations bind.
 

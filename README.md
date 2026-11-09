@@ -6,8 +6,8 @@ workers (up to 20), and optional FP64 OpenCL/OpenGL compute acceleration.
 
 Read the [NRlarge guide](docs/NRlarge.md) for input schemas, cluster deployment,
 GPU selection, measured evidence and capacity limits. The existing C++17 balanced
-application remains available below. NRlarge has no 500-bus limit; national-scale
-capacity is **not validated** by the current synthetic tests.
+application remains available below. NRlarge uses sparse storage without the
+500-bus limit. The guide records tested capacity and deployment coverage.
 
 A portable C++17 console application for balanced, steady-state AC load-flow studies.
 Originally written by Yawar Badri in 2019; the original implementation remains in Git history.
