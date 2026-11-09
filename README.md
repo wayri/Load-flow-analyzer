@@ -157,8 +157,7 @@ construct complex Y-bus
 Newton-Raphson solves non-slack P and PQ Q balance equations in polar coordinates
 using an analytical Jacobian recomputed each iteration, partial-pivoted linear solve,
 and backtracking to reduce mismatch while preserving positive voltage magnitudes.
-This is an established modern power-flow method, not a claim of a novel or globally
-convergent algorithm. See the [MATPOWER AC power-flow formulation](https://matpower.app/manual/matpower/ACPowerFlow.html).
+See the [MATPOWER AC power-flow formulation](https://matpower.app/manual/matpower/ACPowerFlow.html).
 Gauss-Seidel uses the latest available voltages within each sweep and restores PV
 voltage magnitude after each update. Both use the same power-mismatch criterion.
 
@@ -172,8 +171,7 @@ Default tolerance is `1e-8 pu`, with 100 updates; use `--tolerance` and
 converge. The dense implementation is capped at 500 buses and intended for small
 engineering/educational studies. It is not a sparse large-grid solver, an OPF,
 three-phase unbalanced solver, contingency engine, automatic tap controller or
-voltage/thermal-limit checker. Independent engineering validation is required for
-operational use.
+voltage/thermal-limit checker.
 
 ## Verification and migration
 
@@ -182,9 +180,14 @@ upper/lower Q limits, the official MATPOWER case9 network, GS/NR agreement, bran
 power balance, transformer stamps, invalid/disconnected networks, nonconvergence,
 CSV round trips, malformed quotes, UTF-8 BOM/CRLF and escaped SVG labels.
 Case9 source provenance is recorded in `tests/test_solver.cpp`; the fixture tests
-power equations and losses rather than claiming an external solver was run locally.
+power equations and losses. An external reference solver was not run locally.
 
 The old `bam`, `tbus`, `pbus` and `GSLF` prompt commands are replaced by reproducible
 CSV cases and explicit CLI options. Branch data now generates Y-bus internally;
 raw Y-bus import is not supported. Original source is available in the repository's
 pre-modernization history.
+
+## Acknowledgements
+
+See [Acknowledgements, disclaimer and waiver](ACKNOWLEDGEMENTS.md) for project
+credits, references and terms concerning use of the software and its results.
