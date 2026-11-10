@@ -1,0 +1,48 @@
+{
+  "name": "lv-managed-ev",
+  "title": "Four-wire LV: managed EV charging",
+  "description": "The additional EV charging demand is capped at half of the evening case.",
+  "parameters": {
+    "ev_power_fraction": 0.5,
+    "added_kw": 7.5,
+    "added_kvar": 0.75
+  },
+  "expected_converged": true,
+  "metrics": {
+    "converged": true,
+    "reason": "converged",
+    "iterations": 3,
+    "seconds": 0.011559200007468462,
+    "conductors": 8,
+    "physical_buses": 2,
+    "residual": 2.6145752229922437e-14,
+    "power_error": 2.0157706167251634e-14,
+    "min_phase_to_neutral_vm_pu": 0.9422281141010764,
+    "max_phase_to_neutral_vm_pu": 1.0377510268791539,
+    "max_neutral_vm_pu": 0.05221324729474473,
+    "max_negative_sequence_vuf_pct": 1.1644140923597015,
+    "net_explicit_demand_mw": 0.03473981190425068,
+    "gross_load_mw": 0.03473981190425068,
+    "embedded_generation_mw": -0.0,
+    "net_nodal_source_mw": 0.035497744397500766,
+    "positive_nodal_sources_mw": 0.035497744397500766,
+    "nodal_source_absorption_mw": -0.0,
+    "slack_mw": 0.035497744397500766,
+    "p_loss_mw": 0.0007579324932505756,
+    "network_q_absorption_mvar": 0.0019203619174342913,
+    "power_balance_error_mva": 5.0960112163151e-16,
+    "pv_to_pq_conductors": 0
+  },
+  "figures": {
+    "network_svg": "network.svg",
+    "network_png": "network.png",
+    "voltage_svg": "voltage.svg",
+    "voltage_png": "voltage.png",
+    "angles_svg": "angles.svg",
+    "angles_png": "angles.png",
+    "convergence_svg": "convergence.svg",
+    "convergence_png": "convergence.png",
+    "power_svg": "power.svg",
+    "power_png": "power.png"
+  }
+}

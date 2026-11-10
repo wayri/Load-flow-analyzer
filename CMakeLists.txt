@@ -28,11 +28,20 @@ if(BUILD_TESTING)
                     RESULT_VARIABLE NRLARGE_PYTHON_READY OUTPUT_QUIET ERROR_QUIET)
   endif()
   if(Python3_Interpreter_FOUND AND NRLARGE_PYTHON_READY EQUAL 0)
-    foreach(component model runtime cluster)
+    foreach(component model runtime cluster benchmark_cases)
       add_test(NAME nrlarge_${component} COMMAND "${Python3_EXECUTABLE}" -m unittest discover
                -s tests/nrlarge -p test_${component}.py -v)
       set_tests_properties(nrlarge_${component} PROPERTIES WORKING_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}" TIMEOUT 180)
     endforeach()
+    execute_process(COMMAND "${Python3_EXECUTABLE}" -c "import matplotlib, networkx, PIL"
+                    RESULT_VARIABLE NRLARGE_GALLERY_READY OUTPUT_QUIET ERROR_QUIET)
+    if(NRLARGE_GALLERY_READY EQUAL 0)
+      add_test(NAME nrlarge_benchmark_gallery COMMAND "${Python3_EXECUTABLE}" -m unittest discover
+               -s tests/nrlarge -p test_benchmark_gallery.py -v)
+      set_tests_properties(nrlarge_benchmark_gallery PROPERTIES WORKING_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}" TIMEOUT 180)
+    else()
+      message(STATUS "Gallery regression suite NOT enabled: optional benchmark plotting dependencies unavailable")
+    endif()
     add_test(NAME nrlarge_gpu COMMAND "${Python3_EXECUTABLE}" -m unittest discover
              -s tests -p test_nrlarge_gpu.py -v)
     set_tests_properties(nrlarge_gpu PROPERTIES WORKING_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}" TIMEOUT 180)

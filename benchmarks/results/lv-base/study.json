@@ -1,0 +1,47 @@
+{
+  "name": "lv-base",
+  "title": "Four-wire LV: base demand",
+  "description": "Repository four-wire mutual-impedance/ZIP/delta example, scaled to a 100 kVA three-phase base.",
+  "parameters": {
+    "base_mva": 0.1,
+    "source": "nrlarge.examples.unbalanced_example"
+  },
+  "expected_converged": true,
+  "metrics": {
+    "converged": true,
+    "reason": "converged",
+    "iterations": 3,
+    "seconds": 0.013327299995580688,
+    "conductors": 8,
+    "physical_buses": 2,
+    "residual": 1.2490009027033011e-15,
+    "power_error": 1.2363388434623075e-15,
+    "min_phase_to_neutral_vm_pu": 0.9754548677716822,
+    "max_phase_to_neutral_vm_pu": 1.0027460921957325,
+    "max_neutral_vm_pu": 0.016991278559736332,
+    "max_negative_sequence_vuf_pct": 0.396502316834576,
+    "net_explicit_demand_mw": 0.027373332449185897,
+    "gross_load_mw": 0.027373332449185897,
+    "embedded_generation_mw": -0.0,
+    "net_nodal_source_mw": 0.02765017189781643,
+    "positive_nodal_sources_mw": 0.02765017189781643,
+    "nodal_source_absorption_mw": -0.0,
+    "slack_mw": 0.02765017189781643,
+    "p_loss_mw": 0.0002768394486305709,
+    "network_q_absorption_mvar": 0.0008001105210161192,
+    "power_balance_error_mva": 4.282499461828627e-17,
+    "pv_to_pq_conductors": 0
+  },
+  "figures": {
+    "network_svg": "network.svg",
+    "network_png": "network.png",
+    "voltage_svg": "voltage.svg",
+    "voltage_png": "voltage.png",
+    "angles_svg": "angles.svg",
+    "angles_png": "angles.png",
+    "convergence_svg": "convergence.svg",
+    "convergence_png": "convergence.png",
+    "power_svg": "power.svg",
+    "power_png": "power.png"
+  }
+}

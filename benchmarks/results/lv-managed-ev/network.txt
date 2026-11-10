@@ -1,0 +1,17 @@
+UNBALANCED CONDUCTOR NETWORK
+CONVERGED
+Each element lists its conductor ports; mutual couplings are in inputs/stamps.csv.
+{four-wire-line}--[source.A]--[source.B]--[source.C]--[source.N]--[service.A]--[service.B]--[service.C]--[service.N]
+[service.A]--<LOAD customer-A; customer=customer-A>--[service.N]
+[service.B]--<LOAD customer-B; customer=customer-B>--[service.N]
+[service.C]--<LOAD customer-C; customer=customer-C>--[service.N]
+[service.A]--<LOAD delta-AB; customer=delta-shop>--[service.B]
+[service.A]--<LOAD EV-A; customer=two-EV-chargers>--[service.N]
+[source.A] SLACK V=1 pu / 0 deg P=0.588614804 Q=0.157615938 pu
+[source.B] SLACK V=1 pu / -120 deg P=0.221434365 Q=0.0947315505 pu
+[source.C] SLACK V=1 pu / 120 deg P=0.254883162 Q=0.0733034704 pu
+[source.N] SLACK V=0 pu / 0 deg P=0 Q=-0 pu
+[service.A] PQ V=0.971193433 pu / -2.69229475 deg P=1.96426894e-14 Q=4.52745731e-15 pu
+[service.B] PQ V=0.985880262 pu / -120.939751 deg P=-1.71664418e-15 Q=-2.22512151e-15 pu
+[service.C] PQ V=0.986827389 pu / 118.861208 deg P=-2.93412897e-15 Q=3.62134732e-15 pu
+[service.N] PQ V=0.0522132473 pu / 52.322927 deg P=-6.3883274e-16 Q=-1.23150047e-15 pu

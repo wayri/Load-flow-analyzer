@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="828pt" height="460.8pt" viewBox="0 0 828 460.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>NRlarge benchmark gallery</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 460.8 
+L 828 460.8 
+L 828 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 82.8 377.856 
+L 803.16 377.856 
+L 803.16 82.944 
+L 82.8 82.944 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m8879f03d8e" d="M 0 0 
+L 0 3.5 
+" style="stroke: #5e6d80; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m8879f03d8e" x="279.261818" y="377.856" style="fill: #5e6d80; stroke: #5e6d80; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans'; fill: #5e6d80" transform="translate(255.027439 402.693556) rotate(-28)">source</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m8879f03d8e" x="606.698182" y="377.856" style="fill: #5e6d80; stroke: #5e6d80; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans'; fill: #5e6d80" transform="translate(580.614028 403.677099) rotate(-28)">service</text>
+     </g>
+    </g>
+    <g id="text_3">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #18283f" x="442.98" y="416.744541" transform="rotate(-0 442.98 416.744541)">Physical bus (input order; not distance)</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_3">
+      <path d="M 82.8 341.202072 
+L 803.16 341.202072 
+" clip-path="url(#p8063c0e33f)" style="fill: none; stroke: #e6ebf0; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4">
+      <defs>
+       <path id="m2015d3b224" d="M 0 0 
+L -3.5 0 
+" style="stroke: #5e6d80; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m2015d3b224" x="82.8" y="341.202072" style="fill: #5e6d80; stroke: #5e6d80; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #5e6d80" x="75.8" y="345.00129" transform="rotate(-0 75.8 345.00129)">−100</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_5">
+      <path d="M 82.8 285.553667 
+L 803.16 285.553667 
+" clip-path="url(#p8063c0e33f)" style="fill: none; stroke: #e6ebf0; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m2015d3b224" x="82.8" y="285.553667" style="fill: #5e6d80; stroke: #5e6d80; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #5e6d80" x="75.8" y="289.352886" transform="rotate(-0 75.8 289.352886)">−50</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_7">
+      <path d="M 82.8 229.905262 
+L 803.16 229.905262 
+" clip-path="url(#p8063c0e33f)" style="fill: none; stroke: #e6ebf0; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m2015d3b224" x="82.8" y="229.905262" style="fill: #5e6d80; stroke: #5e6d80; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #5e6d80" x="75.8" y="233.704481" transform="rotate(-0 75.8 233.704481)">0</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_9">
+      <path d="M 82.8 174.256857 
+L 803.16 174.256857 
+" clip-path="url(#p8063c0e33f)" style="fill: none; stroke: #e6ebf0; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m2015d3b224" x="82.8" y="174.256857" style="fill: #5e6d80; stroke: #5e6d80; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #5e6d80" x="75.8" y="178.056076" transform="rotate(-0 75.8 178.056076)">50</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_11">
+      <path d="M 82.8 118.608453 
+L 803.16 118.608453 
+" clip-path="url(#p8063c0e33f)" style="fill: none; stroke: #e6ebf0; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m2015d3b224" x="82.8" y="118.608453" style="fill: #5e6d80; stroke: #5e6d80; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #5e6d80" x="75.8" y="122.407672" transform="rotate(-0 75.8 122.407672)">100</text>
+     </g>
+    </g>
+    <g id="text_9">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #18283f" x="42.253125" y="230.4" transform="rotate(-90 42.253125 230.4)">Voltage angle (degrees)</text>
+    </g>
+   </g>
+   <g id="line2d_13">
+    <path d="M 279.261818 229.905262 
+L 606.698182 234.256202 
+" clip-path="url(#p8063c0e33f)" style="fill: none; stroke: #1479b8; stroke-opacity: 0.9; stroke-width: 0.8; stroke-linecap: square"/>
+    <defs>
+     <path id="m0718992d04" d="M 0 1.5 
+C 0.397805 1.5 0.77937 1.341951 1.06066 1.06066 
+C 1.341951 0.77937 1.5 0.397805 1.5 0 
+C 1.5 -0.397805 1.341951 -0.77937 1.06066 -1.06066 
+C 0.77937 -1.341951 0.397805 -1.5 0 -1.5 
+C -0.397805 -1.5 -0.77937 -1.341951 -1.06066 -1.06066 
+C -1.341951 -0.77937 -1.5 -0.397805 -1.5 0 
+C -1.5 0.397805 -1.341951 0.77937 -1.06066 1.06066 
+C -0.77937 1.341951 -0.397805 1.5 0 1.5 
+z
+" style="stroke: #1479b8; stroke-opacity: 0.9"/>
+    </defs>
+    <g clip-path="url(#p8063c0e33f)">
+     <use xlink:href="#m0718992d04" x="279.261818" y="229.905262" style="fill: #1479b8; fill-opacity: 0.9; stroke: #1479b8; stroke-opacity: 0.9"/>
+     <use xlink:href="#m0718992d04" x="606.698182" y="234.256202" style="fill: #1479b8; fill-opacity: 0.9; stroke: #1479b8; stroke-opacity: 0.9"/>
+    </g>
+   </g>
+   <g id="line2d_14">
+    <path d="M 279.261818 363.461433 
+L 606.698182 364.450909 
+" clip-path="url(#p8063c0e33f)" style="fill: none; stroke: #df7b1c; stroke-opacity: 0.9; stroke-width: 0.8; stroke-linecap: square"/>
+    <defs>
+     <path id="made45e2f2b" d="M 0 1.5 
+C 0.397805 1.5 0.77937 1.341951 1.06066 1.06066 
+C 1.341951 0.77937 1.5 0.397805 1.5 0 
+C 1.5 -0.397805 1.341951 -0.77937 1.06066 -1.06066 
+C 0.77937 -1.341951 0.397805 -1.5 0 -1.5 
+C -0.397805 -1.5 -0.77937 -1.341951 -1.06066 -1.06066 
+C -1.341951 -0.77937 -1.5 -0.397805 -1.5 0 
+C -1.5 0.397805 -1.341951 0.77937 -1.06066 1.06066 
+C -0.77937 1.341951 -0.397805 1.5 0 1.5 
+z
+" style="stroke: #df7b1c; stroke-opacity: 0.9"/>
+    </defs>
+    <g clip-path="url(#p8063c0e33f)">
+     <use xlink:href="#made45e2f2b" x="279.261818" y="363.461433" style="fill: #df7b1c; fill-opacity: 0.9; stroke: #df7b1c; stroke-opacity: 0.9"/>
+     <use xlink:href="#made45e2f2b" x="606.698182" y="364.450909" style="fill: #df7b1c; fill-opacity: 0.9; stroke: #df7b1c; stroke-opacity: 0.9"/>
+    </g>
+   </g>
+   <g id="line2d_15">
+    <path d="M 279.261818 96.349091 
+L 606.698182 97.726213 
+" clip-path="url(#p8063c0e33f)" style="fill: none; stroke: #198b66; stroke-opacity: 0.9; stroke-width: 0.8; stroke-linecap: square"/>
+    <defs>
+     <path id="mdac3c3f7e9" d="M 0 1.5 
+C 0.397805 1.5 0.77937 1.341951 1.06066 1.06066 
+C 1.341951 0.77937 1.5 0.397805 1.5 0 
+C 1.5 -0.397805 1.341951 -0.77937 1.06066 -1.06066 
+C 0.77937 -1.341951 0.397805 -1.5 0 -1.5 
+C -0.397805 -1.5 -0.77937 -1.341951 -1.06066 -1.06066 
+C -1.341951 -0.77937 -1.5 -0.397805 -1.5 0 
+C -1.5 0.397805 -1.341951 0.77937 -1.06066 1.06066 
+C -0.77937 1.341951 -0.397805 1.5 0 1.5 
+z
+" style="stroke: #198b66; stroke-opacity: 0.9"/>
+    </defs>
+    <g clip-path="url(#p8063c0e33f)">
+     <use xlink:href="#mdac3c3f7e9" x="279.261818" y="96.349091" style="fill: #198b66; fill-opacity: 0.9; stroke: #198b66; stroke-opacity: 0.9"/>
+     <use xlink:href="#mdac3c3f7e9" x="606.698182" y="97.726213" style="fill: #198b66; fill-opacity: 0.9; stroke: #198b66; stroke-opacity: 0.9"/>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 82.8 377.856 
+L 82.8 82.944 
+" style="fill: none; stroke: #c5cfda; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 82.8 377.856 
+L 803.16 377.856 
+" style="fill: none; stroke: #c5cfda; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #5e6d80" x="803.16" y="76.85657" transform="rotate(-0 803.16 76.85657)">6 / 6 conductors</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #18283f" x="82.8" y="70.944" transform="rotate(-0 82.8 70.944)">Phase angles relative to case reference</text>
+   </g>
+   <g id="legend_1">
+    <g id="text_12">
+     <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #18283f" x="726.143125" y="96.22275" transform="rotate(-0 726.143125 96.22275)">Phase</text>
+    </g>
+    <g id="line2d_16">
+     <path d="M 680.2125 105.16525 
+L 688.2125 105.16525 
+L 696.2125 105.16525 
+" style="fill: none; stroke: #1479b8; stroke-opacity: 0.9; stroke-width: 0.8; stroke-linecap: square"/>
+     <g>
+      <use xlink:href="#m0718992d04" x="688.2125" y="105.16525" style="fill: #1479b8; fill-opacity: 0.9; stroke: #1479b8; stroke-opacity: 0.9"/>
+     </g>
+    </g>
+    <g id="text_13">
+     <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #18283f" x="702.6125" y="107.96525" transform="rotate(-0 702.6125 107.96525)">A</text>
+    </g>
+    <g id="line2d_17">
+     <path d="M 724.085 105.16525 
+L 732.085 105.16525 
+L 740.085 105.16525 
+" style="fill: none; stroke: #df7b1c; stroke-opacity: 0.9; stroke-width: 0.8; stroke-linecap: square"/>
+     <g>
+      <use xlink:href="#made45e2f2b" x="732.085" y="105.16525" style="fill: #df7b1c; fill-opacity: 0.9; stroke: #df7b1c; stroke-opacity: 0.9"/>
+     </g>
+    </g>
+    <g id="text_14">
+     <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #18283f" x="746.485" y="107.96525" transform="rotate(-0 746.485 107.96525)">B</text>
+    </g>
+    <g id="line2d_18">
+     <path d="M 767.97375 105.16525 
+L 775.97375 105.16525 
+L 783.97375 105.16525 
+" style="fill: none; stroke: #198b66; stroke-opacity: 0.9; stroke-width: 0.8; stroke-linecap: square"/>
+     <g>
+      <use xlink:href="#mdac3c3f7e9" x="775.97375" y="105.16525" style="fill: #198b66; fill-opacity: 0.9; stroke: #198b66; stroke-opacity: 0.9"/>
+     </g>
+    </g>
+    <g id="text_15">
+     <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #18283f" x="790.37375" y="107.96525" transform="rotate(-0 790.37375 107.96525)">C</text>
+    </g>
+   </g>
+  </g>
+  <g id="text_16">
+   <text style="font-weight: 700; font-size: 17px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #18283f" x="62.1" y="24.437344" transform="rotate(-0 62.1 24.437344)">Four-wire LV: neutral impedance x2 · voltage angles</text>
+  </g>
+  <g id="text_17">
+   <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #5e6d80" x="62.1" y="40.937794" transform="rotate(-0 62.1 40.937794)">2 physical buses · 8 conductors · 5 explicit loads · three-phase base 0.1 MVA</text>
+  </g>
+  <g id="text_18">
+   <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #5e6d80" x="82.8" y="452.5056" transform="rotate(-0 82.8 452.5056)">Phase A/B/C may be centered near 0 / −120 / +120 degrees; neutral angles are omitted.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p8063c0e33f">
+   <rect x="82.8" y="82.944" width="720.36" height="294.912"/>
+  </clipPath>
+ </defs>
+</svg>

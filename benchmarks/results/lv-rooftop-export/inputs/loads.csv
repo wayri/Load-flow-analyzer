@@ -1,0 +1,8 @@
+id,from,to,p_pu,q_pu,z_fraction,i_fraction,p_fraction,nominal_vm_pu,customer,feeder,region
+customer-A,service.A,service.N,0.105,0.034999999999999996,0.2,0.3,0.5,1,customer-A,F1,illustrative-lv
+customer-B,service.B,service.N,0.063,0.017499999999999998,0.2,0.3,0.5,1,customer-B,F1,illustrative-lv
+customer-C,service.C,service.N,0.0875,0.027999999999999997,0.2,0.3,0.5,1,customer-C,F1,illustrative-lv
+delta-AB,service.A,service.B,0.034999999999999996,0.006999999999999999,0.0,0.0,1.0,1.7320508075688772,delta-shop,F1,illustrative-lv
+rooftop-A,service.A,service.N,-1.2,0,0.0,0.0,1.0,1.0,rooftop-A,F1,illustrative-lv
+rooftop-B,service.B,service.N,-0.7,0,0.0,0.0,1.0,1.0,rooftop-B,F1,illustrative-lv
+rooftop-C,service.C,service.N,-0.9,0,0.0,0.0,1.0,1.0,rooftop-C,F1,illustrative-lv

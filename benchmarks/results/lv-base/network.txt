@@ -1,0 +1,16 @@
+UNBALANCED CONDUCTOR NETWORK
+CONVERGED
+Each element lists its conductor ports; mutual couplings are in inputs/stamps.csv.
+{four-wire-line}--[source.A]--[source.B]--[source.C]--[source.N]--[service.A]--[service.B]--[service.C]--[service.N]
+[service.A]--<LOAD customer-A; customer=customer-A>--[service.N]
+[service.B]--<LOAD customer-B; customer=customer-B>--[service.N]
+[service.C]--<LOAD customer-C; customer=customer-C>--[service.N]
+[service.A]--<LOAD delta-AB; customer=delta-shop>--[service.B]
+[source.A] SLACK V=1 pu / 0 deg P=0.354686751 Q=0.0959895575 pu
+[source.B] SLACK V=1 pu / -120 deg P=0.223379824 Q=0.0930208784 pu
+[source.C] SLACK V=1 pu / 120 deg P=0.251438582 Q=0.0820971702 pu
+[source.N] SLACK V=0 pu / 0 deg P=-0 Q=0 pu
+[service.A] PQ V=0.982293574 pu / -1.6019501 deg P=5.79378346e-16 Q=-7.38985001e-16 pu
+[service.B] PQ V=0.985974705 pu / -120.952056 deg P=5.39500144e-16 Q=1.11241779e-15 pu
+[service.C] PQ V=0.98616593 pu / 118.891766 deg P=2.13239158e-16 Q=-2.73110064e-16 pu
+[service.N] PQ V=0.0169912786 pu / 68.3545786 deg P=2.65615e-18 Q=-2.57622374e-18 pu

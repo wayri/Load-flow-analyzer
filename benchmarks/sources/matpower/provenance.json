@@ -1,0 +1,49 @@
+{
+  "repository": "https://github.com/MATPOWER/matpower",
+  "commit": "80b6e16f760f58721ad31221c7287c28259cd4ad",
+  "retrieved_on": "2026-11-10",
+  "files": [
+    {
+      "path": "case14.m",
+      "source_path": "data/case14.m",
+      "url": "https://github.com/MATPOWER/matpower/blob/80b6e16f760f58721ad31221c7287c28259cd4ad/data/case14.m",
+      "bytes": 4597,
+      "sha256": "2ffc4e1b734ae6c5e92dbe68b4e36010ed695a4bbcc4d065c74c4fbc39fcf3c1"
+    },
+    {
+      "path": "case_ieee30.m",
+      "source_path": "data/case_ieee30.m",
+      "url": "https://github.com/MATPOWER/matpower/blob/80b6e16f760f58721ad31221c7287c28259cd4ad/data/case_ieee30.m",
+      "bytes": 8052,
+      "sha256": "b3bcc6165577e9e70a39af98f808405233a184289056cab8ce35fbc5a3ad953e"
+    },
+    {
+      "path": "case57.m",
+      "source_path": "data/case57.m",
+      "url": "https://github.com/MATPOWER/matpower/blob/80b6e16f760f58721ad31221c7287c28259cd4ad/data/case57.m",
+      "bytes": 13674,
+      "sha256": "2218325a6e8fe6c7b8b28202f523670459268075a6fd41b4959d66f17d47d28b"
+    },
+    {
+      "path": "case118.m",
+      "source_path": "data/case118.m",
+      "url": "https://github.com/MATPOWER/matpower/blob/80b6e16f760f58721ad31221c7287c28259cd4ad/data/case118.m",
+      "bytes": 33696,
+      "sha256": "bc2e6f22b4b9e776572885ee4b50e4f4ab2ee0c5577e9126e86d906f14c4b5f7"
+    },
+    {
+      "path": "case300.m",
+      "source_path": "data/case300.m",
+      "url": "https://github.com/MATPOWER/matpower/blob/80b6e16f760f58721ad31221c7287c28259cd4ad/data/case300.m",
+      "bytes": 66034,
+      "sha256": "69a90280e999ef533d94656e0fbc08311f1347c962dd2753ff2005ff5e3f9ac5"
+    },
+    {
+      "path": "LICENSE",
+      "source_path": "LICENSE",
+      "url": "https://github.com/MATPOWER/matpower/blob/80b6e16f760f58721ad31221c7287c28259cd4ad/LICENSE",
+      "bytes": 2074,
+      "sha256": "5d14c09b3e4f2adf62c0373e6320163697aa4603186f8925c07c6b84201e1750"
+    }
+  ]
+}

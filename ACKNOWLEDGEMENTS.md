@@ -7,8 +7,12 @@ technical references and software ecosystems:
 
 - [MATPOWER](https://matpower.org/): AC power-flow formulations and the case9
   network used in numerical tests.
+  The [IEEE benchmark collection](benchmarks/README.md) retains pinned case-file
+  headers, upstream usage notes and [source provenance](benchmarks/sources/matpower/provenance.json).
 - [NumPy](https://numpy.org/) and [SciPy](https://scipy.org/): array operations,
   sparse matrices and numerical solvers used by NRlarge.
+- [Matplotlib](https://matplotlib.org/), [NetworkX](https://networkx.org/) and
+  [Pillow](https://python-pillow.org/): benchmark plots, network layouts and image previews.
 - [PETSc](https://petsc.org/): distributed-network and scalable-solver references.
 - [Khronos Group](https://www.khronos.org/): OpenCL and OpenGL specifications.
 - [PyOpenGL](https://pyopengl.sourceforge.net/) and [GLFW](https://www.glfw.org/):

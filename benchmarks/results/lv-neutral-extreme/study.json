@@ -1,0 +1,47 @@
+{
+  "name": "lv-neutral-extreme",
+  "title": "Four-wire LV: neutral impedance x4",
+  "description": "The EV evening case is repeated with 4 times the neutral self-impedance.",
+  "parameters": {
+    "neutral_self_impedance_multiplier": 4,
+    "phase_loads": "same as lv-ev-evening"
+  },
+  "expected_converged": false,
+  "metrics": {
+    "converged": false,
+    "reason": "line_search_failed",
+    "iterations": 11,
+    "seconds": 0.05429149998235516,
+    "conductors": 8,
+    "physical_buses": 2,
+    "residual": 0.3003235980277054,
+    "power_error": 0.27766360957965686,
+    "min_phase_to_neutral_vm_pu": 0.6655549433176986,
+    "max_phase_to_neutral_vm_pu": 1.4174388877247606,
+    "max_neutral_vm_pu": 0.45746383261519485,
+    "max_negative_sequence_vuf_pct": 3.0312025735728705,
+    "net_explicit_demand_mw": 0.04271834879959004,
+    "gross_load_mw": 0.04271834879959004,
+    "embedded_generation_mw": -0.0,
+    "net_nodal_source_mw": 0.04914962873463976,
+    "positive_nodal_sources_mw": 0.04914962873463976,
+    "nodal_source_absorption_mw": -0.0,
+    "slack_mw": 0.04914962873463976,
+    "p_loss_mw": 0.006212817349891923,
+    "network_q_absorption_mvar": 0.012875697200920548,
+    "power_balance_error_mva": 0.005468309349880088,
+    "pv_to_pq_conductors": 0
+  },
+  "figures": {
+    "network_svg": "network.svg",
+    "network_png": "network.png",
+    "voltage_svg": "voltage.svg",
+    "voltage_png": "voltage.png",
+    "angles_svg": "angles.svg",
+    "angles_png": "angles.png",
+    "convergence_svg": "convergence.svg",
+    "convergence_png": "convergence.png",
+    "power_svg": "power.svg",
+    "power_png": "power.png"
+  }
+}

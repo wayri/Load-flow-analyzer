@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "model": "unbalanced phase-domain steady-state ZIP",
+  "converged": true,
+  "reason": "converged",
+  "iterations": 2,
+  "seconds": 0.010572300001513213,
+  "nodes": 42,
+  "loads": 33,
+  "y_nnz": 162,
+  "estimated_peak_gib": 0.00035919249057769775,
+  "three_phase_base_mva": 100.0,
+  "p_loss_mw": 13.393272357898796,
+  "q_loss_mvar": 8.937543872606895,
+  "customer_demand_mw": 259.0,
+  "customer_demand_mvar": 73.49999999999999,
+  "residual": 4.4075854077618715e-14,
+  "power_error": 1.6411514586736962e-14,
+  "execution": {
+    "mode": "local",
+    "linear": "sparse direct",
+    "threads": 1
+  },
+  "plot_sample_limit": 512,
+  "focus_feeder": null
+}

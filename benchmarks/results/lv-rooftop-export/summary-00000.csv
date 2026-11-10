@@ -1,0 +1,2 @@
+schema,model,converged,reason,iterations,seconds,nodes,loads,y_nnz,estimated_peak_gib,three_phase_base_mva,p_loss_mw,q_loss_mvar,customer_demand_mw,customer_demand_mvar,residual,power_error,execution,plot_sample_limit,focus_feeder
+1,unbalanced phase-domain steady-state ZIP,True,converged,4,0.013631999987410381,8,7,64,8.281320333480835e-05,0.1,0.0023777028059725493,0.006669631406498387,-0.08350193933331052,0.0029669222963710495,2.3869795029440866e-15,2.5566508717371807e-15,"{""mode"": ""local"", ""linear"": ""sparse direct"", ""threads"": 1}",512,

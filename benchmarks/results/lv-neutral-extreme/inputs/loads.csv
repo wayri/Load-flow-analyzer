@@ -1,0 +1,6 @@
+id,from,to,p_pu,q_pu,z_fraction,i_fraction,p_fraction,nominal_vm_pu,customer,feeder,region
+customer-A,service.A,service.N,0.3,0.1,0.2,0.3,0.5,1,customer-A,F1,illustrative-lv
+customer-B,service.B,service.N,0.18,0.05,0.2,0.3,0.5,1,customer-B,F1,illustrative-lv
+customer-C,service.C,service.N,0.25,0.08,0.2,0.3,0.5,1,customer-C,F1,illustrative-lv
+delta-AB,service.A,service.B,0.1,0.02,0.0,0.0,1.0,1.7320508075688772,delta-shop,F1,illustrative-lv
+EV-A,service.A,service.N,0.45,0.045,0.0,0.0,1.0,1.0,two-EV-chargers,F1,illustrative-lv

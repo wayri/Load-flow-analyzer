@@ -1,0 +1,2104 @@
+{
+  "files": [
+    {
+      "path": "backend-comparison.csv",
+      "bytes": 522,
+      "sha256": "eda0b97d6e0ac14af086155422d0503fe41f57c1aef6658c789bd767af73f0c0"
+    },
+    {
+      "path": "backends.png",
+      "bytes": 19515,
+      "sha256": "94833d2e25792dfbfc20044e50d1ffdd095204e8a03d99248674e8b251dcb4ae"
+    },
+    {
+      "path": "backends.svg",
+      "bytes": 23083,
+      "sha256": "e603c9d099b262932c4400202d89b925ae91bceb645961f29f241f7f84b5cc59"
+    },
+    {
+      "path": "comparison.csv",
+      "bytes": 5615,
+      "sha256": "6a53ad8d2215ea57ebfa99fcac547316292ca4900e5d5dbff67a6ad84386a8e5"
+    },
+    {
+      "path": "comparison.png",
+      "bytes": 27419,
+      "sha256": "4bfc71eb8dbc463ff55ad6296602a70e018275217722a08dd037bd7d2713c2cc"
+    },
+    {
+      "path": "comparison.svg",
+      "bytes": 25489,
+      "sha256": "8d3d8c780a3bfed5c4d3014f7c9e689188ca2e8c9190d4dc4e6b9ce6236a374b"
+    },
+    {
+      "path": "hardware.json",
+      "bytes": 459,
+      "sha256": "50614fd95e4d86abeb7689ed05894e5ac18c352a36e4f8c1c2ebd4436ad89856"
+    },
+    {
+      "path": "ieee118/angles.svg",
+      "bytes": 14934,
+      "sha256": "55f39d479f8be9e9d76d56b3736e022786bb9eae863fdcd62a73073c911565d2"
+    },
+    {
+      "path": "ieee118/branch-checks.csv",
+      "bytes": 20170,
+      "sha256": "ffbf6019adb93b467205f7bcf46a577600f1482a8b525dc90de2c39ff3cfed51"
+    },
+    {
+      "path": "ieee118/convergence-00000.csv",
+      "bytes": 728,
+      "sha256": "758b6be59560aabcf7994ffd5d79b2c07f910804c186f7173ed28199a93f120c"
+    },
+    {
+      "path": "ieee118/convergence.svg",
+      "bytes": 1774,
+      "sha256": "91fe361a04291a75cad24d58238efef48b53bb3c4a301386d406afde9db00797"
+    },
+    {
+      "path": "ieee118/feeders-00000.csv",
+      "bytes": 73,
+      "sha256": "71400e166a0750be52e0e5d20e4c09b9ce6992f87ccbfc0ed21bda3c15fdfa7b"
+    },
+    {
+      "path": "ieee118/figures/angles.png",
+      "bytes": 27365,
+      "sha256": "86e3e53d9edceb68462225944b3e218eaa1b8cdaeb9e2dad550cb904d0951dd8"
+    },
+    {
+      "path": "ieee118/figures/angles.svg",
+      "bytes": 43356,
+      "sha256": "838430700d0726a5c1999982cf81699e8937abc070baf0d1450b39712c091bf8"
+    },
+    {
+      "path": "ieee118/figures/convergence.png",
+      "bytes": 29980,
+      "sha256": "bb0cc87dc21f1430fe3e8721e3c2dc96aa8adf09dbda23824d3915458bdc73ac"
+    },
+    {
+      "path": "ieee118/figures/convergence.svg",
+      "bytes": 20887,
+      "sha256": "ccd63cd1b5278144d12df91d06d9d41badf65ee9032710d2c42c8ec99067718f"
+    },
+    {
+      "path": "ieee118/figures/network.png",
+      "bytes": 36510,
+      "sha256": "9b412500f1f0d143574b956c13be17a64b84e5b0edede595f79122b9d002769e"
+    },
+    {
+      "path": "ieee118/figures/network.svg",
+      "bytes": 83188,
+      "sha256": "d5bc99f82bbec9e8e90866ebf519ba6c2dbdc62bfd11b12b92287dcfb249f9ed"
+    },
+    {
+      "path": "ieee118/figures/power.png",
+      "bytes": 27541,
+      "sha256": "1337c690e2d965e318466f3ee0a3faff3d9e1b8ef31915590013b9b7bea71bfa"
+    },
+    {
+      "path": "ieee118/figures/power.svg",
+      "bytes": 18370,
+      "sha256": "f74801231d9594e138fa79c91d2c7433dfa7c6299a960aa7bade3c199a664c1d"
+    },
+    {
+      "path": "ieee118/figures/voltage.png",
+      "bytes": 42287,
+      "sha256": "0ba38854f40680e565d8da58fa9e7db45b767017cd3e08418df70375c8fa9f1e"
+    },
+    {
+      "path": "ieee118/figures/voltage.svg",
+      "bytes": 43393,
+      "sha256": "417fb0acd873af43a1df6468e4334f88c30ad60e98cbc17b9681d80c676ef790"
+    },
+    {
+      "path": "ieee118/generator-checks.csv",
+      "bytes": 4367,
+      "sha256": "96f81e605d86152251926b671ca55dcca608adf357c8502a223cace189c31373"
+    },
+    {
+      "path": "ieee118/inputs/case.json",
+      "bytes": 34,
+      "sha256": "893bd7fa962b375bf63df9015c753daf1e9278712ad2c69a92f5b76c0d586a1b"
+    },
+    {
+      "path": "ieee118/inputs/loads.csv",
+      "bytes": 17909,
+      "sha256": "a4ab9bf579ae473838839ae1d1da4f9de0de35899e3bea6523f84ca6468f765b"
+    },
+    {
+      "path": "ieee118/inputs/nodes.csv",
+      "bytes": 18595,
+      "sha256": "35c86142c1f0626d436c64e28828322d569fe8a5e6e905c631bed98677f5761b"
+    },
+    {
+      "path": "ieee118/inputs/stamps.csv",
+      "bytes": 132264,
+      "sha256": "a3135013df811ca02b6dbdb4bb185dcd07dbfd8aad030b62563a2334d0e288a8"
+    },
+    {
+      "path": "ieee118/loads-00000.csv",
+      "bytes": 35543,
+      "sha256": "9f8a8a7c147cfd6cf21f159f457bd70ea8b29b24579aa3e3a0296b002261a1c5"
+    },
+    {
+      "path": "ieee118/network.txt",
+      "bytes": 54003,
+      "sha256": "4c445aa8e9bcec57f8e1acbbf01e7f8874109aa5f20b629c0cf21ef3c0ec7508"
+    },
+    {
+      "path": "ieee118/nodes-00000.csv",
+      "bytes": 53237,
+      "sha256": "74b4cf922fbf41a232a68894aaf2242a379a0dda95903cff9b01065a8dd193ba"
+    },
+    {
+      "path": "ieee118/README.md",
+      "bytes": 1411,
+      "sha256": "643ae50443bddd4f32333beef3702ca0d6f5050272aaddff25497207b07b2f6f"
+    },
+    {
+      "path": "ieee118/reference-voltage.csv",
+      "bytes": 37878,
+      "sha256": "8e743adfa6031182aacb93b00a266208b5961887dd8798357ee43ae5a8858970"
+    },
+    {
+      "path": "ieee118/study.json",
+      "bytes": 2145,
+      "sha256": "b3fd39194f100cbc863dedf239c78805de9717e410bf12519a8fe2d21978e222"
+    },
+    {
+      "path": "ieee118/summary-00000.csv",
+      "bytes": 546,
+      "sha256": "613a6bc8c679f0532e2d0a45b9eb4d9fdbe7e3e137d7894a58bfa79505911eb7"
+    },
+    {
+      "path": "ieee118/summary.json",
+      "bytes": 705,
+      "sha256": "ac1c3e558bc3c605f87bcb30c73fd560527fc7156f3c8c23fccb8c6f5fc36af4"
+    },
+    {
+      "path": "ieee118/terminals-00000.csv",
+      "bytes": 114431,
+      "sha256": "d702b504722873ccc73890b5c8aa24e869f6a24cff2232d7a18827294cb373d0"
+    },
+    {
+      "path": "ieee118/voltage-checks.csv",
+      "bytes": 4250,
+      "sha256": "85f0ec934e9594a542903bdf966ff2ee417dffe4233d4a5da8e2f9eb91566982"
+    },
+    {
+      "path": "ieee118/voltage.svg",
+      "bytes": 15018,
+      "sha256": "b2843c42cceac96f55d6990d3e5e16d57f1130b7fcbe4955d166a44868d7f48f"
+    },
+    {
+      "path": "ieee118-line-outage/angles.svg",
+      "bytes": 14977,
+      "sha256": "87c3fdfea383b8c0cbdb9dbbdb1fd67427f170702a001b4b956f9bffb313fee6"
+    },
+    {
+      "path": "ieee118-line-outage/branch-checks.csv",
+      "bytes": 20028,
+      "sha256": "4b1a64f422a74398b9520bc4bddf615e7b8b5a99f3a81629133924b675c6e757"
+    },
+    {
+      "path": "ieee118-line-outage/convergence-00000.csv",
+      "bytes": 727,
+      "sha256": "3785820896ba31e57a7664349e8153d2ad71957e28eb7ab34d7faec8e7cfd9d7"
+    },
+    {
+      "path": "ieee118-line-outage/convergence.svg",
+      "bytes": 1776,
+      "sha256": "482572989a265c5f775d043299fc030d2deb2512a554de87b0f971a850d68c92"
+    },
+    {
+      "path": "ieee118-line-outage/feeders-00000.csv",
+      "bytes": 73,
+      "sha256": "71400e166a0750be52e0e5d20e4c09b9ce6992f87ccbfc0ed21bda3c15fdfa7b"
+    },
+    {
+      "path": "ieee118-line-outage/figures/angles.png",
+      "bytes": 28363,
+      "sha256": "0d1666c486fe5c319ac4b9dd8ea5ce4784d0f42643f4c2dc0bcfaa357ac38c5f"
+    },
+    {
+      "path": "ieee118-line-outage/figures/angles.svg",
+      "bytes": 43380,
+      "sha256": "e79ec71af93edc020ccf8f619d647e931c41d59e178dd9110a6403c37dbe4107"
+    },
+    {
+      "path": "ieee118-line-outage/figures/convergence.png",
+      "bytes": 30448,
+      "sha256": "8d88df2dc1401ac4b305cbe1ee53311502d32a08334813f5e3c915d052504cfa"
+    },
+    {
+      "path": "ieee118-line-outage/figures/convergence.svg",
+      "bytes": 20893,
+      "sha256": "0a96afaade0f3662ab2a9fdaed1cc344dfa35883af98242239ca10bc81aef535"
+    },
+    {
+      "path": "ieee118-line-outage/figures/network.png",
+      "bytes": 37709,
+      "sha256": "82e2d02b39aef3d5fd64fb87d463b9f283f43979627ec304c3d1ed9a35f2c578"
+    },
+    {
+      "path": "ieee118-line-outage/figures/network.svg",
+      "bytes": 83003,
+      "sha256": "ab53f90b9baeee97418915e2cc441967d18bf68b1dbc46eca61416a716fd8c88"
+    },
+    {
+      "path": "ieee118-line-outage/figures/power.png",
+      "bytes": 28605,
+      "sha256": "f879c213b99b3c4bc1c86757830e0aa87cb9297ce2d2ff8072b0f037eee74934"
+    },
+    {
+      "path": "ieee118-line-outage/figures/power.svg",
+      "bytes": 18385,
+      "sha256": "d5dc8bee0c37cf0ea39182c88de30649478ac4255f12b50c2823e922a727a71a"
+    },
+    {
+      "path": "ieee118-line-outage/figures/voltage.png",
+      "bytes": 43324,
+      "sha256": "7786707f9b3d72da87f987a96aca05b00d90296e04d5456fcdb338060f0caeed"
+    },
+    {
+      "path": "ieee118-line-outage/figures/voltage.svg",
+      "bytes": 43406,
+      "sha256": "19d79c14bdec88e57d439267fb8367adfc0029d673c8e2b2cb14938c5e879720"
+    },
+    {
+      "path": "ieee118-line-outage/generator-checks.csv",
+      "bytes": 4373,
+      "sha256": "b76d2af4f15ed89a087f4dfac4bb70a6cb55d6b5c2df7fdee877e3a19a745866"
+    },
+    {
+      "path": "ieee118-line-outage/inputs/case.json",
+      "bytes": 34,
+      "sha256": "893bd7fa962b375bf63df9015c753daf1e9278712ad2c69a92f5b76c0d586a1b"
+    },
+    {
+      "path": "ieee118-line-outage/inputs/loads.csv",
+      "bytes": 17909,
+      "sha256": "a4ab9bf579ae473838839ae1d1da4f9de0de35899e3bea6523f84ca6468f765b"
+    },
+    {
+      "path": "ieee118-line-outage/inputs/nodes.csv",
+      "bytes": 18595,
+      "sha256": "35c86142c1f0626d436c64e28828322d569fe8a5e6e905c631bed98677f5761b"
+    },
+    {
+      "path": "ieee118-line-outage/inputs/stamps.csv",
+      "bytes": 131592,
+      "sha256": "279d08dfc333369c1d9f05c1399ce72cf0f31264a50e7d843e48bd8ec877788f"
+    },
+    {
+      "path": "ieee118-line-outage/loads-00000.csv",
+      "bytes": 34912,
+      "sha256": "0a83cc821fbb7faefdcb63ca91ca415713f39207c64e04cf5ec306943a09d480"
+    },
+    {
+      "path": "ieee118-line-outage/network.txt",
+      "bytes": 54019,
+      "sha256": "ac71cad3ddc76912c36603391d98ee17b0363c7b2746c2043fceb00e00fac793"
+    },
+    {
+      "path": "ieee118-line-outage/nodes-00000.csv",
+      "bytes": 53147,
+      "sha256": "f8ff024341dca03fce8319ec73aab178c559ea9719427d4d24edf3269d4e15cd"
+    },
+    {
+      "path": "ieee118-line-outage/README.md",
+      "bytes": 1450,
+      "sha256": "1f9061310585a9cfbe061e95cfa03b7059964a97197f6a46f68f02f0a6f86e7c"
+    },
+    {
+      "path": "ieee118-line-outage/reference-voltage.csv",
+      "bytes": 37915,
+      "sha256": "929788db24d830b58117ec2f5d554e6cdb8ba20c1ff4d74b11311362963b01f6"
+    },
+    {
+      "path": "ieee118-line-outage/study.json",
+      "bytes": 2206,
+      "sha256": "01f0e2cd6073da4d8b81c7c4dc506971aed02bc122727ddddcbf791c32ed07e5"
+    },
+    {
+      "path": "ieee118-line-outage/summary-00000.csv",
+      "bytes": 549,
+      "sha256": "0d1941f7fbf61f10d5aca14055924b9ce3b119ee4bd711469b554c5c8bafe705"
+    },
+    {
+      "path": "ieee118-line-outage/summary.json",
+      "bytes": 708,
+      "sha256": "322e511a759622dca6015dd0e3f52f0c5bf1f58551f5cfd613863380ff3183b3"
+    },
+    {
+      "path": "ieee118-line-outage/terminals-00000.csv",
+      "bytes": 113936,
+      "sha256": "fefa551daa8fa77ca20f7309bc491367911c3355e177a495b06077d65df3e6f6"
+    },
+    {
+      "path": "ieee118-line-outage/voltage-checks.csv",
+      "bytes": 4078,
+      "sha256": "10dbd6d00e54cf5a12d9e46e0914fd336583de813ee223c9c6b1d30c0ac1fdac"
+    },
+    {
+      "path": "ieee118-line-outage/voltage.svg",
+      "bytes": 15002,
+      "sha256": "c5f736455cbc4dce12913b68bf043a1269e2b57553a76badbfea38322de1772b"
+    },
+    {
+      "path": "ieee14/angles.svg",
+      "bytes": 3466,
+      "sha256": "7c661edb41c749f6787955d998a66986e1619fbf843fda2ab914da899c66514a"
+    },
+    {
+      "path": "ieee14/branch-checks.csv",
+      "bytes": 2167,
+      "sha256": "68ca484b72031af70ea40813c21e9010fb642c019a8f3485024217ed2539484b"
+    },
+    {
+      "path": "ieee14/convergence-00000.csv",
+      "bytes": 347,
+      "sha256": "65dab79badb92c92247fa687941fb3b9e081569cd29d96568a457f0d05651d29"
+    },
+    {
+      "path": "ieee14/convergence.svg",
+      "bytes": 1272,
+      "sha256": "c254c3a14c4f75daef52d2c91f07afb53864d121ad0d78e2a2070c7a4efdbca8"
+    },
+    {
+      "path": "ieee14/feeders-00000.csv",
+      "bytes": 60,
+      "sha256": "266eba086e16771f24f05a639b0c03eaa654171059d20a4069d2b238444832e5"
+    },
+    {
+      "path": "ieee14/figures/angles.png",
+      "bytes": 19954,
+      "sha256": "9fe607d4005693d3e35d0f43316029597b167f8667ea49e081ef9015fa482b56"
+    },
+    {
+      "path": "ieee14/figures/angles.svg",
+      "bytes": 23165,
+      "sha256": "53a47aff32dd5ee368feb7077bf01306ca55f8151ffb24289f85c11134dc257c"
+    },
+    {
+      "path": "ieee14/figures/convergence.png",
+      "bytes": 22875,
+      "sha256": "343d0a1d13798c907b709dd6988849c299d146bef92211e6da96ea03913c1ed8"
+    },
+    {
+      "path": "ieee14/figures/convergence.svg",
+      "bytes": 17359,
+      "sha256": "604f34271127bb1730184b7cc350fed5b10c3356d40480ab1427df4920906769"
+    },
+    {
+      "path": "ieee14/figures/network.png",
+      "bytes": 27101,
+      "sha256": "2f5d67d433a7ca0184c519958e9338cca3679fdb1f4bfa5654ff1aa307d14d97"
+    },
+    {
+      "path": "ieee14/figures/network.svg",
+      "bytes": 31712,
+      "sha256": "3acc9a5bd88fd47f241695a6404a754f2c6a23b9ef54cc5fd2ddffd9004707b5"
+    },
+    {
+      "path": "ieee14/figures/power.png",
+      "bytes": 26997,
+      "sha256": "d9b4cb009bd65361dea1ab1e41d12121543bc750436b734e724dcf7647567abb"
+    },
+    {
+      "path": "ieee14/figures/power.svg",
+      "bytes": 18986,
+      "sha256": "e92f145bc21beb557c9c69f02716425625c5a1e6115d48cd17c2470479b2f89c"
+    },
+    {
+      "path": "ieee14/figures/voltage.png",
+      "bytes": 23664,
+      "sha256": "53253746c56928f2cae8b4a94f6c5cbd4b64711c10a035eb4de9c1748fb38482"
+    },
+    {
+      "path": "ieee14/figures/voltage.svg",
+      "bytes": 25691,
+      "sha256": "236a6c19257e149e7f85642d4aed84ea10bf38da50888eacfaf08bf83f8b09ff"
+    },
+    {
+      "path": "ieee14/generator-checks.csv",
+      "bytes": 476,
+      "sha256": "41e26da5551f0f0d28015ee7aae2f60b1c4dba6e2faae2d552d76f4890da7eea"
+    },
+    {
+      "path": "ieee14/inputs/case.json",
+      "bytes": 34,
+      "sha256": "893bd7fa962b375bf63df9015c753daf1e9278712ad2c69a92f5b76c0d586a1b"
+    },
+    {
+      "path": "ieee14/inputs/loads.csv",
+      "bytes": 2294,
+      "sha256": "43dbc5c514853e51950c23cdaa318e92b63547f587132cb84242c8b6ced46e17"
+    },
+    {
+      "path": "ieee14/inputs/nodes.csv",
+      "bytes": 2215,
+      "sha256": "50df9ba4189dba4e0759c54cc3ded547ccdea2ac3cf441f4280cfe20c1c0f17c"
+    },
+    {
+      "path": "ieee14/inputs/stamps.csv",
+      "bytes": 12855,
+      "sha256": "d9f096ef77a05fb95f34b551fe7110480ef7288041161593743d86c9099a1e72"
+    },
+    {
+      "path": "ieee14/loads-00000.csv",
+      "bytes": 4061,
+      "sha256": "50c3f750646e8212490387cd932b71d419a68d81caba6c7a74ef1e1de9bb1cfe"
+    },
+    {
+      "path": "ieee14/network.txt",
+      "bytes": 6085,
+      "sha256": "86629c90219aff0d8fb5f8d6f83fd850edbbaf9377bde018e81ff6c1cd2b5ac9"
+    },
+    {
+      "path": "ieee14/nodes-00000.csv",
+      "bytes": 6566,
+      "sha256": "92043dfc378f96a15a837039a73cb85908cf3af8ad383a75019c374cb9f57639"
+    },
+    {
+      "path": "ieee14/README.md",
+      "bytes": 1409,
+      "sha256": "00c1e0f5650fe54454149590b628ba776ec64b707dfdd7b8ae1f0e48b40fe348"
+    },
+    {
+      "path": "ieee14/reference-voltage.csv",
+      "bytes": 4428,
+      "sha256": "b6d21502d040331c9a609cb4afcd37152cdd114828aa6b69f64c0c45d4510a3f"
+    },
+    {
+      "path": "ieee14/study.json",
+      "bytes": 2138,
+      "sha256": "785bae1dcc63bf611bd72e01d6b7a5962c252a10918038aab5fa4954e49335b7"
+    },
+    {
+      "path": "ieee14/summary-00000.csv",
+      "bytes": 536,
+      "sha256": "77470156271cdabd4174f13bd83dd25718613c1fa0913b87a46062dfec438a08"
+    },
+    {
+      "path": "ieee14/summary.json",
+      "bytes": 695,
+      "sha256": "84c6761204f2cdc2bee591b9f8a96d85f52cbd2a1e3d6e6e6cf620fde9225f3a"
+    },
+    {
+      "path": "ieee14/terminals-00000.csv",
+      "bytes": 12117,
+      "sha256": "757c3ff5a560c1de6e3236eefdab69bf4998fd983f2e7fec88e853fe00829f81"
+    },
+    {
+      "path": "ieee14/voltage-checks.csv",
+      "bytes": 558,
+      "sha256": "831fed0b08276e2a90517e0383b0325cb703ff293992e242da75cba77d09d2f1"
+    },
+    {
+      "path": "ieee14/voltage.svg",
+      "bytes": 3472,
+      "sha256": "44542fcbdb8ae8ee6c1de5ceaae59a96173e549d4faf22d3a9a09aed2c1b69ef"
+    },
+    {
+      "path": "ieee14-load-stress/angles.svg",
+      "bytes": 3453,
+      "sha256": "6b8a169ebf78f31f236e35f258acd74cbb49cd6718efc0f6faf503c29c3640d7"
+    },
+    {
+      "path": "ieee14-load-stress/branch-checks.csv",
+      "bytes": 2171,
+      "sha256": "dd4d1e023a3a84d66edbd08a6049d962f4042be7c60a2d72ef52ed194bb8758d"
+    },
+    {
+      "path": "ieee14-load-stress/convergence-00000.csv",
+      "bytes": 928,
+      "sha256": "7a2c3c1ef8fd6af54d3fb6df3c01cc6ac0e1ecdbe74ed567251abf5a227da044"
+    },
+    {
+      "path": "ieee14-load-stress/convergence.svg",
+      "bytes": 1856,
+      "sha256": "f3ccdfe916496328c7af4f36dcaf9a8d07d6d741b25a678ae217999e6a9955e0"
+    },
+    {
+      "path": "ieee14-load-stress/feeders-00000.csv",
+      "bytes": 73,
+      "sha256": "ea1260b114db1be6b6e7e7102f25ee1cb496b69d2b55aced579fb8798938d07a"
+    },
+    {
+      "path": "ieee14-load-stress/figures/angles.png",
+      "bytes": 21625,
+      "sha256": "3bea3d482bad0d14679398a91ccb761aa2e90e71d0ce3184c6c91c3ef1e5ff4f"
+    },
+    {
+      "path": "ieee14-load-stress/figures/angles.svg",
+      "bytes": 23799,
+      "sha256": "c02ce1ebff1261a22f8b7fa222304f13d4bb83e1bae1d7b82df2d5c9ea58103a"
+    },
+    {
+      "path": "ieee14-load-stress/figures/convergence.png",
+      "bytes": 28710,
+      "sha256": "39b2a88853a0aabc768ed0d4ee32214b7c030112b894ba3312f52e016e0996dd"
+    },
+    {
+      "path": "ieee14-load-stress/figures/convergence.svg",
+      "bytes": 22834,
+      "sha256": "d0addece314c3785cc95f0603d7512fbc080fd4aa8317124cec855f9a219f61d"
+    },
+    {
+      "path": "ieee14-load-stress/figures/network.png",
+      "bytes": 28168,
+      "sha256": "036535543ea6fe446300b32df9946560c7e3fc891cacad19944e93228c267d14"
+    },
+    {
+      "path": "ieee14-load-stress/figures/network.svg",
+      "bytes": 31308,
+      "sha256": "c42ab3c8c75c36f396e38388821f03ad1f57d1104b2e1cbc9e4109adc1f7e53b"
+    },
+    {
+      "path": "ieee14-load-stress/figures/power.png",
+      "bytes": 27776,
+      "sha256": "38afe2e43b24e4dac41ddb35250daa02ce7f3f026c781ef82d1e1c763150ee4e"
+    },
+    {
+      "path": "ieee14-load-stress/figures/power.svg",
+      "bytes": 19001,
+      "sha256": "c81f9539d5dfde288b3db459d312308ba309a1b149cfe575a8da9175073edade"
+    },
+    {
+      "path": "ieee14-load-stress/figures/voltage.png",
+      "bytes": 24149,
+      "sha256": "bebf3cbb9b2ecaedf539359c9ee7a20742f92ee656a9aa3e2516d4984fb6b883"
+    },
+    {
+      "path": "ieee14-load-stress/figures/voltage.svg",
+      "bytes": 25693,
+      "sha256": "04f11c1c3f16d7a733504fbd09869c1a2b0b3b73251c6e3a66635be4142415de"
+    },
+    {
+      "path": "ieee14-load-stress/generator-checks.csv",
+      "bytes": 471,
+      "sha256": "ed769f07bad24b4decaa278a8f3a8433ae5c52618e4e09b13f99cea6093a2b50"
+    },
+    {
+      "path": "ieee14-load-stress/inputs/case.json",
+      "bytes": 34,
+      "sha256": "893bd7fa962b375bf63df9015c753daf1e9278712ad2c69a92f5b76c0d586a1b"
+    },
+    {
+      "path": "ieee14-load-stress/inputs/loads.csv",
+      "bytes": 2573,
+      "sha256": "e4745876ec4fd17c239d54b1a8727c44c7527eb3c4c9ebc76f160d9d5ca73335"
+    },
+    {
+      "path": "ieee14-load-stress/inputs/nodes.csv",
+      "bytes": 2215,
+      "sha256": "50df9ba4189dba4e0759c54cc3ded547ccdea2ac3cf441f4280cfe20c1c0f17c"
+    },
+    {
+      "path": "ieee14-load-stress/inputs/stamps.csv",
+      "bytes": 12855,
+      "sha256": "d9f096ef77a05fb95f34b551fe7110480ef7288041161593743d86c9099a1e72"
+    },
+    {
+      "path": "ieee14-load-stress/loads-00000.csv",
+      "bytes": 3763,
+      "sha256": "2835e965ce053ee57d7c13c620c1db5a36d889178e052ae3c9b43f50d4837c04"
+    },
+    {
+      "path": "ieee14-load-stress/network.txt",
+      "bytes": 6094,
+      "sha256": "f4ef348ee4a8655b747bda8632fc9049b1da2e08e05706a02b8c2d0016bd3c64"
+    },
+    {
+      "path": "ieee14-load-stress/nodes-00000.csv",
+      "bytes": 6495,
+      "sha256": "3d5d9f293005409cd0050a5454a646ca0ac018ef434d109bbaf2c0a091d2250d"
+    },
+    {
+      "path": "ieee14-load-stress/README.md",
+      "bytes": 1400,
+      "sha256": "1da72282c69470ce386834bedf45ecf5ce937df6305f84998007fd39521bdfed"
+    },
+    {
+      "path": "ieee14-load-stress/reference-voltage.csv",
+      "bytes": 4431,
+      "sha256": "888da469edc28b5c911b6010e202749efaa03af1008d498acd7c6c6431440bdd"
+    },
+    {
+      "path": "ieee14-load-stress/study.json",
+      "bytes": 2127,
+      "sha256": "06b93812bc7610b3a6c87d7ec4e9438d95c4be0b42694b22e6f426db3ac9be87"
+    },
+    {
+      "path": "ieee14-load-stress/summary-00000.csv",
+      "bytes": 537,
+      "sha256": "c0c0fb02b0b5782eb01f85d3c0b39a3f6edc11f19e5c43dd2070a748530e6854"
+    },
+    {
+      "path": "ieee14-load-stress/summary.json",
+      "bytes": 696,
+      "sha256": "a046162f413320c6ebd90a75c8615e8fdbd6bb96f5b223846b574ea7eb8eca0b"
+    },
+    {
+      "path": "ieee14-load-stress/terminals-00000.csv",
+      "bytes": 12051,
+      "sha256": "93a67a554d02d752410970c3beaf8048e91c6eea1a52acd4adf8d08dfd3180fa"
+    },
+    {
+      "path": "ieee14-load-stress/voltage-checks.csv",
+      "bytes": 563,
+      "sha256": "bf977cbe06f6bd3687bc612298ee295a3b7b9db298dc24b9bd10d461c50ab76f"
+    },
+    {
+      "path": "ieee14-load-stress/voltage.svg",
+      "bytes": 3470,
+      "sha256": "feaadfe851e2f8ba63854cc04616c93815719ae7bd4fe77e131c38e7aedacd5c"
+    },
+    {
+      "path": "ieee30/angles.svg",
+      "bytes": 5153,
+      "sha256": "e472e698d71cd0c2dc217590758d1944f9a1021016ad6f3b60be35fe6d3d7b79"
+    },
+    {
+      "path": "ieee30/branch-checks.csv",
+      "bytes": 4468,
+      "sha256": "e4d328a4b23792d1f62243cc671363b43ca9a0891cd8431657d05d6134411f1a"
+    },
+    {
+      "path": "ieee30/convergence-00000.csv",
+      "bytes": 636,
+      "sha256": "6981d690bb6e35ddd87b01a4b914efcc277e9842dd3f3c891f886b9b7cd570d4"
+    },
+    {
+      "path": "ieee30/convergence.svg",
+      "bytes": 1562,
+      "sha256": "efb5334868c29dd5ade30f7578e4797a4cda0f2112c818746fca55afe86c54e5"
+    },
+    {
+      "path": "ieee30/feeders-00000.csv",
+      "bytes": 73,
+      "sha256": "a207b246e8ce55323156c9784a76f6257d7aa0050b5c55129591a2a21e64c36a"
+    },
+    {
+      "path": "ieee30/figures/angles.png",
+      "bytes": 22114,
+      "sha256": "cc9ad17cbda08e1cd73a43cfdce23ce00e873449d901af3f5f4386b92bbc6935"
+    },
+    {
+      "path": "ieee30/figures/angles.svg",
+      "bytes": 32074,
+      "sha256": "93ad18a05904a09a648e282f215ffd3c07568e96458b361d7650b013de805e5e"
+    },
+    {
+      "path": "ieee30/figures/convergence.png",
+      "bytes": 31004,
+      "sha256": "4fc603781ab7dcdecb706926d2215f8cfdbd78dd19e89fa0643762f3048a860d"
+    },
+    {
+      "path": "ieee30/figures/convergence.svg",
+      "bytes": 19051,
+      "sha256": "a53684784d0f5e9bfecba21f2b0802b3130410ea14d82c64a5d761f7611cce29"
+    },
+    {
+      "path": "ieee30/figures/network.png",
+      "bytes": 28179,
+      "sha256": "0a2b146cc25ca101d938c071f64a09413487003e06836313d147465c661a06b1"
+    },
+    {
+      "path": "ieee30/figures/network.svg",
+      "bytes": 33567,
+      "sha256": "09425586fcee78b76e81376506721ca7cd3116cbdc649cb3261f9daf0b80da88"
+    },
+    {
+      "path": "ieee30/figures/power.png",
+      "bytes": 27719,
+      "sha256": "efcc34821741581515b0cacca34852a90322a9593e930c48afdc5b4d322c74fc"
+    },
+    {
+      "path": "ieee30/figures/power.svg",
+      "bytes": 21558,
+      "sha256": "c70cea4f6749bc0dc1d981af2f4f36752353a690915ed18efcd07b15b310cb81"
+    },
+    {
+      "path": "ieee30/figures/voltage.png",
+      "bytes": 25653,
+      "sha256": "1a34279438e6ca90ed5db1e02e2d84dbf005363287e252216cd1115e51492248"
+    },
+    {
+      "path": "ieee30/figures/voltage.svg",
+      "bytes": 31477,
+      "sha256": "0a227c20dd0e1cf16b1c4ec3357773f8774f45f1d9b4cc0e35a8638849345d8e"
+    },
+    {
+      "path": "ieee30/generator-checks.csv",
+      "bytes": 551,
+      "sha256": "3d74f9aba36d5cf2ed9bee0323534a3862de317ef5ee9ec78f6e7f743fc1b842"
+    },
+    {
+      "path": "ieee30/inputs/case.json",
+      "bytes": 34,
+      "sha256": "893bd7fa962b375bf63df9015c753daf1e9278712ad2c69a92f5b76c0d586a1b"
+    },
+    {
+      "path": "ieee30/inputs/loads.csv",
+      "bytes": 4403,
+      "sha256": "a715da9aa8935426038a12331eb4a862b9cdce02ef8b688fee0119844a221b45"
+    },
+    {
+      "path": "ieee30/inputs/nodes.csv",
+      "bytes": 4702,
+      "sha256": "f0d4c522b4be7c896e631be85ca587d05c03750e5fc7100a15cd3b7ca61cc74f"
+    },
+    {
+      "path": "ieee30/inputs/stamps.csv",
+      "bytes": 27489,
+      "sha256": "4231c9cbca73f159c59a83ec4c94306161ca8a32f7b8922132d3032ba79868b6"
+    },
+    {
+      "path": "ieee30/loads-00000.csv",
+      "bytes": 7729,
+      "sha256": "4529923b534b0a3fddf58bdc5b3ea673f77601ab4550bc5f9bd648e2f5ddf84e"
+    },
+    {
+      "path": "ieee30/network.txt",
+      "bytes": 12836,
+      "sha256": "159ae8d76c091605d6a2a5d64c0d9fd612599746578500aa42faed11fec96a10"
+    },
+    {
+      "path": "ieee30/nodes-00000.csv",
+      "bytes": 14153,
+      "sha256": "1f4863002c473b96a7ff090036b65ba8476ed7bb5b19048bd9c217bc9eb27da5"
+    },
+    {
+      "path": "ieee30/README.md",
+      "bytes": 1414,
+      "sha256": "b4a17dd8d674a2fe2af2cc241c2b90e8d7880a722b74dc772f158d7f4df26148"
+    },
+    {
+      "path": "ieee30/reference-voltage.csv",
+      "bytes": 9611,
+      "sha256": "734b2b2ddfbace47a649a951ed8645cf7010e3c035ff85682bc3e43d83aca0c6"
+    },
+    {
+      "path": "ieee30/study.json",
+      "bytes": 2121,
+      "sha256": "95ee6189e3624d3735dab97e71e692c58d7e13381464bdc55789bb19c2274a34"
+    },
+    {
+      "path": "ieee30/summary-00000.csv",
+      "bytes": 534,
+      "sha256": "43fd8d5a97a9a03c1661b556a6c66f8ef2b5f049a25746ba4185c7df4eca777c"
+    },
+    {
+      "path": "ieee30/summary.json",
+      "bytes": 693,
+      "sha256": "cbd6e07e5b09ddcfa454055b693779eae6eebfce71b34344f7605c3bbef9473b"
+    },
+    {
+      "path": "ieee30/terminals-00000.csv",
+      "bytes": 25207,
+      "sha256": "726a04c2f8b1d9b928893bdf364c5a48e463d8efa51daad376b54225405ec44b"
+    },
+    {
+      "path": "ieee30/voltage-checks.csv",
+      "bytes": 1159,
+      "sha256": "9db8869cc7291a6b575aaf98c34795a5271fa3249a0f116b0aa1aeb66b9c5cad"
+    },
+    {
+      "path": "ieee30/voltage.svg",
+      "bytes": 5141,
+      "sha256": "d05f47d4a7f0534ba7363d57b8fbfaa3a55953460f62de9a76234b71507bb02d"
+    },
+    {
+      "path": "ieee300/angles.svg",
+      "bytes": 20796,
+      "sha256": "404410031878ff2d75b9924a7dd34d94235a7ab6af91304bac04c8332da87265"
+    },
+    {
+      "path": "ieee300/branch-checks.csv",
+      "bytes": 44698,
+      "sha256": "ed15fd03e75b4b9e6abbe3593baeb3bd389c3b32a4d5e1b10f5fee34e9fb5145"
+    },
+    {
+      "path": "ieee300/convergence-00000.csv",
+      "bytes": 626,
+      "sha256": "c27b0caab2bc9a9a3e93cdbaaf8b2ef2f27ba76ce75255aa156b05a24ef48abb"
+    },
+    {
+      "path": "ieee300/convergence.svg",
+      "bytes": 1547,
+      "sha256": "d1a2db6531de4b0e96a760eb8bdf80e4018bd56f97ae49c0f2f72853e674293e"
+    },
+    {
+      "path": "ieee300/feeders-00000.csv",
+      "bytes": 73,
+      "sha256": "8cee2a41365e260ae7f560171cb3a3e95bb78d48673c9433ec3d63820f8d4ab5"
+    },
+    {
+      "path": "ieee300/figures/angles.png",
+      "bytes": 41028,
+      "sha256": "c3941f6938e6120064c4c34b769d27d914e1d82d4ca72df46b63357d30975617"
+    },
+    {
+      "path": "ieee300/figures/angles.svg",
+      "bytes": 56644,
+      "sha256": "19a18a699b3d14d5363011a6549f8d9094e43a5e8ff75781dac612fcf6f98fcb"
+    },
+    {
+      "path": "ieee300/figures/convergence.png",
+      "bytes": 26075,
+      "sha256": "500ecf05825e79e7ceb657062900d1da0e9df4bff509752ae20e242a308fffe7"
+    },
+    {
+      "path": "ieee300/figures/convergence.svg",
+      "bytes": 19892,
+      "sha256": "47922c85d1a6858a95584ebd38600b34fc2477374161182146796c29e3cc5102"
+    },
+    {
+      "path": "ieee300/figures/network.png",
+      "bytes": 46742,
+      "sha256": "28da339c770e3d89377dade30e74a7242ad06b5138da0fb39999d1e0a2dd4d33"
+    },
+    {
+      "path": "ieee300/figures/network.svg",
+      "bytes": 166654,
+      "sha256": "d25334ec28b3e20f380e98f684ad445f1cfe4f7c05960581a6d030a9b28707b3"
+    },
+    {
+      "path": "ieee300/figures/power.png",
+      "bytes": 28189,
+      "sha256": "b29d3697cf3ff8604d61a59e37478213b3028e5d481c9975cec2871c996b669c"
+    },
+    {
+      "path": "ieee300/figures/power.svg",
+      "bytes": 18374,
+      "sha256": "865f33c987507b3027d3fae79568b9dcad7c93b3fa8011eae3f5bde5a3e5cd3c"
+    },
+    {
+      "path": "ieee300/figures/voltage.png",
+      "bytes": 74711,
+      "sha256": "7e5d98bea97ce93688c2c4570524d1e83ba1018c40a76b7abb107145e6689466"
+    },
+    {
+      "path": "ieee300/figures/voltage.svg",
+      "bytes": 56992,
+      "sha256": "b77561f3fa3c30f3272b6c27fa1e2492c3fa9e0e6a332bff82ea5e199a9d7544"
+    },
+    {
+      "path": "ieee300/generator-checks.csv",
+      "bytes": 5403,
+      "sha256": "3d5522fb66c0da16c3d576ab39bfc2a4d119d2314ad18b8074e40d49ea5f44c3"
+    },
+    {
+      "path": "ieee300/inputs/case.json",
+      "bytes": 34,
+      "sha256": "893bd7fa962b375bf63df9015c753daf1e9278712ad2c69a92f5b76c0d586a1b"
+    },
+    {
+      "path": "ieee300/inputs/loads.csv",
+      "bytes": 39677,
+      "sha256": "f90e5fb89f7a127def444f2bcdc03589bde9ce69dd9021c8dd37d931da88444d"
+    },
+    {
+      "path": "ieee300/inputs/nodes.csv",
+      "bytes": 49487,
+      "sha256": "72f63c6de284841fde6a11647d9966990d59d440282a3277639b8140a6316d00"
+    },
+    {
+      "path": "ieee300/inputs/stamps.csv",
+      "bytes": 292158,
+      "sha256": "f6ccf500c20c5faa23cbad0f9e7121b541bfd1b4e499c68c3b97f639f80a76e0"
+    },
+    {
+      "path": "ieee300/loads-00000.csv",
+      "bytes": 74944,
+      "sha256": "0676cc5f76ac0713fbf9cdc51857eb0915bc0784ab0c01a691e881761a426b60"
+    },
+    {
+      "path": "ieee300/network.txt",
+      "bytes": 130709,
+      "sha256": "4afed30dd688c37adee20f94df32f68c11a8321e78c4c998ec70b55b81a7799c"
+    },
+    {
+      "path": "ieee300/nodes-00000.csv",
+      "bytes": 138158,
+      "sha256": "4b842631dc94ed01d32a785fc8f072a42969e55dc80460b6f62c5b394c9ff6d7"
+    },
+    {
+      "path": "ieee300/README.md",
+      "bytes": 1411,
+      "sha256": "2d4e2454864b74ef599e021256857f1a98a10bf517a5867e6b12bb49f71c11f4"
+    },
+    {
+      "path": "ieee300/reference-voltage.csv",
+      "bytes": 97489,
+      "sha256": "d01c2cd2784f70e4cfefb8c8e188c81fded3bc0958d3ce0943643b26694fa320"
+    },
+    {
+      "path": "ieee300/study.json",
+      "bytes": 2160,
+      "sha256": "475ec287b19d02bb98a5193214f97c4fcead8ea6da50186483a98cd91924b96d"
+    },
+    {
+      "path": "ieee300/summary-00000.csv",
+      "bytes": 539,
+      "sha256": "961f884f081a6f853b0783fc939ba4857a85fb34f04b5b4db9ccd18fa6517219"
+    },
+    {
+      "path": "ieee300/summary.json",
+      "bytes": 698,
+      "sha256": "576e49685b2c8c234a9d7a71268b160073419fc56fa91aa028ee2ea379301871"
+    },
+    {
+      "path": "ieee300/terminals-00000.csv",
+      "bytes": 252472,
+      "sha256": "957a6245df4f0e1d1af02222e1fda26b3647b08004067e7d380449549ec6f0f5"
+    },
+    {
+      "path": "ieee300/voltage-checks.csv",
+      "bytes": 11304,
+      "sha256": "96d893eb5f8ec755c505c4676aae594e7b38507086c859b311fd4c3e857de238"
+    },
+    {
+      "path": "ieee300/voltage.svg",
+      "bytes": 20890,
+      "sha256": "481a0b727ebfb84c6c0732c0b59481f1e9e9d745a0dc98a24c25e49fae7522bd"
+    },
+    {
+      "path": "ieee57/angles.svg",
+      "bytes": 6004,
+      "sha256": "b1446ecaaabc2ce88b7062c060cff0092076eeb27db4493cb4d5c148334322a6"
+    },
+    {
+      "path": "ieee57/branch-checks.csv",
+      "bytes": 8651,
+      "sha256": "05d1b6c55a4902ede611f5656da5d60415bb33557cc4ab63ea7cb53d86eac1d5"
+    },
+    {
+      "path": "ieee57/convergence-00000.csv",
+      "bytes": 341,
+      "sha256": "c2cf506b6c87c06ad58a5b1363e02c1752b2f9f924f9a75ad30bcbf38b4f38bf"
+    },
+    {
+      "path": "ieee57/convergence.svg",
+      "bytes": 1263,
+      "sha256": "f063374d639a979090b260104f40c03cf53653bec6d8888097199453e11a381f"
+    },
+    {
+      "path": "ieee57/feeders-00000.csv",
+      "bytes": 73,
+      "sha256": "bfa01d4d5d6606893f31f380fa3409c7c8bb34e88c1af36ed10d1dd422c3fdd1"
+    },
+    {
+      "path": "ieee57/figures/angles.png",
+      "bytes": 23868,
+      "sha256": "6c01beda113082380f3fee79470fa68e94d684be628bc6cec36ccb1278f6f1af"
+    },
+    {
+      "path": "ieee57/figures/angles.svg",
+      "bytes": 46181,
+      "sha256": "1f60038f3caa0e80d1cabb14f78ab412c6473c102eba5ebf52e44722c061098f"
+    },
+    {
+      "path": "ieee57/figures/convergence.png",
+      "bytes": 24662,
+      "sha256": "594c37e35d2117e9c141604b9cfd17c054ff19abf83b1ab934af3d98a09434f3"
+    },
+    {
+      "path": "ieee57/figures/convergence.svg",
+      "bytes": 17365,
+      "sha256": "b77ba7d1cdb601021de521ccfdd0165b4e3f9366cb04ab4bfbeb6ffacab3c104"
+    },
+    {
+      "path": "ieee57/figures/network.png",
+      "bytes": 33419,
+      "sha256": "c59cdb307b923fc048bc018a867cf6b068eac0199e13723ccbc561847f522953"
+    },
+    {
+      "path": "ieee57/figures/network.svg",
+      "bytes": 47972,
+      "sha256": "fd37401908ecd83e2d95bf4ffb5db890be3e3d1e212ac769f456aac22a256f8e"
+    },
+    {
+      "path": "ieee57/figures/power.png",
+      "bytes": 28222,
+      "sha256": "a8b44267426ca11a0f5806d430270d3b588db133824b9995061b396cfa0ac4a8"
+    },
+    {
+      "path": "ieee57/figures/power.svg",
+      "bytes": 20269,
+      "sha256": "d72443009d1692a3c696bb2d42145eba1d3ef1d63fc6943a3f054bbe13aafc6c"
+    },
+    {
+      "path": "ieee57/figures/voltage.png",
+      "bytes": 33041,
+      "sha256": "01bfcd5ae573dd845108b4500c3818f994c76739146ee664541560742b808b76"
+    },
+    {
+      "path": "ieee57/figures/voltage.svg",
+      "bytes": 46830,
+      "sha256": "437d0fd40fb0ba662badb59182b1624f663df209fc0d4db0eaff2c4510b968e6"
+    },
+    {
+      "path": "ieee57/generator-checks.csv",
+      "bytes": 634,
+      "sha256": "0342e4d9597d4149f6096fcba66d2a93b95af401745b31c784ee4ee457c3b232"
+    },
+    {
+      "path": "ieee57/inputs/case.json",
+      "bytes": 34,
+      "sha256": "893bd7fa962b375bf63df9015c753daf1e9278712ad2c69a92f5b76c0d586a1b"
+    },
+    {
+      "path": "ieee57/inputs/loads.csv",
+      "bytes": 8288,
+      "sha256": "1cb3244dba3e10fa8bcfb1e9c5a8a2ade8c739573f2d4b30efe12581cb3f4206"
+    },
+    {
+      "path": "ieee57/inputs/nodes.csv",
+      "bytes": 8995,
+      "sha256": "1eaa491a0885ac29cf603d15c593f736ea147b547da1d55ef5349404a78fce8d"
+    },
+    {
+      "path": "ieee57/inputs/stamps.csv",
+      "bytes": 53283,
+      "sha256": "c94ae9d006be3f1038822ad0d261bf36ef406c2f272201cdf02fc0e3d36f9079"
+    },
+    {
+      "path": "ieee57/loads-00000.csv",
+      "bytes": 15070,
+      "sha256": "e8ef852b661f6ac12c1a7e2f03b132acb324ae7b92a2508b39752e883df08db5"
+    },
+    {
+      "path": "ieee57/network.txt",
+      "bytes": 24927,
+      "sha256": "8442ada58eae0d5aa059fe5131e931b891d9a0ea4c6c0717cdbd07318caa7862"
+    },
+    {
+      "path": "ieee57/nodes-00000.csv",
+      "bytes": 26632,
+      "sha256": "3745845718359de667518321c83ae55196cd29a9d6463654d19a0998043f846c"
+    },
+    {
+      "path": "ieee57/README.md",
+      "bytes": 1409,
+      "sha256": "8c2fc929a09c0eaca1ff79786c69a250bcc18ce75f21b467622acbbc4ad2bb98"
+    },
+    {
+      "path": "ieee57/reference-voltage.csv",
+      "bytes": 18309,
+      "sha256": "f04cffa2806e292be9c473d63dc44946c6ee7187820ee7a2cecf47f4e2fe36ba"
+    },
+    {
+      "path": "ieee57/study.json",
+      "bytes": 2160,
+      "sha256": "e014e997e18e725bad6a65cdce4ec6dafcbe99b0a327f7f2da2a93515c2969b2"
+    },
+    {
+      "path": "ieee57/summary-00000.csv",
+      "bytes": 534,
+      "sha256": "497f2cee4ee4bd7590d8d3f1214ed88b8ae39ed9fb0437b9a0aecee1efa4ffe1"
+    },
+    {
+      "path": "ieee57/summary.json",
+      "bytes": 693,
+      "sha256": "f23e06c190d80d7bf06cfe8cbb7985eed064cc184046133ff1ff6e7b11ecadea"
+    },
+    {
+      "path": "ieee57/terminals-00000.csv",
+      "bytes": 48755,
+      "sha256": "1be0c051ef3a60b0649059eebff9b36bc182386a9c62b94ee02d550e730cf943"
+    },
+    {
+      "path": "ieee57/voltage-checks.csv",
+      "bytes": 2181,
+      "sha256": "3cece9a7b10688c4382a9239fbe598b52ba28b394e3bd6d43221ba949c2b8fea"
+    },
+    {
+      "path": "ieee57/voltage.svg",
+      "bytes": 6085,
+      "sha256": "1df8493c17e3f664b5fcb4978bb6670bbd565fc693164fa763d2062e5ba318e0"
+    },
+    {
+      "path": "index.json",
+      "bytes": 28616,
+      "sha256": "908f8118e2e3ce4ff35c516b19e88bd2fb31003be8b550d74fc980f2aa8a863f"
+    },
+    {
+      "path": "load-sensitivity.png",
+      "bytes": 20948,
+      "sha256": "6ed3acac0cbc674de2d640b83a6fa959df45fb61982b212615ea32a0e85d41b3"
+    },
+    {
+      "path": "load-sensitivity.svg",
+      "bytes": 23381,
+      "sha256": "55fc7b44b40fa6a3e06905eaae324378e6151aa2f6b296f578af6525730931ec"
+    },
+    {
+      "path": "load-sweep-voltages.csv",
+      "bytes": 28029,
+      "sha256": "f504bb4ce3779dc51201e2dde078d415a1c47de2e57201f4a7d0202ec0330ebb"
+    },
+    {
+      "path": "load-sweep.csv",
+      "bytes": 1104,
+      "sha256": "1552a30bf8332b56d313f657337d3bdc0625ce517891406d3ff89ac34e01548b"
+    },
+    {
+      "path": "lv-base/angles.svg",
+      "bytes": 1983,
+      "sha256": "197167f9a85f9ca6f7fd894b97d5a31426bcefc2aeb63b2f94affd804918f34d"
+    },
+    {
+      "path": "lv-base/convergence-00000.csv",
+      "bytes": 444,
+      "sha256": "d6ded0d36dfb9bcecc0750893203f8f0ac6de2da5ae7e1a21c66ea67f8e2f16e"
+    },
+    {
+      "path": "lv-base/convergence.svg",
+      "bytes": 1409,
+      "sha256": "8405e6c95115c43696873ca89456c923fba1bf9e5f90b39f7afc74d7382adcb0"
+    },
+    {
+      "path": "lv-base/feeders-00000.csv",
+      "bytes": 87,
+      "sha256": "c288cb5876f9e4e2ad23b2ed535fd18d4b7b44a36dcb4734343705c586bbe51d"
+    },
+    {
+      "path": "lv-base/figures/angles.png",
+      "bytes": 17588,
+      "sha256": "790183a2b4cf1d40a95243f9770bdfebd4a84d9aadd0c26b651e84c59e6edced"
+    },
+    {
+      "path": "lv-base/figures/angles.svg",
+      "bytes": 12959,
+      "sha256": "8fd16c509c8ab25bcb52527f9696a9a209b53f98eceeccf1910b0f1a020fc7aa"
+    },
+    {
+      "path": "lv-base/figures/convergence.png",
+      "bytes": 25373,
+      "sha256": "8b4855f49a0c64b5d006d3e1842ef80f0184193f43684bb23b1779e2dc40b1b5"
+    },
+    {
+      "path": "lv-base/figures/convergence.svg",
+      "bytes": 19397,
+      "sha256": "ac74c748e3a74548e794392d1053fe78749f8f7b2dccb27415dc47a1edd06492"
+    },
+    {
+      "path": "lv-base/figures/network.png",
+      "bytes": 17816,
+      "sha256": "2d1a9efb247f9bcaa921a4ce6f5fd5f469773951d632a0fc033c95c76043f6cd"
+    },
+    {
+      "path": "lv-base/figures/network.svg",
+      "bytes": 12342,
+      "sha256": "e5a97f5819cf272059837d3f3408451837a5231de42d4b9650ae0a7f16838130"
+    },
+    {
+      "path": "lv-base/figures/power.png",
+      "bytes": 29311,
+      "sha256": "11c5cdcc1364e1e6b0ff784633023b4489fb2b0cafe4fda4f52b04f25627616e"
+    },
+    {
+      "path": "lv-base/figures/power.svg",
+      "bytes": 19689,
+      "sha256": "1f52fda917870edb9933e44278007dbe367e790baefdf1f112c363a9b0296e86"
+    },
+    {
+      "path": "lv-base/figures/voltage.png",
+      "bytes": 31643,
+      "sha256": "f54849a40dcd73abc54e0734f6371b6ff4bcfe6adbacae4d66f26d75f913defe"
+    },
+    {
+      "path": "lv-base/figures/voltage.svg",
+      "bytes": 20737,
+      "sha256": "a1823d2cb31405d6827c9827948481790b2f2ce37894ba55cb7d96cea00779d3"
+    },
+    {
+      "path": "lv-base/inputs/case.json",
+      "bytes": 32,
+      "sha256": "cacacfcf2ef27da8a4e5012dda462024c371e749f0cb8b94335bcf6ef668702a"
+    },
+    {
+      "path": "lv-base/inputs/loads.csv",
+      "bytes": 448,
+      "sha256": "d5168cff8ed3762a4f5cfd6e07e60ac9fc2fb3e8305704584187dda896b8560a"
+    },
+    {
+      "path": "lv-base/inputs/nodes.csv",
+      "bytes": 551,
+      "sha256": "2f0739d495cefc4fa5574568eeb1b5df24705c8134e46e18f83ff3fc689f8a10"
+    },
+    {
+      "path": "lv-base/inputs/stamps.csv",
+      "bytes": 4735,
+      "sha256": "df192a988425e253f83777101805caf504706effc9dfbfb265ff402e4d001be9"
+    },
+    {
+      "path": "lv-base/loads-00000.csv",
+      "bytes": 725,
+      "sha256": "5be0b4312d10a1db9bb445b0e53adaed06bb96b5832b8e835869de6750378564"
+    },
+    {
+      "path": "lv-base/network.txt",
+      "bytes": 1099,
+      "sha256": "2732637864f215a83d0900b42642d9a60c3bbaee427f04736112599aeb6f0f24"
+    },
+    {
+      "path": "lv-base/nodes-00000.csv",
+      "bytes": 1426,
+      "sha256": "f9a8777b7604c6c01566f4b9678c6d5e69dfa9b050edaa28dfc0e959b180babb"
+    },
+    {
+      "path": "lv-base/README.md",
+      "bytes": 1236,
+      "sha256": "e0d9e0b9156ee19ba05ecea9c369c129eab3a8ead253948631a2e71a61308671"
+    },
+    {
+      "path": "lv-base/study.json",
+      "bytes": 1672,
+      "sha256": "9af27e615b7cb880c7919624cd4f3ca85ded20ae60ffcc3aa3c32e82444e7bfc"
+    },
+    {
+      "path": "lv-base/summary-00000.csv",
+      "bytes": 555,
+      "sha256": "57a1fe0c7430d07b8755f5a44203204138d45779486ad363730f77e1c4ea68b2"
+    },
+    {
+      "path": "lv-base/summary.json",
+      "bytes": 714,
+      "sha256": "003a5e5e51237eb0beda4c26d6557d6f1395748447bdaf1087d9a3c7630b0686"
+    },
+    {
+      "path": "lv-base/terminals-00000.csv",
+      "bytes": 901,
+      "sha256": "32001410a5c4fdd84d7745a916208f0255b74e2aa4208cd41778cb1186956bbc"
+    },
+    {
+      "path": "lv-base/voltage.svg",
+      "bytes": 1955,
+      "sha256": "0df8369bc54097c0e4367ea33b6c95a8f7fd3b4194dcc881b67fc6200a114424"
+    },
+    {
+      "path": "lv-ev-evening/angles.svg",
+      "bytes": 1958,
+      "sha256": "266b8199e450156d28dff3e89f095997c834bce59ea50792dcb981713385b5f2"
+    },
+    {
+      "path": "lv-ev-evening/convergence-00000.csv",
+      "bytes": 440,
+      "sha256": "c4808a10fb36fbb673cb7a03cb72a0d10d568366960f2d3db9c0617d451dc8e9"
+    },
+    {
+      "path": "lv-ev-evening/convergence.svg",
+      "bytes": 1435,
+      "sha256": "c2b54fe5e243e477ae38f33b400f931430ad419845434f6213ac8f3a5b7b8cca"
+    },
+    {
+      "path": "lv-ev-evening/feeders-00000.csv",
+      "bytes": 88,
+      "sha256": "bbad13a561122bf1e726ea1bb1172153e1e63985bf1c6ee771dafd409bf46049"
+    },
+    {
+      "path": "lv-ev-evening/figures/angles.png",
+      "bytes": 17811,
+      "sha256": "4c0df7cc0f5990892c20f28e40bc360ed5a22557ded7cd4e6992c524be878c25"
+    },
+    {
+      "path": "lv-ev-evening/figures/angles.svg",
+      "bytes": 12966,
+      "sha256": "896f8a5f82aaac312db0d98e7b615557f2f41c832c5fb55b13c180b001295843"
+    },
+    {
+      "path": "lv-ev-evening/figures/convergence.png",
+      "bytes": 24800,
+      "sha256": "5d4d3c8058d7882c21fa893daa0ba7ad62c170f68878884318686b5f22a4f1c4"
+    },
+    {
+      "path": "lv-ev-evening/figures/convergence.svg",
+      "bytes": 16989,
+      "sha256": "d1b4b5a2b07f21481e0f9be79faede34d7400ac40294f452280bf7c84ba30347"
+    },
+    {
+      "path": "lv-ev-evening/figures/network.png",
+      "bytes": 17960,
+      "sha256": "3d4faa8eb5d3b4764c204aa6ccff1d0d0cb668d99c515f1abc61de913ddbb203"
+    },
+    {
+      "path": "lv-ev-evening/figures/network.svg",
+      "bytes": 12350,
+      "sha256": "033c4144f12680dc86117f1bb92230501131146540f2955390bcabb6d47f3a81"
+    },
+    {
+      "path": "lv-ev-evening/figures/power.png",
+      "bytes": 29619,
+      "sha256": "d18f29976905302adb3cdce34af9972c229b4a65f9e1fe92e32e1c9e300a1080"
+    },
+    {
+      "path": "lv-ev-evening/figures/power.svg",
+      "bytes": 19721,
+      "sha256": "df2db71ba35bff2c693638e79d313610be33618ad21b112091382cd1d48a4a51"
+    },
+    {
+      "path": "lv-ev-evening/figures/voltage.png",
+      "bytes": 31988,
+      "sha256": "5fd09b07e47b696689f540d05ba7971d62d9073fbeb2954f26b6cc6472f1d8f2"
+    },
+    {
+      "path": "lv-ev-evening/figures/voltage.svg",
+      "bytes": 22374,
+      "sha256": "7567a7f38f7171f98a422c452ead66ab6d287cda607a0faf698350f086704a3d"
+    },
+    {
+      "path": "lv-ev-evening/inputs/case.json",
+      "bytes": 32,
+      "sha256": "cacacfcf2ef27da8a4e5012dda462024c371e749f0cb8b94335bcf6ef668702a"
+    },
+    {
+      "path": "lv-ev-evening/inputs/loads.csv",
+      "bytes": 536,
+      "sha256": "3230cf9200f4af7cd675bcee1e9587ada109b718e31ccd844ab77e359651d754"
+    },
+    {
+      "path": "lv-ev-evening/inputs/nodes.csv",
+      "bytes": 551,
+      "sha256": "2f0739d495cefc4fa5574568eeb1b5df24705c8134e46e18f83ff3fc689f8a10"
+    },
+    {
+      "path": "lv-ev-evening/inputs/stamps.csv",
+      "bytes": 4735,
+      "sha256": "df192a988425e253f83777101805caf504706effc9dfbfb265ff402e4d001be9"
+    },
+    {
+      "path": "lv-ev-evening/loads-00000.csv",
+      "bytes": 861,
+      "sha256": "03f430195f8b9d515ec4e86e32416c488949996e2381806a58d0ca6e7f549e37"
+    },
+    {
+      "path": "lv-ev-evening/network.txt",
+      "bytes": 1166,
+      "sha256": "50023814143086164cc1cf40eca596bc57ad035239730403648bcaabb43f30d6"
+    },
+    {
+      "path": "lv-ev-evening/nodes-00000.csv",
+      "bytes": 1427,
+      "sha256": "a0b69fa1fb618f34fa7724ff73d193c630c05f8054e84984fc6a1d488ec40f84"
+    },
+    {
+      "path": "lv-ev-evening/README.md",
+      "bytes": 1243,
+      "sha256": "fc441e457299bf64971f6b775404495d03f451522c2e91e6bd44c6a616c79c3a"
+    },
+    {
+      "path": "lv-ev-evening/study.json",
+      "bytes": 1687,
+      "sha256": "e71c4d19b39979d3941651c59ce7d55dd255e4516850c5b843f65d7f23f92566"
+    },
+    {
+      "path": "lv-ev-evening/summary-00000.csv",
+      "bytes": 553,
+      "sha256": "d9dfc6f51ee26fae741bb9dafa406e47046d91b47ef86f8a8296efdfd9676e5c"
+    },
+    {
+      "path": "lv-ev-evening/summary.json",
+      "bytes": 712,
+      "sha256": "6964678eb6780ccfd2c62a1abe73dfbc31e23e730c9b3047603353c02c4fdd96"
+    },
+    {
+      "path": "lv-ev-evening/terminals-00000.csv",
+      "bytes": 886,
+      "sha256": "71c4db3b9bfaf48542a4eb8ad0e64f280e429c88fb0468f3ba1f837c5ea6b710"
+    },
+    {
+      "path": "lv-ev-evening/voltage.svg",
+      "bytes": 1954,
+      "sha256": "1c21e1830c3671650aa7ab16585668aa6bf0270f82c85301951c02af1f5f98ae"
+    },
+    {
+      "path": "lv-managed-ev/angles.svg",
+      "bytes": 1982,
+      "sha256": "8771d705310227f9dbe5eb4bc0c7054dbc7c1ab9c4c3e3127ea401c95ee67612"
+    },
+    {
+      "path": "lv-managed-ev/convergence-00000.csv",
+      "bytes": 437,
+      "sha256": "5d923553065246aadc0d588cf21ac583a3f4defd9f09f92c3b8a6880dcd616ec"
+    },
+    {
+      "path": "lv-managed-ev/convergence.svg",
+      "bytes": 1434,
+      "sha256": "fd407ab1aa3017611733c5344454143e442d861ba29db612d8483808a62e894a"
+    },
+    {
+      "path": "lv-managed-ev/feeders-00000.csv",
+      "bytes": 88,
+      "sha256": "cd7820a4705c98344c24e4a8ed92d20bd57afe91be88ac8cfbcdac237d23eba2"
+    },
+    {
+      "path": "lv-managed-ev/figures/angles.png",
+      "bytes": 17738,
+      "sha256": "446c39967d84d1465b26e329e308808c67c478c06596bbd0d94cfc3ae83c2366"
+    },
+    {
+      "path": "lv-managed-ev/figures/angles.svg",
+      "bytes": 12967,
+      "sha256": "7c41ca4e81a41805754f835ef0d70ab5f9cc920fd3dad8d6c73bccd894b243f4"
+    },
+    {
+      "path": "lv-managed-ev/figures/convergence.png",
+      "bytes": 26003,
+      "sha256": "9e0395ae3df87501ab7cda25f0ee33c584eda0c6c8ed6ecbc2121bdf6ed7a0df"
+    },
+    {
+      "path": "lv-managed-ev/figures/convergence.svg",
+      "bytes": 18327,
+      "sha256": "215da61efb38ebd387d4c9538492297477979e72ca4eb054df6d94a763909eb8"
+    },
+    {
+      "path": "lv-managed-ev/figures/network.png",
+      "bytes": 17463,
+      "sha256": "cf945a6cb7a64ee29c39d9d55b92f699c47ae8add8a458f1de6618656d080543"
+    },
+    {
+      "path": "lv-managed-ev/figures/network.svg",
+      "bytes": 11040,
+      "sha256": "c1f4a0cae21b52d0b51db328f880eee02563a832b91fafb9c76e7f7676834677"
+    },
+    {
+      "path": "lv-managed-ev/figures/power.png",
+      "bytes": 29687,
+      "sha256": "0e1a7282776a5d956daad28e655ded7f8144e82dc7e1eeae172b2c260358c198"
+    },
+    {
+      "path": "lv-managed-ev/figures/power.svg",
+      "bytes": 19074,
+      "sha256": "dda6c84eb9451e63e8e9de87f959e760f59566d555b52a88f3af5121f1038c5a"
+    },
+    {
+      "path": "lv-managed-ev/figures/voltage.png",
+      "bytes": 32400,
+      "sha256": "8cd2d9f4eddf9daf68287378ae1181f20aa751c890a865ec9b7ccd3fa799e388"
+    },
+    {
+      "path": "lv-managed-ev/figures/voltage.svg",
+      "bytes": 22379,
+      "sha256": "4999b9fe2a31a70bac83a4e37ba9aac3a87727bf651dfd0dbcc41b65506cb370"
+    },
+    {
+      "path": "lv-managed-ev/inputs/case.json",
+      "bytes": 32,
+      "sha256": "cacacfcf2ef27da8a4e5012dda462024c371e749f0cb8b94335bcf6ef668702a"
+    },
+    {
+      "path": "lv-managed-ev/inputs/loads.csv",
+      "bytes": 538,
+      "sha256": "bf24adc232d8408a2612523303f2f8ce06066d7ac4ce617a9e15e3e5f8dd4d73"
+    },
+    {
+      "path": "lv-managed-ev/inputs/nodes.csv",
+      "bytes": 551,
+      "sha256": "2f0739d495cefc4fa5574568eeb1b5df24705c8134e46e18f83ff3fc689f8a10"
+    },
+    {
+      "path": "lv-managed-ev/inputs/stamps.csv",
+      "bytes": 4735,
+      "sha256": "df192a988425e253f83777101805caf504706effc9dfbfb265ff402e4d001be9"
+    },
+    {
+      "path": "lv-managed-ev/loads-00000.csv",
+      "bytes": 893,
+      "sha256": "3c8af1d6e7510894a9ab7b8d5d12aad81ca0adb029b4127875691173ba72178c"
+    },
+    {
+      "path": "lv-managed-ev/network.txt",
+      "bytes": 1168,
+      "sha256": "449ac0f8174dd2c0f1716ddb617e3e9ca9e1a9a2b48d3b66bdb31389bd70d777"
+    },
+    {
+      "path": "lv-managed-ev/nodes-00000.csv",
+      "bytes": 1428,
+      "sha256": "c9a4d277d5b57dd0101bcc99e3ffa3eca65137585c01d8d1b7d7f2be57df1e03"
+    },
+    {
+      "path": "lv-managed-ev/README.md",
+      "bytes": 1222,
+      "sha256": "5a759ea5ef86552ed3afca583f94dfa1658d617063e8f1cab1dcd97a4ada5f52"
+    },
+    {
+      "path": "lv-managed-ev/study.json",
+      "bytes": 1665,
+      "sha256": "d76aecc5c3516f5eb90e737019b6b57dab53dea2fe60e443c5ec92305b4ae886"
+    },
+    {
+      "path": "lv-managed-ev/summary-00000.csv",
+      "bytes": 554,
+      "sha256": "52a0986ff644bef7511276af94627f6c43f1c2bf0d3da0979190043c32ca6af3"
+    },
+    {
+      "path": "lv-managed-ev/summary.json",
+      "bytes": 713,
+      "sha256": "025710e8a6ed2002f31d978e88b054e83aab6358814ce4ca080d9ca6afb46999"
+    },
+    {
+      "path": "lv-managed-ev/terminals-00000.csv",
+      "bytes": 885,
+      "sha256": "6cb68c3448793dd8452818584608a8b7e8c5be14f9a353eefafbcd36e71dc360"
+    },
+    {
+      "path": "lv-managed-ev/voltage.svg",
+      "bytes": 1954,
+      "sha256": "99387cb641dbbd85f3d98f179126406d2e40ed2f377542e1cde3dd8c1d65c067"
+    },
+    {
+      "path": "lv-neutral-extreme/angles.svg",
+      "bytes": 1998,
+      "sha256": "ff963459b64e4d9cc389dbdcd17c891a45a8e8cd80a77b187a7ee45499e1b11d"
+    },
+    {
+      "path": "lv-neutral-extreme/convergence-00000.csv",
+      "bytes": 1336,
+      "sha256": "467b7e7a173000c8150309770b5b1e7e40b5575c9dd599cf52c7e82b76d01989"
+    },
+    {
+      "path": "lv-neutral-extreme/convergence.svg",
+      "bytes": 2461,
+      "sha256": "add6c2c0255bbe36548e5d1d31b6c82873e70ff42ffce111062c2965f9ba090d"
+    },
+    {
+      "path": "lv-neutral-extreme/feeders-00000.csv",
+      "bytes": 88,
+      "sha256": "3d5bfb792a8b8ce461d4fe07f025b439bfecefc83618c7126ba7e2c102c82dec"
+    },
+    {
+      "path": "lv-neutral-extreme/figures/angles.png",
+      "bytes": 18744,
+      "sha256": "b5463fbea1d42e93dac55075b242a8e7293a7eaa690abcee49f71434fcff6cac"
+    },
+    {
+      "path": "lv-neutral-extreme/figures/angles.svg",
+      "bytes": 13203,
+      "sha256": "bd29052bdc8340c67523226d2330bfe2cb71e87c00c7e651bb142d37bf1f5042"
+    },
+    {
+      "path": "lv-neutral-extreme/figures/convergence.png",
+      "bytes": 26379,
+      "sha256": "2a09351d2ace731e21e84d2f47a4a4d7e2b32e3f128c437b369948c62830f2bb"
+    },
+    {
+      "path": "lv-neutral-extreme/figures/convergence.svg",
+      "bytes": 18185,
+      "sha256": "c238c27fa3934f481e39aa17e55f425fed8cfd418ca4afc7d4bd591087e9aec8"
+    },
+    {
+      "path": "lv-neutral-extreme/figures/network.png",
+      "bytes": 18050,
+      "sha256": "167e5bece493db7bbbc31f04420b6044e5b07440bbd7f0955c51c16ec9f56e3d"
+    },
+    {
+      "path": "lv-neutral-extreme/figures/network.svg",
+      "bytes": 11715,
+      "sha256": "e2d99a109b5ab23cb5b58dee913bbe7e395bb5403fc88701a6b5117ebdce0abe"
+    },
+    {
+      "path": "lv-neutral-extreme/figures/power.png",
+      "bytes": 31082,
+      "sha256": "2958ab7f93168aa3f7c04fd74506a2c6fe90b911c14d00de23e049a59c9fc6e7"
+    },
+    {
+      "path": "lv-neutral-extreme/figures/power.svg",
+      "bytes": 18654,
+      "sha256": "a393c44bd369c18152860f59451d750ab558973045406da5b30fb1be8bb10d19"
+    },
+    {
+      "path": "lv-neutral-extreme/figures/voltage.png",
+      "bytes": 33210,
+      "sha256": "fc353e06dd9927352c00b300c453a74776f5c9435100c44dcb4b0070dbbf8cea"
+    },
+    {
+      "path": "lv-neutral-extreme/figures/voltage.svg",
+      "bytes": 23873,
+      "sha256": "60e37d703805a7dc26ad1c8f66e85620b8a4348ceda13a53713158a4da0401d2"
+    },
+    {
+      "path": "lv-neutral-extreme/inputs/case.json",
+      "bytes": 32,
+      "sha256": "cacacfcf2ef27da8a4e5012dda462024c371e749f0cb8b94335bcf6ef668702a"
+    },
+    {
+      "path": "lv-neutral-extreme/inputs/loads.csv",
+      "bytes": 536,
+      "sha256": "3230cf9200f4af7cd675bcee1e9587ada109b718e31ccd844ab77e359651d754"
+    },
+    {
+      "path": "lv-neutral-extreme/inputs/nodes.csv",
+      "bytes": 551,
+      "sha256": "2f0739d495cefc4fa5574568eeb1b5df24705c8134e46e18f83ff3fc689f8a10"
+    },
+    {
+      "path": "lv-neutral-extreme/inputs/stamps.csv",
+      "bytes": 4743,
+      "sha256": "ff2c350b94e0eaa479f9dcb7fc7f5b0611f96625842be30df72a111c08212f9f"
+    },
+    {
+      "path": "lv-neutral-extreme/loads-00000.csv",
+      "bytes": 891,
+      "sha256": "1e12ac1aac4416b6af9bef7984f892428e0df3cb8e0038eaae2e47e6f273a4db"
+    },
+    {
+      "path": "lv-neutral-extreme/network.txt",
+      "bytes": 1173,
+      "sha256": "b4d4cff6af38f10606a4c7b252b8c5b91a4d78b92b6513066f67b0635606b684"
+    },
+    {
+      "path": "lv-neutral-extreme/nodes-00000.csv",
+      "bytes": 1409,
+      "sha256": "a35a930b38e705e34728a861bb83007b7cce4af57ce7ffad3cc89d5e67e89da5"
+    },
+    {
+      "path": "lv-neutral-extreme/README.md",
+      "bytes": 1291,
+      "sha256": "64207ea9c8deed9a3cae9345b13b55b8d86a67a119af1000f708115fb6527544"
+    },
+    {
+      "path": "lv-neutral-extreme/study.json",
+      "bytes": 1683,
+      "sha256": "53405b2a0b65cdcb51eff4a760133f7213db4d7f96d6f8e10f4f654e3bd1cdd0"
+    },
+    {
+      "path": "lv-neutral-extreme/summary-00000.csv",
+      "bytes": 555,
+      "sha256": "7a550358d6d2fb37c7722ba9599cffce32d4fe88c2af40e16eac2c8062d82e13"
+    },
+    {
+      "path": "lv-neutral-extreme/summary.json",
+      "bytes": 714,
+      "sha256": "ba89a2cfdc866a6bac8145e5b530e1d06708c5d20f6dd4679b2062759aaef6f2"
+    },
+    {
+      "path": "lv-neutral-extreme/terminals-00000.csv",
+      "bytes": 880,
+      "sha256": "ed2f6e26317a3975f1bb71ce6b9b574fddd625efd4d337504ea8b2ce8cf0f2ef"
+    },
+    {
+      "path": "lv-neutral-extreme/voltage.svg",
+      "bytes": 1970,
+      "sha256": "2a85887f5007c4c878a1eb27ba7b48ab209ebd1a826ba4ce74e4c36a09bc3406"
+    },
+    {
+      "path": "lv-neutral-impedance/angles.svg",
+      "bytes": 1983,
+      "sha256": "3a4269eb07e2ffee44d782094ad054320a06e1f8fa7e14bc1e4f048be288c21f"
+    },
+    {
+      "path": "lv-neutral-impedance/convergence-00000.csv",
+      "bytes": 539,
+      "sha256": "e082ecb0752af305968b2ea58b97fb7cf217af27369814d2a1a2581c99ef0bdc"
+    },
+    {
+      "path": "lv-neutral-impedance/convergence.svg",
+      "bytes": 1482,
+      "sha256": "90d9d7ed17833a8c5b3231275a5db6904ac7bde53fd25d02a4b9c1be67e1509b"
+    },
+    {
+      "path": "lv-neutral-impedance/feeders-00000.csv",
+      "bytes": 89,
+      "sha256": "6b278b8756381b76eba0845ee306f50f046dd9a37147fb50c80285ac81e11cdb"
+    },
+    {
+      "path": "lv-neutral-impedance/figures/angles.png",
+      "bytes": 17876,
+      "sha256": "ae4a7a16df5ca378dd0f12ef2762835ddb94265294eefd8fbe3adaea4df7208c"
+    },
+    {
+      "path": "lv-neutral-impedance/figures/angles.svg",
+      "bytes": 12968,
+      "sha256": "aa6c760100fd69162943570042f0b641b84b59be3ba0a7a12301afdebc16b7a7"
+    },
+    {
+      "path": "lv-neutral-impedance/figures/convergence.png",
+      "bytes": 25652,
+      "sha256": "edd35fff2317c0cc68734da6cee29f9b5e62fb628c9165574c34b1cd24767756"
+    },
+    {
+      "path": "lv-neutral-impedance/figures/convergence.svg",
+      "bytes": 20283,
+      "sha256": "2ef7df206e4e8234bfcd3e0666ae226b913e461142972746ff1bb2dbd0466f9b"
+    },
+    {
+      "path": "lv-neutral-impedance/figures/network.png",
+      "bytes": 16899,
+      "sha256": "98a664d654767594cdb4d17f82f31012bbb467667007bc9737f28af9b7b6df66"
+    },
+    {
+      "path": "lv-neutral-impedance/figures/network.svg",
+      "bytes": 11040,
+      "sha256": "b3a14e46e3a0b10f5a903f2ef850217e70e677f8d02855fb46f624edac048f7e"
+    },
+    {
+      "path": "lv-neutral-impedance/figures/power.png",
+      "bytes": 30192,
+      "sha256": "90420027d80738edc9587dd2ed29c8716e5a6dca91e7de9b256cc1d3a1defab0"
+    },
+    {
+      "path": "lv-neutral-impedance/figures/power.svg",
+      "bytes": 21034,
+      "sha256": "008939872613342ea9fa10e41a71dd78b16622a2182b810859073df2961d15e6"
+    },
+    {
+      "path": "lv-neutral-impedance/figures/voltage.png",
+      "bytes": 32014,
+      "sha256": "5c285ab8fc788b2ff2f3f37006b70c55849d86af273b3099e08b48a30738ed78"
+    },
+    {
+      "path": "lv-neutral-impedance/figures/voltage.svg",
+      "bytes": 23000,
+      "sha256": "8edae5722737795d9c429f04a980e4bbb93d37a7c8ea5a84a5c55bfeca441c8e"
+    },
+    {
+      "path": "lv-neutral-impedance/inputs/case.json",
+      "bytes": 32,
+      "sha256": "cacacfcf2ef27da8a4e5012dda462024c371e749f0cb8b94335bcf6ef668702a"
+    },
+    {
+      "path": "lv-neutral-impedance/inputs/loads.csv",
+      "bytes": 536,
+      "sha256": "3230cf9200f4af7cd675bcee1e9587ada109b718e31ccd844ab77e359651d754"
+    },
+    {
+      "path": "lv-neutral-impedance/inputs/nodes.csv",
+      "bytes": 551,
+      "sha256": "2f0739d495cefc4fa5574568eeb1b5df24705c8134e46e18f83ff3fc689f8a10"
+    },
+    {
+      "path": "lv-neutral-impedance/inputs/stamps.csv",
+      "bytes": 4759,
+      "sha256": "199ce8f2dd74d83636d163138ee5656d4cc892de1a80b7ef0f5503445246379f"
+    },
+    {
+      "path": "lv-neutral-impedance/loads-00000.csv",
+      "bytes": 878,
+      "sha256": "c2f5ea6aee6deab90967ad56b0d751e8d4ca84f2510401a7ba41aaf43286856b"
+    },
+    {
+      "path": "lv-neutral-impedance/network.txt",
+      "bytes": 1162,
+      "sha256": "d3874cd7b56bf2d974ccdfb76afa565705d7db7bf63212c0cd0f32685254b4ef"
+    },
+    {
+      "path": "lv-neutral-impedance/nodes-00000.csv",
+      "bytes": 1430,
+      "sha256": "41d5fa0659704ac8dd4ac612ed0b95b11a09d6795adf13b5b69a6ac324129248"
+    },
+    {
+      "path": "lv-neutral-impedance/README.md",
+      "bytes": 1237,
+      "sha256": "8de6b4142886bea780c97b50eee32a70fcfbce315124bea87ab4f33aaeb61a0c"
+    },
+    {
+      "path": "lv-neutral-impedance/study.json",
+      "bytes": 1685,
+      "sha256": "9937e0fd9206014a3b144bac49dee06440080d627b5f2c2969fe37902f77aea9"
+    },
+    {
+      "path": "lv-neutral-impedance/summary-00000.csv",
+      "bytes": 551,
+      "sha256": "3249f931e0fc3bea761c2de9f2f96fcf65ba7a65e728404146775ae56ad5e7d2"
+    },
+    {
+      "path": "lv-neutral-impedance/summary.json",
+      "bytes": 710,
+      "sha256": "440d7695f4afe16f892f8fe3c0c8f78b32f7d3c8a0667c803b74c49ba7d30ac2"
+    },
+    {
+      "path": "lv-neutral-impedance/terminals-00000.csv",
+      "bytes": 886,
+      "sha256": "acf97af097507e22d2a13a36e7b759ea8c3dd4dce4fa8720e5da5bb9628742b2"
+    },
+    {
+      "path": "lv-neutral-impedance/voltage.svg",
+      "bytes": 1954,
+      "sha256": "8aad808167800d1076b41484237d812aeda8fe9febfe935c450c43921b24b57d"
+    },
+    {
+      "path": "lv-reactive-controls/angles.svg",
+      "bytes": 1958,
+      "sha256": "95efe1f99dd7cf262281450335814997aba3f372cc8efc2f178259b4a5d1faba"
+    },
+    {
+      "path": "lv-reactive-controls/convergence-00000.csv",
+      "bytes": 718,
+      "sha256": "7e82f2ac5839a2fd9d5db336cfaeaf704f28558d1d2f7ce237022ccc52ea5fe7"
+    },
+    {
+      "path": "lv-reactive-controls/convergence.svg",
+      "bytes": 1749,
+      "sha256": "0a1a3e2c63f06cdb6ca5289e16b4cd21d21128d0af6e9b7a3f97de8da7027863"
+    },
+    {
+      "path": "lv-reactive-controls/feeders-00000.csv",
+      "bytes": 90,
+      "sha256": "f40b21cae5c7590e106de96b6779eb026f2a2e71d5a5f1da0c68378207835426"
+    },
+    {
+      "path": "lv-reactive-controls/figures/angles.png",
+      "bytes": 18400,
+      "sha256": "30723d8e6cb0c1fae41ea6383f716af6f148fa7f03c0e6d90dfa25a1c64e47c1"
+    },
+    {
+      "path": "lv-reactive-controls/figures/angles.svg",
+      "bytes": 12970,
+      "sha256": "00e9a4b42d46be8f4583540b2327cc8d9115620cbce40d9067809a571218e3dc"
+    },
+    {
+      "path": "lv-reactive-controls/figures/convergence.png",
+      "bytes": 31715,
+      "sha256": "84ea6360a28d5d1b94a06e80a553be90ddc16a500f79df1feaf3c2c215abb0c1"
+    },
+    {
+      "path": "lv-reactive-controls/figures/convergence.svg",
+      "bytes": 22236,
+      "sha256": "32c981a746421fd82f1bda9c4eb40feac6c5825edb12d8b22b9c36368724695b"
+    },
+    {
+      "path": "lv-reactive-controls/figures/network.png",
+      "bytes": 17301,
+      "sha256": "0ce81dff53b1fc319b2eac1e085482b4f1055fb2d92baea7f60ec344b98f678a"
+    },
+    {
+      "path": "lv-reactive-controls/figures/network.svg",
+      "bytes": 11162,
+      "sha256": "58037a869a0fa3ea5c1e5ae9f099fcc6988b339e195facc93b14382701004979"
+    },
+    {
+      "path": "lv-reactive-controls/figures/power.png",
+      "bytes": 30051,
+      "sha256": "50ef73e840db18ac8ae409c5f0879ca4d5ef6cf8cd04c8792ff0516790ba03f9"
+    },
+    {
+      "path": "lv-reactive-controls/figures/power.svg",
+      "bytes": 19066,
+      "sha256": "e24941da8ad25773e81f961955a45ec0863655e062b5e9a31e9ceab869f76fa0"
+    },
+    {
+      "path": "lv-reactive-controls/figures/voltage.png",
+      "bytes": 32518,
+      "sha256": "5adb27d8dec672a47a44b210a35012bf481452a28f7793d58b8751025338366b"
+    },
+    {
+      "path": "lv-reactive-controls/figures/voltage.svg",
+      "bytes": 22646,
+      "sha256": "efb269f101d1e55595ec68a325f54591ded6de082f0c9f0a4799fba882236c03"
+    },
+    {
+      "path": "lv-reactive-controls/inputs/case.json",
+      "bytes": 32,
+      "sha256": "cacacfcf2ef27da8a4e5012dda462024c371e749f0cb8b94335bcf6ef668702a"
+    },
+    {
+      "path": "lv-reactive-controls/inputs/loads.csv",
+      "bytes": 535,
+      "sha256": "d70515553fcd741a80aa4a02f6b501c29ee40ad78e60d8ccb4de8043e52355dc"
+    },
+    {
+      "path": "lv-reactive-controls/inputs/nodes.csv",
+      "bytes": 587,
+      "sha256": "809940014e4b17bf9554ab2c7edda4f87f9b6e8e57391f644f27d9c640aac869"
+    },
+    {
+      "path": "lv-reactive-controls/inputs/stamps.csv",
+      "bytes": 4735,
+      "sha256": "df192a988425e253f83777101805caf504706effc9dfbfb265ff402e4d001be9"
+    },
+    {
+      "path": "lv-reactive-controls/loads-00000.csv",
+      "bytes": 745,
+      "sha256": "53868aea0488a34fa0cfa69e35ebad03e71d93110e356181962a86d94da6f347"
+    },
+    {
+      "path": "lv-reactive-controls/network.txt",
+      "bytes": 1040,
+      "sha256": "531ac478c39a0401e8e1a9660f00ad154e04f479b079fdd4b6d4802e0d6da6f5"
+    },
+    {
+      "path": "lv-reactive-controls/nodes-00000.csv",
+      "bytes": 1403,
+      "sha256": "a1d3ff5e657c6545130784b8d22c3d5b5449557eb79779a4b7dabd58aca32498"
+    },
+    {
+      "path": "lv-reactive-controls/README.md",
+      "bytes": 1343,
+      "sha256": "4cd891077c2b47f9382dfd20916075f1d0bcbddf4836ce73e66bcff3c28cd763"
+    },
+    {
+      "path": "lv-reactive-controls/study.json",
+      "bytes": 1811,
+      "sha256": "7291f580c2c61a0f35a5dd04265775b7139bfdb31b410a97324fe5773eeea852"
+    },
+    {
+      "path": "lv-reactive-controls/summary-00000.csv",
+      "bytes": 553,
+      "sha256": "8757968dcfae27382ac894aa59c1e3201b8d6d284d7e5db74d26cfd0f00889da"
+    },
+    {
+      "path": "lv-reactive-controls/summary.json",
+      "bytes": 712,
+      "sha256": "746ba17f7be9725b549356528bc1a74adfc798a044d4d8eab1bfb92ac0674f89"
+    },
+    {
+      "path": "lv-reactive-controls/terminals-00000.csv",
+      "bytes": 896,
+      "sha256": "a0cba6034e1ec959068135a57ad234102275b9190326f17f879a7645927830a6"
+    },
+    {
+      "path": "lv-reactive-controls/voltage.svg",
+      "bytes": 1987,
+      "sha256": "09d6307e768a3f8a79c2293e72ce44526d42d8f6e372c5474d938ea7afdded38"
+    },
+    {
+      "path": "lv-rooftop-export/angles.svg",
+      "bytes": 1987,
+      "sha256": "7c5d29c033487f51b10e8cafb25781d6bd33ad59c3d32edd69fe98a4f5c56a6c"
+    },
+    {
+      "path": "lv-rooftop-export/convergence-00000.csv",
+      "bytes": 540,
+      "sha256": "22773fe7a96ec6f0701dca03400dc175a150918ddb0674811fea45c2f34fcc19"
+    },
+    {
+      "path": "lv-rooftop-export/convergence.svg",
+      "bytes": 1481,
+      "sha256": "a138ca97836a58eb554f163805a7fbc0ba31f28fe79260cadc6e1ce41773c49e"
+    },
+    {
+      "path": "lv-rooftop-export/feeders-00000.csv",
+      "bytes": 90,
+      "sha256": "4f8f56d02aa6603af75bea85b87ab8e12de23ebe634581abc5a297f4f00d24cd"
+    },
+    {
+      "path": "lv-rooftop-export/figures/angles.png",
+      "bytes": 18373,
+      "sha256": "84b763a3403027cb3cf600f8b99ac9e5213f1f1f484b92cbe9a376685c32d1b1"
+    },
+    {
+      "path": "lv-rooftop-export/figures/angles.svg",
+      "bytes": 12970,
+      "sha256": "28f840f4f6c5941d716883801cd49e5b9d88ddfad03e5890877639eb63c07da9"
+    },
+    {
+      "path": "lv-rooftop-export/figures/convergence.png",
+      "bytes": 26444,
+      "sha256": "8078f7e1ad3aad583fc22c610f0ac841cf8cc11b35c188174894b196761a4203"
+    },
+    {
+      "path": "lv-rooftop-export/figures/convergence.svg",
+      "bytes": 20282,
+      "sha256": "2ed90b446d8b64b5e146895fac9c814e05605bc0bf0f797a52780d84cc90e786"
+    },
+    {
+      "path": "lv-rooftop-export/figures/network.png",
+      "bytes": 17276,
+      "sha256": "59d2f6df74482ce942e5c5429eeec4abb34d2c0541aff936ce8c8f9424647f56"
+    },
+    {
+      "path": "lv-rooftop-export/figures/network.svg",
+      "bytes": 11918,
+      "sha256": "7866313f92867a967f9e663e8252f558449c4c8828632188542d13989c266b18"
+    },
+    {
+      "path": "lv-rooftop-export/figures/power.png",
+      "bytes": 30134,
+      "sha256": "27558a74939774ff9afa952a10c6ece4bdad0dbc0bdd6790aba0ae8a735c8ec9"
+    },
+    {
+      "path": "lv-rooftop-export/figures/power.svg",
+      "bytes": 19065,
+      "sha256": "02916f2aef3891bf1f450ab727d0cbb50d3d03f3c8dcdcec97306cc7fc01f3d1"
+    },
+    {
+      "path": "lv-rooftop-export/figures/voltage.png",
+      "bytes": 33225,
+      "sha256": "f5c0ca05d9a7c7b9aae249df6daaff21a82bcb48dea9d26bc5a31300e83021b0"
+    },
+    {
+      "path": "lv-rooftop-export/figures/voltage.svg",
+      "bytes": 23532,
+      "sha256": "a952d2a72ea28af58e22039c6663509721d3f41520b6e929246fd66a0160bfa7"
+    },
+    {
+      "path": "lv-rooftop-export/inputs/case.json",
+      "bytes": 32,
+      "sha256": "cacacfcf2ef27da8a4e5012dda462024c371e749f0cb8b94335bcf6ef668702a"
+    },
+    {
+      "path": "lv-rooftop-export/inputs/loads.csv",
+      "bytes": 784,
+      "sha256": "953ab6ccbd0f00ed089e618fb10ed161dbd2678b42c269dcdb61c4bae6c078a8"
+    },
+    {
+      "path": "lv-rooftop-export/inputs/nodes.csv",
+      "bytes": 551,
+      "sha256": "2f0739d495cefc4fa5574568eeb1b5df24705c8134e46e18f83ff3fc689f8a10"
+    },
+    {
+      "path": "lv-rooftop-export/inputs/stamps.csv",
+      "bytes": 4735,
+      "sha256": "df192a988425e253f83777101805caf504706effc9dfbfb265ff402e4d001be9"
+    },
+    {
+      "path": "lv-rooftop-export/loads-00000.csv",
+      "bytes": 1143,
+      "sha256": "60686cbdf4cc98abd205fbbf9f8f6559a48bad4911d159f197ed8773cfa68816"
+    },
+    {
+      "path": "lv-rooftop-export/network.txt",
+      "bytes": 1295,
+      "sha256": "8c88253291fa144cfaea53effe4da283c3f2d79b20210f17273abf7f4998096a"
+    },
+    {
+      "path": "lv-rooftop-export/nodes-00000.csv",
+      "bytes": 1433,
+      "sha256": "c11102e27c09d2540058a64a59b9fde00aeee008bb87f5c0ec38cbf4866bfa0a"
+    },
+    {
+      "path": "lv-rooftop-export/README.md",
+      "bytes": 1318,
+      "sha256": "28a57cc968a39f098a70dffd0f6ec196ac44d2fcd400618dcb350f33a6fc2c77"
+    },
+    {
+      "path": "lv-rooftop-export/study.json",
+      "bytes": 1789,
+      "sha256": "96df3cf916e835ff73121b1bd9136d600a4dcb38c87095ff4e834d20cee031d1"
+    },
+    {
+      "path": "lv-rooftop-export/summary-00000.csv",
+      "bytes": 555,
+      "sha256": "59132842079c6346d0776f216478f87ca633d3af8f0bd8f01f488caba568e6ce"
+    },
+    {
+      "path": "lv-rooftop-export/summary.json",
+      "bytes": 714,
+      "sha256": "e8cec9abd3dc10d0532344a5fe73caa951781bb3e8cd461ccaefd8be156931ab"
+    },
+    {
+      "path": "lv-rooftop-export/terminals-00000.csv",
+      "bytes": 884,
+      "sha256": "24141a0d863fcd93fb999c2c0e52023fef4b00843c59232a652851b2f9a990c6"
+    },
+    {
+      "path": "lv-rooftop-export/voltage.svg",
+      "bytes": 1986,
+      "sha256": "c26312f67fa36d4b7235f76b3294713093a38e0755e9b0bbc4f56435d8ef4570"
+    },
+    {
+      "path": "manifest.json",
+      "bytes": 3732,
+      "sha256": "bb25f5ff8519d9f97f8a9ed66d5ee8921752e38192497d42641f0a02430d9a67"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4479,
+      "sha256": "0cb62252b77097d799ca791dbecc57a754f46c8d0941d414878549fdcb53fdc9"
+    }
+  ]
+}

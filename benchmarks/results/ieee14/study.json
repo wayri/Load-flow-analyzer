@@ -1,0 +1,62 @@
+{
+  "name": "ieee14",
+  "title": "IEEE 14-bus",
+  "description": "Official MATPOWER-format IEEE case with source generator Q limits.",
+  "parameters": {
+    "source_file": "case14.m",
+    "q_limits": "aggregate PV generator limits; SLACK Q free"
+  },
+  "expected_converged": true,
+  "metrics": {
+    "converged": true,
+    "reason": "converged",
+    "iterations": 2,
+    "seconds": 0.010572300001513213,
+    "conductors": 42,
+    "physical_buses": 14,
+    "residual": 4.4075854077618715e-14,
+    "power_error": 1.6411514586736962e-14,
+    "min_phase_to_neutral_vm_pu": 1.0100000000000178,
+    "max_phase_to_neutral_vm_pu": 1.0900000000000114,
+    "max_neutral_vm_pu": 0.0,
+    "max_negative_sequence_vuf_pct": 4.4540245214683666e-14,
+    "net_explicit_demand_mw": 259.0,
+    "gross_load_mw": 259.0,
+    "embedded_generation_mw": -0.0,
+    "net_nodal_source_mw": 272.39327235790165,
+    "positive_nodal_sources_mw": 272.3932723579019,
+    "nodal_source_absorption_mw": 1.844588949843222e-13,
+    "slack_mw": 232.39327235789654,
+    "p_loss_mw": 13.393272357898796,
+    "network_q_absorption_mvar": 8.937543872606895,
+    "power_balance_error_mva": 2.8704627303834972e-12,
+    "pv_to_pq_conductors": 0
+  },
+  "reference": {
+    "method": "separate balanced polar power-balance NR; independent Y-bus/Jacobian",
+    "converged": true,
+    "residual": 1.2097961521462253e-14,
+    "iterations": 3,
+    "max_complex_voltage_error_pu": 1.808138885416284e-14,
+    "acceptance_tolerance_pu": 2e-07
+  },
+  "equipment_checks": {
+    "voltage_bound_violations": 3,
+    "aggregate_generator_p_bound_violations": 0,
+    "aggregate_generator_q_bound_violations": 1,
+    "rated_branches": 0,
+    "rated_branch_overloads": 0
+  },
+  "figures": {
+    "network_svg": "network.svg",
+    "network_png": "network.png",
+    "voltage_svg": "voltage.svg",
+    "voltage_png": "voltage.png",
+    "angles_svg": "angles.svg",
+    "angles_png": "angles.png",
+    "convergence_svg": "convergence.svg",
+    "convergence_png": "convergence.png",
+    "power_svg": "power.svg",
+    "power_png": "power.png"
+  }
+}

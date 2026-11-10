@@ -1,0 +1,99 @@
+UNBALANCED CONDUCTOR NETWORK
+CONVERGED
+Each element lists its conductor ports; mutual couplings are in inputs/stamps.csv.
+{shunt-9}--[9.A]--[9.B]--[9.C]
+{branch-1}--[1.A]--[1.B]--[1.C]--[2.A]--[2.B]--[2.C]
+{branch-2}--[1.A]--[1.B]--[1.C]--[5.A]--[5.B]--[5.C]
+{branch-3}--[2.A]--[2.B]--[2.C]--[3.A]--[3.B]--[3.C]
+{branch-4}--[2.A]--[2.B]--[2.C]--[4.A]--[4.B]--[4.C]
+{branch-5}--[2.A]--[2.B]--[2.C]--[5.A]--[5.B]--[5.C]
+{branch-6}--[3.A]--[3.B]--[3.C]--[4.A]--[4.B]--[4.C]
+{branch-7}--[4.A]--[4.B]--[4.C]--[5.A]--[5.B]--[5.C]
+{branch-8}--[4.A]--[4.B]--[4.C]--[7.A]--[7.B]--[7.C]
+{branch-9}--[4.A]--[4.B]--[4.C]--[9.A]--[9.B]--[9.C]
+{branch-10}--[5.A]--[5.B]--[5.C]--[6.A]--[6.B]--[6.C]
+{branch-11}--[6.A]--[6.B]--[6.C]--[11.A]--[11.B]--[11.C]
+{branch-12}--[6.A]--[6.B]--[6.C]--[12.A]--[12.B]--[12.C]
+{branch-13}--[6.A]--[6.B]--[6.C]--[13.A]--[13.B]--[13.C]
+{branch-14}--[7.A]--[7.B]--[7.C]--[8.A]--[8.B]--[8.C]
+{branch-15}--[7.A]--[7.B]--[7.C]--[9.A]--[9.B]--[9.C]
+{branch-16}--[9.A]--[9.B]--[9.C]--[10.A]--[10.B]--[10.C]
+{branch-17}--[9.A]--[9.B]--[9.C]--[14.A]--[14.B]--[14.C]
+{branch-18}--[10.A]--[10.B]--[10.C]--[11.A]--[11.B]--[11.C]
+{branch-19}--[12.A]--[12.B]--[12.C]--[13.A]--[13.B]--[13.C]
+{branch-20}--[13.A]--[13.B]--[13.C]--[14.A]--[14.B]--[14.C]
+[2.A]--<LOAD load-2.A; customer=2>--[GROUND]
+[2.B]--<LOAD load-2.B; customer=2>--[GROUND]
+[2.C]--<LOAD load-2.C; customer=2>--[GROUND]
+[3.A]--<LOAD load-3.A; customer=3>--[GROUND]
+[3.B]--<LOAD load-3.B; customer=3>--[GROUND]
+[3.C]--<LOAD load-3.C; customer=3>--[GROUND]
+[4.A]--<LOAD load-4.A; customer=4>--[GROUND]
+[4.B]--<LOAD load-4.B; customer=4>--[GROUND]
+[4.C]--<LOAD load-4.C; customer=4>--[GROUND]
+[5.A]--<LOAD load-5.A; customer=5>--[GROUND]
+[5.B]--<LOAD load-5.B; customer=5>--[GROUND]
+[5.C]--<LOAD load-5.C; customer=5>--[GROUND]
+[6.A]--<LOAD load-6.A; customer=6>--[GROUND]
+[6.B]--<LOAD load-6.B; customer=6>--[GROUND]
+[6.C]--<LOAD load-6.C; customer=6>--[GROUND]
+[9.A]--<LOAD load-9.A; customer=9>--[GROUND]
+[9.B]--<LOAD load-9.B; customer=9>--[GROUND]
+[9.C]--<LOAD load-9.C; customer=9>--[GROUND]
+[10.A]--<LOAD load-10.A; customer=10>--[GROUND]
+[10.B]--<LOAD load-10.B; customer=10>--[GROUND]
+[10.C]--<LOAD load-10.C; customer=10>--[GROUND]
+[11.A]--<LOAD load-11.A; customer=11>--[GROUND]
+[11.B]--<LOAD load-11.B; customer=11>--[GROUND]
+[11.C]--<LOAD load-11.C; customer=11>--[GROUND]
+[12.A]--<LOAD load-12.A; customer=12>--[GROUND]
+[12.B]--<LOAD load-12.B; customer=12>--[GROUND]
+[12.C]--<LOAD load-12.C; customer=12>--[GROUND]
+[13.A]--<LOAD load-13.A; customer=13>--[GROUND]
+[13.B]--<LOAD load-13.B; customer=13>--[GROUND]
+[13.C]--<LOAD load-13.C; customer=13>--[GROUND]
+[14.A]--<LOAD load-14.A; customer=14>--[GROUND]
+[14.B]--<LOAD load-14.B; customer=14>--[GROUND]
+[14.C]--<LOAD load-14.C; customer=14>--[GROUND]
+[1.A] SLACK V=1.06 pu / 0 deg P=2.32393272 Q=-0.165493005 pu
+[1.B] SLACK V=1.06 pu / -120 deg P=2.32393272 Q=-0.165493005 pu
+[1.C] SLACK V=1.06 pu / 120 deg P=2.32393272 Q=-0.165493005 pu
+[2.A] PV V=1.045 pu / -4.98258914 deg P=0.4 Q=0.435571001 pu
+[2.B] PV V=1.045 pu / -124.982589 deg P=0.4 Q=0.435571001 pu
+[2.C] PV V=1.045 pu / 115.017411 deg P=0.4 Q=0.435571001 pu
+[3.A] PV V=1.01 pu / -12.7250999 deg P=9.82916953e-15 Q=0.250753485 pu
+[3.B] PV V=1.01 pu / -132.7251 deg P=1.1700463e-14 Q=0.250753485 pu
+[3.C] PV V=1.01 pu / 107.2749 deg P=1.03797014e-14 Q=0.250753485 pu
+[4.A] PQ V=1.01767085 pu / -10.3129011 deg P=-9.05017617e-15 Q=1.36905852e-14 pu
+[4.B] PQ V=1.01767085 pu / -130.312901 deg P=-1.53154418e-14 Q=2.99278989e-15 pu
+[4.C] PQ V=1.01767085 pu / 109.687099 deg P=-1.41663287e-14 Q=-3.83869695e-15 pu
+[5.A] PQ V=1.01951386 pu / -8.7738539 deg P=-2.65893492e-15 Q=-7.39548354e-15 pu
+[5.B] PQ V=1.01951386 pu / -128.773854 deg P=2.38249746e-15 Q=1.36192251e-15 pu
+[5.C] PQ V=1.01951386 pu / 111.226146 deg P=-7.50775146e-18 Q=7.75699694e-15 pu
+[6.A] PV V=1.07 pu / -14.2209465 deg P=5.24075764e-16 Q=0.127309444 pu
+[6.B] PV V=1.07 pu / -134.220946 deg P=-3.60292746e-15 Q=0.127309444 pu
+[6.C] PV V=1.07 pu / 105.779054 deg P=1.48741033e-16 Q=0.127309444 pu
+[7.A] PQ V=1.06151953 pu / -13.3596274 deg P=9.17305061e-16 Q=-2.17849955e-16 pu
+[7.B] PQ V=1.06151953 pu / -133.359627 deg P=6.85484508e-16 Q=-6.47316126e-16 pu
+[7.C] PQ V=1.06151953 pu / 106.640373 deg P=4.51667232e-16 Q=1.34994468e-16 pu
+[8.A] PV V=1.09 pu / -13.3596274 deg P=-2.55506076e-16 Q=0.176234514 pu
+[8.B] PV V=1.09 pu / -133.359627 deg P=-1.24592061e-15 Q=0.176234514 pu
+[8.C] PV V=1.09 pu / 106.640373 deg P=-4.29412711e-16 Q=0.176234514 pu
+[9.A] PQ V=1.05593172 pu / -14.9385213 deg P=-7.76923454e-15 Q=-4.44880234e-15 pu
+[9.B] PQ V=1.05593172 pu / -134.938521 deg P=-4.06143348e-15 Q=-4.1883579e-16 pu
+[9.C] PQ V=1.05593172 pu / 105.061479 deg P=-6.67759484e-15 Q=-7.44215141e-15 pu
+[10.A] PQ V=1.05098462 pu / -15.0972885 deg P=-1.69271404e-15 Q=1.09188071e-16 pu
+[10.B] PQ V=1.05098462 pu / -135.097288 deg P=-3.43113332e-15 Q=3.84843858e-16 pu
+[10.C] PQ V=1.05098462 pu / 104.902712 deg P=-2.9105115e-15 Q=2.145923e-15 pu
+[11.A] PQ V=1.05690652 pu / -14.790622 deg P=4.82235988e-16 Q=1.7689454e-15 pu
+[11.B] PQ V=1.05690652 pu / -134.790622 deg P=-1.54275399e-15 Q=-1.42395068e-15 pu
+[11.C] PQ V=1.05690652 pu / 105.209378 deg P=5.21513241e-16 Q=-2.28165413e-15 pu
+[12.A] PQ V=1.05518856 pu / -15.0755845 deg P=-1.65782222e-15 Q=-1.86608086e-16 pu
+[12.B] PQ V=1.05518856 pu / -135.075585 deg P=-6.61463944e-16 Q=-1.02682706e-15 pu
+[12.C] PQ V=1.05518856 pu / 104.924415 deg P=-6.27775595e-16 Q=-7.15062263e-16 pu
+[13.A] PQ V=1.05038171 pu / -15.1562763 deg P=-3.93682589e-15 Q=-3.49450445e-15 pu
+[13.B] PQ V=1.05038171 pu / -135.156276 deg P=-4.289694e-15 Q=-6.4798069e-16 pu
+[13.C] PQ V=1.05038171 pu / 104.843724 deg P=-2.31416465e-15 Q=-9.41313314e-16 pu
+[14.A] PQ V=1.03552995 pu / -16.0336445 deg P=-3.0240451e-15 Q=-1.20934763e-15 pu
+[14.B] PQ V=1.03552995 pu / -136.033645 deg P=-3.16612371e-15 Q=-8.57580432e-16 pu
+[14.C] PQ V=1.03552995 pu / 103.966355 deg P=-2.98343821e-15 Q=-2.69968642e-16 pu

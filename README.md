@@ -1,5 +1,7 @@
 # Load flow analyzer
 
+[IEEE benchmark results, grid scenarios, plots and network diagrams](benchmarks/README.md)
+
 This **NRlarge** branch adds a sparse Python engine for unbalanced, phase-domain
 steady-state studies, CPU multicore execution, authenticated multi-computer row
 workers (up to 20), and optional FP64 OpenCL/OpenGL compute acceleration.

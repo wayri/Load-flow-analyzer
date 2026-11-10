@@ -1,0 +1,79 @@
+{
+  "date_utc": "2026-11-10",
+  "generated_at_utc": "2026-11-10T16:42:01.555249+00:00",
+  "python": "3.14.2",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "packages": {
+    "numpy": "2.4.2",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "networkx": "3.6.1",
+    "Pillow": "12.1.1"
+  },
+  "source_provenance": {
+    "repository": "https://github.com/MATPOWER/matpower",
+    "commit": "80b6e16f760f58721ad31221c7287c28259cd4ad",
+    "retrieved_on": "2026-11-10",
+    "files": [
+      {
+        "path": "case14.m",
+        "source_path": "data/case14.m",
+        "url": "https://github.com/MATPOWER/matpower/blob/80b6e16f760f58721ad31221c7287c28259cd4ad/data/case14.m",
+        "bytes": 4597,
+        "sha256": "2ffc4e1b734ae6c5e92dbe68b4e36010ed695a4bbcc4d065c74c4fbc39fcf3c1"
+      },
+      {
+        "path": "case_ieee30.m",
+        "source_path": "data/case_ieee30.m",
+        "url": "https://github.com/MATPOWER/matpower/blob/80b6e16f760f58721ad31221c7287c28259cd4ad/data/case_ieee30.m",
+        "bytes": 8052,
+        "sha256": "b3bcc6165577e9e70a39af98f808405233a184289056cab8ce35fbc5a3ad953e"
+      },
+      {
+        "path": "case57.m",
+        "source_path": "data/case57.m",
+        "url": "https://github.com/MATPOWER/matpower/blob/80b6e16f760f58721ad31221c7287c28259cd4ad/data/case57.m",
+        "bytes": 13674,
+        "sha256": "2218325a6e8fe6c7b8b28202f523670459268075a6fd41b4959d66f17d47d28b"
+      },
+      {
+        "path": "case118.m",
+        "source_path": "data/case118.m",
+        "url": "https://github.com/MATPOWER/matpower/blob/80b6e16f760f58721ad31221c7287c28259cd4ad/data/case118.m",
+        "bytes": 33696,
+        "sha256": "bc2e6f22b4b9e776572885ee4b50e4f4ab2ee0c5577e9126e86d906f14c4b5f7"
+      },
+      {
+        "path": "case300.m",
+        "source_path": "data/case300.m",
+        "url": "https://github.com/MATPOWER/matpower/blob/80b6e16f760f58721ad31221c7287c28259cd4ad/data/case300.m",
+        "bytes": 66034,
+        "sha256": "69a90280e999ef533d94656e0fbc08311f1347c962dd2753ff2005ff5e3f9ac5"
+      },
+      {
+        "path": "LICENSE",
+        "source_path": "LICENSE",
+        "url": "https://github.com/MATPOWER/matpower/blob/80b6e16f760f58721ad31221c7287c28259cd4ad/LICENSE",
+        "bytes": 2074,
+        "sha256": "5d14c09b3e4f2adf62c0373e6320163697aa4603186f8925c07c6b84201e1750"
+      }
+    ]
+  },
+  "implementation_sha256": {
+    "nrlarge/model.py": "8524901f0475282afa67be286cfc36e53e7b2b5ad7d8a9665a8cf9156ae4b1c3",
+    "nrlarge/solver.py": "8fbb427adef3c43e858f2232229587370fb4fcc3fedf1360c5d93228dced61a4",
+    "nrlarge/linear.py": "4c439c34cbfc23dd2aa24b2bc883c5e9506a45608576ea729d14531dd29729b4",
+    "nrlarge/reports.py": "9b5508b755f1fedb36500e2287d4bd12838ba45d0fc06c2a1adecd0d80f6ba83",
+    "nrlarge/examples.py": "7d9766e08b743992132c96ab618e09b7a72c8e1a7fb733b1dad1c1f777c11ace",
+    "nrlarge/accelerators.py": "3ec5ab3144a95ae700a60d22298542be91844b1c9bcc279c18bf294b4ffc7cf0",
+    "benchmarks/cases.py": "f6189c85800c031eb7a56f5315b1d1a04cef2cf8bdd0e7746281c379de2b7f15",
+    "benchmarks/figures.py": "e7a54d50fb4945c06a1a2fa8917913ae2a238e7ad74eb2a9e77cc323dd280e1f",
+    "benchmarks/run.py": "7b06d6277a4381e678177c14b1939d81d8cd6b30274c61096184abdbb128a94e",
+    "benchmarks/verify.py": "999d09b86b61a25093c0e80316e0def8fca559d3fbc6ea0f4bcc9c5380650853"
+  },
+  "implementation_hash_basis": "file bytes with CRLF normalized to LF; source data/artifacts use exact bytes",
+  "solver": "NRlarge sparse rectangular Newton; CPU sparse-LU linear solve",
+  "tolerance": 1e-10,
+  "max_iterations": 100,
+  "q_limit_policy": "PV converted after current system convergence; SLACK Q free"
+}

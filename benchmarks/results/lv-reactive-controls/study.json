@@ -1,0 +1,48 @@
+{
+  "name": "lv-reactive-controls",
+  "title": "LV: ideal grounded-source Q limits",
+  "description": "Ideal ground-referenced sources target 1.02 pu with +/-1 kvar capability; source current returns to the ground reference.",
+  "parameters": {
+    "magnitude_setpoint_pu": 1.02,
+    "per_phase_q_limit_kvar": 1,
+    "controller": "ideal phase-to-ground PV control with Q-bound conversion"
+  },
+  "expected_converged": true,
+  "metrics": {
+    "converged": true,
+    "reason": "converged",
+    "iterations": 6,
+    "seconds": 0.024695900006918237,
+    "conductors": 8,
+    "physical_buses": 2,
+    "residual": 9.945100298835996e-12,
+    "power_error": 1.0852530620559363e-11,
+    "min_phase_to_neutral_vm_pu": 0.9999999999999999,
+    "max_phase_to_neutral_vm_pu": 1.0219436043392403,
+    "max_neutral_vm_pu": 0.011378827944604116,
+    "max_negative_sequence_vuf_pct": 1.2488107951751792,
+    "net_explicit_demand_mw": 0.009788588044080232,
+    "gross_load_mw": 0.009788588044080232,
+    "embedded_generation_mw": -0.0,
+    "net_nodal_source_mw": 0.011781829819738462,
+    "positive_nodal_sources_mw": 0.09333333333358394,
+    "nodal_source_absorption_mw": 0.08155150351384548,
+    "slack_mw": -0.08155150351384548,
+    "p_loss_mw": 0.0019932417756582665,
+    "network_q_absorption_mvar": 0.006089830754086431,
+    "power_balance_error_mva": 1.9632260699150655e-16,
+    "pv_to_pq_conductors": 2
+  },
+  "figures": {
+    "network_svg": "network.svg",
+    "network_png": "network.png",
+    "voltage_svg": "voltage.svg",
+    "voltage_png": "voltage.png",
+    "angles_svg": "angles.svg",
+    "angles_png": "angles.png",
+    "convergence_svg": "convergence.svg",
+    "convergence_png": "convergence.png",
+    "power_svg": "power.svg",
+    "power_png": "power.png"
+  }
+}

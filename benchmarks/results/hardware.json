@@ -1,0 +1,23 @@
+{
+  "opencl": {
+    "available": true,
+    "devices": [
+      {
+        "platform": "Intel(R) OpenCL Graphics",
+        "device": "Intel(R) Arc(TM) 140T GPU (16GB)",
+        "fp64": true,
+        "kind": "GPU"
+      }
+    ]
+  },
+  "opengl": {
+    "available": true,
+    "devices": [
+      {
+        "device": "Intel(R) Arc(TM) 140T GPU (16GB)",
+        "version": "4.3.0 - Build 32.0.101.8991",
+        "fp64": true
+      }
+    ]
+  }
+}

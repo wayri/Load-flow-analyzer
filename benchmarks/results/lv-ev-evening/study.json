@@ -1,0 +1,49 @@
+{
+  "name": "lv-ev-evening",
+  "title": "Four-wire LV: EV phase imbalance",
+  "description": "Two illustrative 7.5 kW chargers add 15 kW and 1.5 kvar to phase A.",
+  "parameters": {
+    "added_phase": "A",
+    "added_kw": 15,
+    "added_kvar": 1.5,
+    "load_model": "constant power"
+  },
+  "expected_converged": true,
+  "metrics": {
+    "converged": true,
+    "reason": "converged",
+    "iterations": 3,
+    "seconds": 0.011453899991465732,
+    "conductors": 8,
+    "physical_buses": 2,
+    "residual": 1.7981061084526573e-11,
+    "power_error": 1.7189447632787593e-11,
+    "min_phase_to_neutral_vm_pu": 0.9016890695494131,
+    "max_phase_to_neutral_vm_pu": 1.075018467381309,
+    "max_neutral_vm_pu": 0.09133722938539243,
+    "max_negative_sequence_vuf_pct": 2.0189342602557088,
+    "net_explicit_demand_mw": 0.042111795553929736,
+    "gross_load_mw": 0.042111795553929736,
+    "embedded_generation_mw": -0.0,
+    "net_nodal_source_mw": 0.04383746410485912,
+    "positive_nodal_sources_mw": 0.04383746410485912,
+    "nodal_source_absorption_mw": -0.0,
+    "slack_mw": 0.04383746410485912,
+    "p_loss_mw": 0.0017256685513564439,
+    "network_q_absorption_mvar": 0.004074258254508236,
+    "power_balance_error_mva": 5.001028260984924e-13,
+    "pv_to_pq_conductors": 0
+  },
+  "figures": {
+    "network_svg": "network.svg",
+    "network_png": "network.png",
+    "voltage_svg": "voltage.svg",
+    "voltage_png": "voltage.png",
+    "angles_svg": "angles.svg",
+    "angles_png": "angles.png",
+    "convergence_svg": "convergence.svg",
+    "convergence_png": "convergence.png",
+    "power_svg": "power.svg",
+    "power_png": "power.png"
+  }
+}

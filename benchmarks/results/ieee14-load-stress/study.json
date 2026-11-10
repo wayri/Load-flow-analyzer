@@ -1,0 +1,62 @@
+{
+  "name": "ieee14-load-stress",
+  "title": "IEEE 14: demand +50%",
+  "description": "Static demand increase with original generator P schedules and voltage setpoints.",
+  "parameters": {
+    "source_file": "case14.m",
+    "demand_multiplier": 1.5
+  },
+  "expected_converged": true,
+  "metrics": {
+    "converged": true,
+    "reason": "converged",
+    "iterations": 8,
+    "seconds": 0.029330499994102865,
+    "conductors": 42,
+    "physical_buses": 14,
+    "residual": 1.3350431871117507e-14,
+    "power_error": 1.2798998708661747e-14,
+    "min_phase_to_neutral_vm_pu": 0.9027762320636045,
+    "max_phase_to_neutral_vm_pu": 1.06,
+    "max_neutral_vm_pu": 0.0,
+    "max_negative_sequence_vuf_pct": 4.589341078590592e-14,
+    "net_explicit_demand_mw": 388.5,
+    "gross_load_mw": 388.5,
+    "embedded_generation_mw": -0.0,
+    "net_nodal_source_mw": 425.9368903646651,
+    "positive_nodal_sources_mw": 425.93689036466515,
+    "nodal_source_absorption_mw": 9.485158434156375e-14,
+    "slack_mw": 385.9368903646651,
+    "p_loss_mw": 37.43689036466529,
+    "network_q_absorption_mvar": 112.96463607301142,
+    "power_balance_error_mva": 3.4215369297304165e-13,
+    "pv_to_pq_conductors": 12
+  },
+  "reference": {
+    "method": "separate balanced polar power-balance NR; independent Y-bus/Jacobian",
+    "converged": true,
+    "residual": 1.4065137943219952e-13,
+    "iterations": 8,
+    "max_complex_voltage_error_pu": 1.1647651117409668e-13,
+    "acceptance_tolerance_pu": 2e-07
+  },
+  "equipment_checks": {
+    "voltage_bound_violations": 7,
+    "aggregate_generator_p_bound_violations": 1,
+    "aggregate_generator_q_bound_violations": 1,
+    "rated_branches": 0,
+    "rated_branch_overloads": 0
+  },
+  "figures": {
+    "network_svg": "network.svg",
+    "network_png": "network.png",
+    "voltage_svg": "voltage.svg",
+    "voltage_png": "voltage.png",
+    "angles_svg": "angles.svg",
+    "angles_png": "angles.png",
+    "convergence_svg": "convergence.svg",
+    "convergence_png": "convergence.png",
+    "power_svg": "power.svg",
+    "power_png": "power.png"
+  }
+}

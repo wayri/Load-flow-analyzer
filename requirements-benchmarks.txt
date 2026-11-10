@@ -1,0 +1,4 @@
+-r requirements-nrlarge.txt
+matplotlib>=3.9,<4
+networkx>=3.2,<4
+Pillow>=10,<13

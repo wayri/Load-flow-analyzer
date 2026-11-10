@@ -1,0 +1,853 @@
+UNBALANCED CONDUCTOR NETWORK
+CONVERGED
+Each element lists its conductor ports; mutual couplings are in inputs/stamps.csv.
+{shunt-5}--[5.A]--[5.B]--[5.C]
+{shunt-34}--[34.A]--[34.B]--[34.C]
+{shunt-37}--[37.A]--[37.B]--[37.C]
+{shunt-44}--[44.A]--[44.B]--[44.C]
+{shunt-45}--[45.A]--[45.B]--[45.C]
+{shunt-46}--[46.A]--[46.B]--[46.C]
+{shunt-48}--[48.A]--[48.B]--[48.C]
+{shunt-74}--[74.A]--[74.B]--[74.C]
+{shunt-79}--[79.A]--[79.B]--[79.C]
+{shunt-82}--[82.A]--[82.B]--[82.C]
+{shunt-83}--[83.A]--[83.B]--[83.C]
+{shunt-105}--[105.A]--[105.B]--[105.C]
+{shunt-107}--[107.A]--[107.B]--[107.C]
+{shunt-110}--[110.A]--[110.B]--[110.C]
+{branch-2}--[1.A]--[1.B]--[1.C]--[3.A]--[3.B]--[3.C]
+{branch-3}--[4.A]--[4.B]--[4.C]--[5.A]--[5.B]--[5.C]
+{branch-4}--[3.A]--[3.B]--[3.C]--[5.A]--[5.B]--[5.C]
+{branch-5}--[5.A]--[5.B]--[5.C]--[6.A]--[6.B]--[6.C]
+{branch-6}--[6.A]--[6.B]--[6.C]--[7.A]--[7.B]--[7.C]
+{branch-7}--[8.A]--[8.B]--[8.C]--[9.A]--[9.B]--[9.C]
+{branch-8}--[8.A]--[8.B]--[8.C]--[5.A]--[5.B]--[5.C]
+{branch-9}--[9.A]--[9.B]--[9.C]--[10.A]--[10.B]--[10.C]
+{branch-10}--[4.A]--[4.B]--[4.C]--[11.A]--[11.B]--[11.C]
+{branch-11}--[5.A]--[5.B]--[5.C]--[11.A]--[11.B]--[11.C]
+{branch-12}--[11.A]--[11.B]--[11.C]--[12.A]--[12.B]--[12.C]
+{branch-13}--[2.A]--[2.B]--[2.C]--[12.A]--[12.B]--[12.C]
+{branch-14}--[3.A]--[3.B]--[3.C]--[12.A]--[12.B]--[12.C]
+{branch-15}--[7.A]--[7.B]--[7.C]--[12.A]--[12.B]--[12.C]
+{branch-16}--[11.A]--[11.B]--[11.C]--[13.A]--[13.B]--[13.C]
+{branch-17}--[12.A]--[12.B]--[12.C]--[14.A]--[14.B]--[14.C]
+{branch-18}--[13.A]--[13.B]--[13.C]--[15.A]--[15.B]--[15.C]
+{branch-19}--[14.A]--[14.B]--[14.C]--[15.A]--[15.B]--[15.C]
+{branch-20}--[12.A]--[12.B]--[12.C]--[16.A]--[16.B]--[16.C]
+{branch-21}--[15.A]--[15.B]--[15.C]--[17.A]--[17.B]--[17.C]
+{branch-22}--[16.A]--[16.B]--[16.C]--[17.A]--[17.B]--[17.C]
+{branch-23}--[17.A]--[17.B]--[17.C]--[18.A]--[18.B]--[18.C]
+{branch-24}--[18.A]--[18.B]--[18.C]--[19.A]--[19.B]--[19.C]
+{branch-25}--[19.A]--[19.B]--[19.C]--[20.A]--[20.B]--[20.C]
+{branch-26}--[15.A]--[15.B]--[15.C]--[19.A]--[19.B]--[19.C]
+{branch-27}--[20.A]--[20.B]--[20.C]--[21.A]--[21.B]--[21.C]
+{branch-28}--[21.A]--[21.B]--[21.C]--[22.A]--[22.B]--[22.C]
+{branch-29}--[22.A]--[22.B]--[22.C]--[23.A]--[23.B]--[23.C]
+{branch-30}--[23.A]--[23.B]--[23.C]--[24.A]--[24.B]--[24.C]
+{branch-31}--[23.A]--[23.B]--[23.C]--[25.A]--[25.B]--[25.C]
+{branch-32}--[26.A]--[26.B]--[26.C]--[25.A]--[25.B]--[25.C]
+{branch-33}--[25.A]--[25.B]--[25.C]--[27.A]--[27.B]--[27.C]
+{branch-34}--[27.A]--[27.B]--[27.C]--[28.A]--[28.B]--[28.C]
+{branch-35}--[28.A]--[28.B]--[28.C]--[29.A]--[29.B]--[29.C]
+{branch-36}--[30.A]--[30.B]--[30.C]--[17.A]--[17.B]--[17.C]
+{branch-37}--[8.A]--[8.B]--[8.C]--[30.A]--[30.B]--[30.C]
+{branch-38}--[26.A]--[26.B]--[26.C]--[30.A]--[30.B]--[30.C]
+{branch-39}--[17.A]--[17.B]--[17.C]--[31.A]--[31.B]--[31.C]
+{branch-40}--[29.A]--[29.B]--[29.C]--[31.A]--[31.B]--[31.C]
+{branch-41}--[23.A]--[23.B]--[23.C]--[32.A]--[32.B]--[32.C]
+{branch-42}--[31.A]--[31.B]--[31.C]--[32.A]--[32.B]--[32.C]
+{branch-43}--[27.A]--[27.B]--[27.C]--[32.A]--[32.B]--[32.C]
+{branch-44}--[15.A]--[15.B]--[15.C]--[33.A]--[33.B]--[33.C]
+{branch-45}--[19.A]--[19.B]--[19.C]--[34.A]--[34.B]--[34.C]
+{branch-46}--[35.A]--[35.B]--[35.C]--[36.A]--[36.B]--[36.C]
+{branch-47}--[35.A]--[35.B]--[35.C]--[37.A]--[37.B]--[37.C]
+{branch-48}--[33.A]--[33.B]--[33.C]--[37.A]--[37.B]--[37.C]
+{branch-49}--[34.A]--[34.B]--[34.C]--[36.A]--[36.B]--[36.C]
+{branch-50}--[34.A]--[34.B]--[34.C]--[37.A]--[37.B]--[37.C]
+{branch-51}--[38.A]--[38.B]--[38.C]--[37.A]--[37.B]--[37.C]
+{branch-52}--[37.A]--[37.B]--[37.C]--[39.A]--[39.B]--[39.C]
+{branch-53}--[37.A]--[37.B]--[37.C]--[40.A]--[40.B]--[40.C]
+{branch-54}--[30.A]--[30.B]--[30.C]--[38.A]--[38.B]--[38.C]
+{branch-55}--[39.A]--[39.B]--[39.C]--[40.A]--[40.B]--[40.C]
+{branch-56}--[40.A]--[40.B]--[40.C]--[41.A]--[41.B]--[41.C]
+{branch-57}--[40.A]--[40.B]--[40.C]--[42.A]--[42.B]--[42.C]
+{branch-58}--[41.A]--[41.B]--[41.C]--[42.A]--[42.B]--[42.C]
+{branch-59}--[43.A]--[43.B]--[43.C]--[44.A]--[44.B]--[44.C]
+{branch-60}--[34.A]--[34.B]--[34.C]--[43.A]--[43.B]--[43.C]
+{branch-61}--[44.A]--[44.B]--[44.C]--[45.A]--[45.B]--[45.C]
+{branch-62}--[45.A]--[45.B]--[45.C]--[46.A]--[46.B]--[46.C]
+{branch-63}--[46.A]--[46.B]--[46.C]--[47.A]--[47.B]--[47.C]
+{branch-64}--[46.A]--[46.B]--[46.C]--[48.A]--[48.B]--[48.C]
+{branch-65}--[47.A]--[47.B]--[47.C]--[49.A]--[49.B]--[49.C]
+{branch-66}--[42.A]--[42.B]--[42.C]--[49.A]--[49.B]--[49.C]
+{branch-67}--[42.A]--[42.B]--[42.C]--[49.A]--[49.B]--[49.C]
+{branch-68}--[45.A]--[45.B]--[45.C]--[49.A]--[49.B]--[49.C]
+{branch-69}--[48.A]--[48.B]--[48.C]--[49.A]--[49.B]--[49.C]
+{branch-70}--[49.A]--[49.B]--[49.C]--[50.A]--[50.B]--[50.C]
+{branch-71}--[49.A]--[49.B]--[49.C]--[51.A]--[51.B]--[51.C]
+{branch-72}--[51.A]--[51.B]--[51.C]--[52.A]--[52.B]--[52.C]
+{branch-73}--[52.A]--[52.B]--[52.C]--[53.A]--[53.B]--[53.C]
+{branch-74}--[53.A]--[53.B]--[53.C]--[54.A]--[54.B]--[54.C]
+{branch-75}--[49.A]--[49.B]--[49.C]--[54.A]--[54.B]--[54.C]
+{branch-76}--[49.A]--[49.B]--[49.C]--[54.A]--[54.B]--[54.C]
+{branch-77}--[54.A]--[54.B]--[54.C]--[55.A]--[55.B]--[55.C]
+{branch-78}--[54.A]--[54.B]--[54.C]--[56.A]--[56.B]--[56.C]
+{branch-79}--[55.A]--[55.B]--[55.C]--[56.A]--[56.B]--[56.C]
+{branch-80}--[56.A]--[56.B]--[56.C]--[57.A]--[57.B]--[57.C]
+{branch-81}--[50.A]--[50.B]--[50.C]--[57.A]--[57.B]--[57.C]
+{branch-82}--[56.A]--[56.B]--[56.C]--[58.A]--[58.B]--[58.C]
+{branch-83}--[51.A]--[51.B]--[51.C]--[58.A]--[58.B]--[58.C]
+{branch-84}--[54.A]--[54.B]--[54.C]--[59.A]--[59.B]--[59.C]
+{branch-85}--[56.A]--[56.B]--[56.C]--[59.A]--[59.B]--[59.C]
+{branch-86}--[56.A]--[56.B]--[56.C]--[59.A]--[59.B]--[59.C]
+{branch-87}--[55.A]--[55.B]--[55.C]--[59.A]--[59.B]--[59.C]
+{branch-88}--[59.A]--[59.B]--[59.C]--[60.A]--[60.B]--[60.C]
+{branch-89}--[59.A]--[59.B]--[59.C]--[61.A]--[61.B]--[61.C]
+{branch-90}--[60.A]--[60.B]--[60.C]--[61.A]--[61.B]--[61.C]
+{branch-91}--[60.A]--[60.B]--[60.C]--[62.A]--[62.B]--[62.C]
+{branch-92}--[61.A]--[61.B]--[61.C]--[62.A]--[62.B]--[62.C]
+{branch-93}--[63.A]--[63.B]--[63.C]--[59.A]--[59.B]--[59.C]
+{branch-94}--[63.A]--[63.B]--[63.C]--[64.A]--[64.B]--[64.C]
+{branch-95}--[64.A]--[64.B]--[64.C]--[61.A]--[61.B]--[61.C]
+{branch-96}--[38.A]--[38.B]--[38.C]--[65.A]--[65.B]--[65.C]
+{branch-97}--[64.A]--[64.B]--[64.C]--[65.A]--[65.B]--[65.C]
+{branch-98}--[49.A]--[49.B]--[49.C]--[66.A]--[66.B]--[66.C]
+{branch-99}--[49.A]--[49.B]--[49.C]--[66.A]--[66.B]--[66.C]
+{branch-100}--[62.A]--[62.B]--[62.C]--[66.A]--[66.B]--[66.C]
+{branch-101}--[62.A]--[62.B]--[62.C]--[67.A]--[67.B]--[67.C]
+{branch-102}--[65.A]--[65.B]--[65.C]--[66.A]--[66.B]--[66.C]
+{branch-103}--[66.A]--[66.B]--[66.C]--[67.A]--[67.B]--[67.C]
+{branch-104}--[65.A]--[65.B]--[65.C]--[68.A]--[68.B]--[68.C]
+{branch-105}--[47.A]--[47.B]--[47.C]--[69.A]--[69.B]--[69.C]
+{branch-106}--[49.A]--[49.B]--[49.C]--[69.A]--[69.B]--[69.C]
+{branch-107}--[68.A]--[68.B]--[68.C]--[69.A]--[69.B]--[69.C]
+{branch-108}--[69.A]--[69.B]--[69.C]--[70.A]--[70.B]--[70.C]
+{branch-109}--[24.A]--[24.B]--[24.C]--[70.A]--[70.B]--[70.C]
+{branch-110}--[70.A]--[70.B]--[70.C]--[71.A]--[71.B]--[71.C]
+{branch-111}--[24.A]--[24.B]--[24.C]--[72.A]--[72.B]--[72.C]
+{branch-112}--[71.A]--[71.B]--[71.C]--[72.A]--[72.B]--[72.C]
+{branch-113}--[71.A]--[71.B]--[71.C]--[73.A]--[73.B]--[73.C]
+{branch-114}--[70.A]--[70.B]--[70.C]--[74.A]--[74.B]--[74.C]
+{branch-115}--[70.A]--[70.B]--[70.C]--[75.A]--[75.B]--[75.C]
+{branch-116}--[69.A]--[69.B]--[69.C]--[75.A]--[75.B]--[75.C]
+{branch-117}--[74.A]--[74.B]--[74.C]--[75.A]--[75.B]--[75.C]
+{branch-118}--[76.A]--[76.B]--[76.C]--[77.A]--[77.B]--[77.C]
+{branch-119}--[69.A]--[69.B]--[69.C]--[77.A]--[77.B]--[77.C]
+{branch-120}--[75.A]--[75.B]--[75.C]--[77.A]--[77.B]--[77.C]
+{branch-121}--[77.A]--[77.B]--[77.C]--[78.A]--[78.B]--[78.C]
+{branch-122}--[78.A]--[78.B]--[78.C]--[79.A]--[79.B]--[79.C]
+{branch-123}--[77.A]--[77.B]--[77.C]--[80.A]--[80.B]--[80.C]
+{branch-124}--[77.A]--[77.B]--[77.C]--[80.A]--[80.B]--[80.C]
+{branch-125}--[79.A]--[79.B]--[79.C]--[80.A]--[80.B]--[80.C]
+{branch-126}--[68.A]--[68.B]--[68.C]--[81.A]--[81.B]--[81.C]
+{branch-127}--[81.A]--[81.B]--[81.C]--[80.A]--[80.B]--[80.C]
+{branch-128}--[77.A]--[77.B]--[77.C]--[82.A]--[82.B]--[82.C]
+{branch-129}--[82.A]--[82.B]--[82.C]--[83.A]--[83.B]--[83.C]
+{branch-130}--[83.A]--[83.B]--[83.C]--[84.A]--[84.B]--[84.C]
+{branch-131}--[83.A]--[83.B]--[83.C]--[85.A]--[85.B]--[85.C]
+{branch-132}--[84.A]--[84.B]--[84.C]--[85.A]--[85.B]--[85.C]
+{branch-133}--[85.A]--[85.B]--[85.C]--[86.A]--[86.B]--[86.C]
+{branch-134}--[86.A]--[86.B]--[86.C]--[87.A]--[87.B]--[87.C]
+{branch-135}--[85.A]--[85.B]--[85.C]--[88.A]--[88.B]--[88.C]
+{branch-136}--[85.A]--[85.B]--[85.C]--[89.A]--[89.B]--[89.C]
+{branch-137}--[88.A]--[88.B]--[88.C]--[89.A]--[89.B]--[89.C]
+{branch-138}--[89.A]--[89.B]--[89.C]--[90.A]--[90.B]--[90.C]
+{branch-139}--[89.A]--[89.B]--[89.C]--[90.A]--[90.B]--[90.C]
+{branch-140}--[90.A]--[90.B]--[90.C]--[91.A]--[91.B]--[91.C]
+{branch-141}--[89.A]--[89.B]--[89.C]--[92.A]--[92.B]--[92.C]
+{branch-142}--[89.A]--[89.B]--[89.C]--[92.A]--[92.B]--[92.C]
+{branch-143}--[91.A]--[91.B]--[91.C]--[92.A]--[92.B]--[92.C]
+{branch-144}--[92.A]--[92.B]--[92.C]--[93.A]--[93.B]--[93.C]
+{branch-145}--[92.A]--[92.B]--[92.C]--[94.A]--[94.B]--[94.C]
+{branch-146}--[93.A]--[93.B]--[93.C]--[94.A]--[94.B]--[94.C]
+{branch-147}--[94.A]--[94.B]--[94.C]--[95.A]--[95.B]--[95.C]
+{branch-148}--[80.A]--[80.B]--[80.C]--[96.A]--[96.B]--[96.C]
+{branch-149}--[82.A]--[82.B]--[82.C]--[96.A]--[96.B]--[96.C]
+{branch-150}--[94.A]--[94.B]--[94.C]--[96.A]--[96.B]--[96.C]
+{branch-151}--[80.A]--[80.B]--[80.C]--[97.A]--[97.B]--[97.C]
+{branch-152}--[80.A]--[80.B]--[80.C]--[98.A]--[98.B]--[98.C]
+{branch-153}--[80.A]--[80.B]--[80.C]--[99.A]--[99.B]--[99.C]
+{branch-154}--[92.A]--[92.B]--[92.C]--[100.A]--[100.B]--[100.C]
+{branch-155}--[94.A]--[94.B]--[94.C]--[100.A]--[100.B]--[100.C]
+{branch-156}--[95.A]--[95.B]--[95.C]--[96.A]--[96.B]--[96.C]
+{branch-157}--[96.A]--[96.B]--[96.C]--[97.A]--[97.B]--[97.C]
+{branch-158}--[98.A]--[98.B]--[98.C]--[100.A]--[100.B]--[100.C]
+{branch-159}--[99.A]--[99.B]--[99.C]--[100.A]--[100.B]--[100.C]
+{branch-160}--[100.A]--[100.B]--[100.C]--[101.A]--[101.B]--[101.C]
+{branch-161}--[92.A]--[92.B]--[92.C]--[102.A]--[102.B]--[102.C]
+{branch-162}--[101.A]--[101.B]--[101.C]--[102.A]--[102.B]--[102.C]
+{branch-163}--[100.A]--[100.B]--[100.C]--[103.A]--[103.B]--[103.C]
+{branch-164}--[100.A]--[100.B]--[100.C]--[104.A]--[104.B]--[104.C]
+{branch-165}--[103.A]--[103.B]--[103.C]--[104.A]--[104.B]--[104.C]
+{branch-166}--[103.A]--[103.B]--[103.C]--[105.A]--[105.B]--[105.C]
+{branch-167}--[100.A]--[100.B]--[100.C]--[106.A]--[106.B]--[106.C]
+{branch-168}--[104.A]--[104.B]--[104.C]--[105.A]--[105.B]--[105.C]
+{branch-169}--[105.A]--[105.B]--[105.C]--[106.A]--[106.B]--[106.C]
+{branch-170}--[105.A]--[105.B]--[105.C]--[107.A]--[107.B]--[107.C]
+{branch-171}--[105.A]--[105.B]--[105.C]--[108.A]--[108.B]--[108.C]
+{branch-172}--[106.A]--[106.B]--[106.C]--[107.A]--[107.B]--[107.C]
+{branch-173}--[108.A]--[108.B]--[108.C]--[109.A]--[109.B]--[109.C]
+{branch-174}--[103.A]--[103.B]--[103.C]--[110.A]--[110.B]--[110.C]
+{branch-175}--[109.A]--[109.B]--[109.C]--[110.A]--[110.B]--[110.C]
+{branch-176}--[110.A]--[110.B]--[110.C]--[111.A]--[111.B]--[111.C]
+{branch-177}--[110.A]--[110.B]--[110.C]--[112.A]--[112.B]--[112.C]
+{branch-178}--[17.A]--[17.B]--[17.C]--[113.A]--[113.B]--[113.C]
+{branch-179}--[32.A]--[32.B]--[32.C]--[113.A]--[113.B]--[113.C]
+{branch-180}--[32.A]--[32.B]--[32.C]--[114.A]--[114.B]--[114.C]
+{branch-181}--[27.A]--[27.B]--[27.C]--[115.A]--[115.B]--[115.C]
+{branch-182}--[114.A]--[114.B]--[114.C]--[115.A]--[115.B]--[115.C]
+{branch-183}--[68.A]--[68.B]--[68.C]--[116.A]--[116.B]--[116.C]
+{branch-184}--[12.A]--[12.B]--[12.C]--[117.A]--[117.B]--[117.C]
+{branch-185}--[75.A]--[75.B]--[75.C]--[118.A]--[118.B]--[118.C]
+{branch-186}--[76.A]--[76.B]--[76.C]--[118.A]--[118.B]--[118.C]
+[1.A]--<LOAD load-1.A; customer=1>--[GROUND]
+[1.B]--<LOAD load-1.B; customer=1>--[GROUND]
+[1.C]--<LOAD load-1.C; customer=1>--[GROUND]
+[2.A]--<LOAD load-2.A; customer=2>--[GROUND]
+[2.B]--<LOAD load-2.B; customer=2>--[GROUND]
+[2.C]--<LOAD load-2.C; customer=2>--[GROUND]
+[3.A]--<LOAD load-3.A; customer=3>--[GROUND]
+[3.B]--<LOAD load-3.B; customer=3>--[GROUND]
+[3.C]--<LOAD load-3.C; customer=3>--[GROUND]
+[4.A]--<LOAD load-4.A; customer=4>--[GROUND]
+[4.B]--<LOAD load-4.B; customer=4>--[GROUND]
+[4.C]--<LOAD load-4.C; customer=4>--[GROUND]
+[6.A]--<LOAD load-6.A; customer=6>--[GROUND]
+[6.B]--<LOAD load-6.B; customer=6>--[GROUND]
+[6.C]--<LOAD load-6.C; customer=6>--[GROUND]
+[7.A]--<LOAD load-7.A; customer=7>--[GROUND]
+[7.B]--<LOAD load-7.B; customer=7>--[GROUND]
+[7.C]--<LOAD load-7.C; customer=7>--[GROUND]
+[8.A]--<LOAD load-8.A; customer=8>--[GROUND]
+[8.B]--<LOAD load-8.B; customer=8>--[GROUND]
+[8.C]--<LOAD load-8.C; customer=8>--[GROUND]
+[11.A]--<LOAD load-11.A; customer=11>--[GROUND]
+[11.B]--<LOAD load-11.B; customer=11>--[GROUND]
+[11.C]--<LOAD load-11.C; customer=11>--[GROUND]
+[12.A]--<LOAD load-12.A; customer=12>--[GROUND]
+[12.B]--<LOAD load-12.B; customer=12>--[GROUND]
+[12.C]--<LOAD load-12.C; customer=12>--[GROUND]
+[13.A]--<LOAD load-13.A; customer=13>--[GROUND]
+[13.B]--<LOAD load-13.B; customer=13>--[GROUND]
+[13.C]--<LOAD load-13.C; customer=13>--[GROUND]
+[14.A]--<LOAD load-14.A; customer=14>--[GROUND]
+[14.B]--<LOAD load-14.B; customer=14>--[GROUND]
+[14.C]--<LOAD load-14.C; customer=14>--[GROUND]
+[15.A]--<LOAD load-15.A; customer=15>--[GROUND]
+[15.B]--<LOAD load-15.B; customer=15>--[GROUND]
+[15.C]--<LOAD load-15.C; customer=15>--[GROUND]
+[16.A]--<LOAD load-16.A; customer=16>--[GROUND]
+[16.B]--<LOAD load-16.B; customer=16>--[GROUND]
+[16.C]--<LOAD load-16.C; customer=16>--[GROUND]
+[17.A]--<LOAD load-17.A; customer=17>--[GROUND]
+[17.B]--<LOAD load-17.B; customer=17>--[GROUND]
+[17.C]--<LOAD load-17.C; customer=17>--[GROUND]
+[18.A]--<LOAD load-18.A; customer=18>--[GROUND]
+[18.B]--<LOAD load-18.B; customer=18>--[GROUND]
+[18.C]--<LOAD load-18.C; customer=18>--[GROUND]
+[19.A]--<LOAD load-19.A; customer=19>--[GROUND]
+[19.B]--<LOAD load-19.B; customer=19>--[GROUND]
+[19.C]--<LOAD load-19.C; customer=19>--[GROUND]
+[20.A]--<LOAD load-20.A; customer=20>--[GROUND]
+[20.B]--<LOAD load-20.B; customer=20>--[GROUND]
+[20.C]--<LOAD load-20.C; customer=20>--[GROUND]
+[21.A]--<LOAD load-21.A; customer=21>--[GROUND]
+[21.B]--<LOAD load-21.B; customer=21>--[GROUND]
+[21.C]--<LOAD load-21.C; customer=21>--[GROUND]
+[22.A]--<LOAD load-22.A; customer=22>--[GROUND]
+[22.B]--<LOAD load-22.B; customer=22>--[GROUND]
+[22.C]--<LOAD load-22.C; customer=22>--[GROUND]
+[23.A]--<LOAD load-23.A; customer=23>--[GROUND]
+[23.B]--<LOAD load-23.B; customer=23>--[GROUND]
+[23.C]--<LOAD load-23.C; customer=23>--[GROUND]
+[24.A]--<LOAD load-24.A; customer=24>--[GROUND]
+[24.B]--<LOAD load-24.B; customer=24>--[GROUND]
+[24.C]--<LOAD load-24.C; customer=24>--[GROUND]
+[27.A]--<LOAD load-27.A; customer=27>--[GROUND]
+[27.B]--<LOAD load-27.B; customer=27>--[GROUND]
+[27.C]--<LOAD load-27.C; customer=27>--[GROUND]
+[28.A]--<LOAD load-28.A; customer=28>--[GROUND]
+[28.B]--<LOAD load-28.B; customer=28>--[GROUND]
+[28.C]--<LOAD load-28.C; customer=28>--[GROUND]
+[29.A]--<LOAD load-29.A; customer=29>--[GROUND]
+[29.B]--<LOAD load-29.B; customer=29>--[GROUND]
+[29.C]--<LOAD load-29.C; customer=29>--[GROUND]
+[31.A]--<LOAD load-31.A; customer=31>--[GROUND]
+[31.B]--<LOAD load-31.B; customer=31>--[GROUND]
+[31.C]--<LOAD load-31.C; customer=31>--[GROUND]
+[32.A]--<LOAD load-32.A; customer=32>--[GROUND]
+[32.B]--<LOAD load-32.B; customer=32>--[GROUND]
+[32.C]--<LOAD load-32.C; customer=32>--[GROUND]
+[33.A]--<LOAD load-33.A; customer=33>--[GROUND]
+[33.B]--<LOAD load-33.B; customer=33>--[GROUND]
+[33.C]--<LOAD load-33.C; customer=33>--[GROUND]
+[34.A]--<LOAD load-34.A; customer=34>--[GROUND]
+[34.B]--<LOAD load-34.B; customer=34>--[GROUND]
+[34.C]--<LOAD load-34.C; customer=34>--[GROUND]
+[35.A]--<LOAD load-35.A; customer=35>--[GROUND]
+[35.B]--<LOAD load-35.B; customer=35>--[GROUND]
+[35.C]--<LOAD load-35.C; customer=35>--[GROUND]
+[36.A]--<LOAD load-36.A; customer=36>--[GROUND]
+[36.B]--<LOAD load-36.B; customer=36>--[GROUND]
+[36.C]--<LOAD load-36.C; customer=36>--[GROUND]
+[39.A]--<LOAD load-39.A; customer=39>--[GROUND]
+[39.B]--<LOAD load-39.B; customer=39>--[GROUND]
+[39.C]--<LOAD load-39.C; customer=39>--[GROUND]
+[40.A]--<LOAD load-40.A; customer=40>--[GROUND]
+[40.B]--<LOAD load-40.B; customer=40>--[GROUND]
+[40.C]--<LOAD load-40.C; customer=40>--[GROUND]
+[41.A]--<LOAD load-41.A; customer=41>--[GROUND]
+[41.B]--<LOAD load-41.B; customer=41>--[GROUND]
+[41.C]--<LOAD load-41.C; customer=41>--[GROUND]
+[42.A]--<LOAD load-42.A; customer=42>--[GROUND]
+[42.B]--<LOAD load-42.B; customer=42>--[GROUND]
+[42.C]--<LOAD load-42.C; customer=42>--[GROUND]
+[43.A]--<LOAD load-43.A; customer=43>--[GROUND]
+[43.B]--<LOAD load-43.B; customer=43>--[GROUND]
+[43.C]--<LOAD load-43.C; customer=43>--[GROUND]
+[44.A]--<LOAD load-44.A; customer=44>--[GROUND]
+[44.B]--<LOAD load-44.B; customer=44>--[GROUND]
+[44.C]--<LOAD load-44.C; customer=44>--[GROUND]
+[45.A]--<LOAD load-45.A; customer=45>--[GROUND]
+[45.B]--<LOAD load-45.B; customer=45>--[GROUND]
+[45.C]--<LOAD load-45.C; customer=45>--[GROUND]
+[46.A]--<LOAD load-46.A; customer=46>--[GROUND]
+[46.B]--<LOAD load-46.B; customer=46>--[GROUND]
+[46.C]--<LOAD load-46.C; customer=46>--[GROUND]
+[47.A]--<LOAD load-47.A; customer=47>--[GROUND]
+[47.B]--<LOAD load-47.B; customer=47>--[GROUND]
+[47.C]--<LOAD load-47.C; customer=47>--[GROUND]
+[48.A]--<LOAD load-48.A; customer=48>--[GROUND]
+[48.B]--<LOAD load-48.B; customer=48>--[GROUND]
+[48.C]--<LOAD load-48.C; customer=48>--[GROUND]
+[49.A]--<LOAD load-49.A; customer=49>--[GROUND]
+[49.B]--<LOAD load-49.B; customer=49>--[GROUND]
+[49.C]--<LOAD load-49.C; customer=49>--[GROUND]
+[50.A]--<LOAD load-50.A; customer=50>--[GROUND]
+[50.B]--<LOAD load-50.B; customer=50>--[GROUND]
+[50.C]--<LOAD load-50.C; customer=50>--[GROUND]
+[51.A]--<LOAD load-51.A; customer=51>--[GROUND]
+[51.B]--<LOAD load-51.B; customer=51>--[GROUND]
+[51.C]--<LOAD load-51.C; customer=51>--[GROUND]
+[52.A]--<LOAD load-52.A; customer=52>--[GROUND]
+[52.B]--<LOAD load-52.B; customer=52>--[GROUND]
+[52.C]--<LOAD load-52.C; customer=52>--[GROUND]
+[53.A]--<LOAD load-53.A; customer=53>--[GROUND]
+[53.B]--<LOAD load-53.B; customer=53>--[GROUND]
+[53.C]--<LOAD load-53.C; customer=53>--[GROUND]
+[54.A]--<LOAD load-54.A; customer=54>--[GROUND]
+[54.B]--<LOAD load-54.B; customer=54>--[GROUND]
+[54.C]--<LOAD load-54.C; customer=54>--[GROUND]
+[55.A]--<LOAD load-55.A; customer=55>--[GROUND]
+[55.B]--<LOAD load-55.B; customer=55>--[GROUND]
+[55.C]--<LOAD load-55.C; customer=55>--[GROUND]
+[56.A]--<LOAD load-56.A; customer=56>--[GROUND]
+[56.B]--<LOAD load-56.B; customer=56>--[GROUND]
+[56.C]--<LOAD load-56.C; customer=56>--[GROUND]
+[57.A]--<LOAD load-57.A; customer=57>--[GROUND]
+[57.B]--<LOAD load-57.B; customer=57>--[GROUND]
+[57.C]--<LOAD load-57.C; customer=57>--[GROUND]
+[58.A]--<LOAD load-58.A; customer=58>--[GROUND]
+[58.B]--<LOAD load-58.B; customer=58>--[GROUND]
+[58.C]--<LOAD load-58.C; customer=58>--[GROUND]
+[59.A]--<LOAD load-59.A; customer=59>--[GROUND]
+[59.B]--<LOAD load-59.B; customer=59>--[GROUND]
+[59.C]--<LOAD load-59.C; customer=59>--[GROUND]
+[60.A]--<LOAD load-60.A; customer=60>--[GROUND]
+[60.B]--<LOAD load-60.B; customer=60>--[GROUND]
+[60.C]--<LOAD load-60.C; customer=60>--[GROUND]
+[62.A]--<LOAD load-62.A; customer=62>--[GROUND]
+[62.B]--<LOAD load-62.B; customer=62>--[GROUND]
+[62.C]--<LOAD load-62.C; customer=62>--[GROUND]
+[66.A]--<LOAD load-66.A; customer=66>--[GROUND]
+[66.B]--<LOAD load-66.B; customer=66>--[GROUND]
+[66.C]--<LOAD load-66.C; customer=66>--[GROUND]
+[67.A]--<LOAD load-67.A; customer=67>--[GROUND]
+[67.B]--<LOAD load-67.B; customer=67>--[GROUND]
+[67.C]--<LOAD load-67.C; customer=67>--[GROUND]
+[70.A]--<LOAD load-70.A; customer=70>--[GROUND]
+[70.B]--<LOAD load-70.B; customer=70>--[GROUND]
+[70.C]--<LOAD load-70.C; customer=70>--[GROUND]
+[72.A]--<LOAD load-72.A; customer=72>--[GROUND]
+[72.B]--<LOAD load-72.B; customer=72>--[GROUND]
+[72.C]--<LOAD load-72.C; customer=72>--[GROUND]
+[73.A]--<LOAD load-73.A; customer=73>--[GROUND]
+[73.B]--<LOAD load-73.B; customer=73>--[GROUND]
+[73.C]--<LOAD load-73.C; customer=73>--[GROUND]
+[74.A]--<LOAD load-74.A; customer=74>--[GROUND]
+[74.B]--<LOAD load-74.B; customer=74>--[GROUND]
+[74.C]--<LOAD load-74.C; customer=74>--[GROUND]
+[75.A]--<LOAD load-75.A; customer=75>--[GROUND]
+[75.B]--<LOAD load-75.B; customer=75>--[GROUND]
+[75.C]--<LOAD load-75.C; customer=75>--[GROUND]
+[76.A]--<LOAD load-76.A; customer=76>--[GROUND]
+[76.B]--<LOAD load-76.B; customer=76>--[GROUND]
+[76.C]--<LOAD load-76.C; customer=76>--[GROUND]
+[77.A]--<LOAD load-77.A; customer=77>--[GROUND]
+[77.B]--<LOAD load-77.B; customer=77>--[GROUND]
+[77.C]--<LOAD load-77.C; customer=77>--[GROUND]
+[78.A]--<LOAD load-78.A; customer=78>--[GROUND]
+[78.B]--<LOAD load-78.B; customer=78>--[GROUND]
+[78.C]--<LOAD load-78.C; customer=78>--[GROUND]
+[79.A]--<LOAD load-79.A; customer=79>--[GROUND]
+[79.B]--<LOAD load-79.B; customer=79>--[GROUND]
+[79.C]--<LOAD load-79.C; customer=79>--[GROUND]
+[80.A]--<LOAD load-80.A; customer=80>--[GROUND]
+[80.B]--<LOAD load-80.B; customer=80>--[GROUND]
+[80.C]--<LOAD load-80.C; customer=80>--[GROUND]
+[82.A]--<LOAD load-82.A; customer=82>--[GROUND]
+[82.B]--<LOAD load-82.B; customer=82>--[GROUND]
+[82.C]--<LOAD load-82.C; customer=82>--[GROUND]
+[83.A]--<LOAD load-83.A; customer=83>--[GROUND]
+[83.B]--<LOAD load-83.B; customer=83>--[GROUND]
+[83.C]--<LOAD load-83.C; customer=83>--[GROUND]
+[84.A]--<LOAD load-84.A; customer=84>--[GROUND]
+[84.B]--<LOAD load-84.B; customer=84>--[GROUND]
+[84.C]--<LOAD load-84.C; customer=84>--[GROUND]
+[85.A]--<LOAD load-85.A; customer=85>--[GROUND]
+[85.B]--<LOAD load-85.B; customer=85>--[GROUND]
+[85.C]--<LOAD load-85.C; customer=85>--[GROUND]
+[86.A]--<LOAD load-86.A; customer=86>--[GROUND]
+[86.B]--<LOAD load-86.B; customer=86>--[GROUND]
+[86.C]--<LOAD load-86.C; customer=86>--[GROUND]
+[88.A]--<LOAD load-88.A; customer=88>--[GROUND]
+[88.B]--<LOAD load-88.B; customer=88>--[GROUND]
+[88.C]--<LOAD load-88.C; customer=88>--[GROUND]
+[90.A]--<LOAD load-90.A; customer=90>--[GROUND]
+[90.B]--<LOAD load-90.B; customer=90>--[GROUND]
+[90.C]--<LOAD load-90.C; customer=90>--[GROUND]
+[91.A]--<LOAD load-91.A; customer=91>--[GROUND]
+[91.B]--<LOAD load-91.B; customer=91>--[GROUND]
+[91.C]--<LOAD load-91.C; customer=91>--[GROUND]
+[92.A]--<LOAD load-92.A; customer=92>--[GROUND]
+[92.B]--<LOAD load-92.B; customer=92>--[GROUND]
+[92.C]--<LOAD load-92.C; customer=92>--[GROUND]
+[93.A]--<LOAD load-93.A; customer=93>--[GROUND]
+[93.B]--<LOAD load-93.B; customer=93>--[GROUND]
+[93.C]--<LOAD load-93.C; customer=93>--[GROUND]
+[94.A]--<LOAD load-94.A; customer=94>--[GROUND]
+[94.B]--<LOAD load-94.B; customer=94>--[GROUND]
+[94.C]--<LOAD load-94.C; customer=94>--[GROUND]
+[95.A]--<LOAD load-95.A; customer=95>--[GROUND]
+[95.B]--<LOAD load-95.B; customer=95>--[GROUND]
+[95.C]--<LOAD load-95.C; customer=95>--[GROUND]
+[96.A]--<LOAD load-96.A; customer=96>--[GROUND]
+[96.B]--<LOAD load-96.B; customer=96>--[GROUND]
+[96.C]--<LOAD load-96.C; customer=96>--[GROUND]
+[97.A]--<LOAD load-97.A; customer=97>--[GROUND]
+[97.B]--<LOAD load-97.B; customer=97>--[GROUND]
+[97.C]--<LOAD load-97.C; customer=97>--[GROUND]
+[98.A]--<LOAD load-98.A; customer=98>--[GROUND]
+[98.B]--<LOAD load-98.B; customer=98>--[GROUND]
+[98.C]--<LOAD load-98.C; customer=98>--[GROUND]
+[99.A]--<LOAD load-99.A; customer=99>--[GROUND]
+[99.B]--<LOAD load-99.B; customer=99>--[GROUND]
+[99.C]--<LOAD load-99.C; customer=99>--[GROUND]
+[100.A]--<LOAD load-100.A; customer=100>--[GROUND]
+[100.B]--<LOAD load-100.B; customer=100>--[GROUND]
+[100.C]--<LOAD load-100.C; customer=100>--[GROUND]
+[101.A]--<LOAD load-101.A; customer=101>--[GROUND]
+[101.B]--<LOAD load-101.B; customer=101>--[GROUND]
+[101.C]--<LOAD load-101.C; customer=101>--[GROUND]
+[102.A]--<LOAD load-102.A; customer=102>--[GROUND]
+[102.B]--<LOAD load-102.B; customer=102>--[GROUND]
+[102.C]--<LOAD load-102.C; customer=102>--[GROUND]
+[103.A]--<LOAD load-103.A; customer=103>--[GROUND]
+[103.B]--<LOAD load-103.B; customer=103>--[GROUND]
+[103.C]--<LOAD load-103.C; customer=103>--[GROUND]
+[104.A]--<LOAD load-104.A; customer=104>--[GROUND]
+[104.B]--<LOAD load-104.B; customer=104>--[GROUND]
+[104.C]--<LOAD load-104.C; customer=104>--[GROUND]
+[105.A]--<LOAD load-105.A; customer=105>--[GROUND]
+[105.B]--<LOAD load-105.B; customer=105>--[GROUND]
+[105.C]--<LOAD load-105.C; customer=105>--[GROUND]
+[106.A]--<LOAD load-106.A; customer=106>--[GROUND]
+[106.B]--<LOAD load-106.B; customer=106>--[GROUND]
+[106.C]--<LOAD load-106.C; customer=106>--[GROUND]
+[107.A]--<LOAD load-107.A; customer=107>--[GROUND]
+[107.B]--<LOAD load-107.B; customer=107>--[GROUND]
+[107.C]--<LOAD load-107.C; customer=107>--[GROUND]
+[108.A]--<LOAD load-108.A; customer=108>--[GROUND]
+[108.B]--<LOAD load-108.B; customer=108>--[GROUND]
+[108.C]--<LOAD load-108.C; customer=108>--[GROUND]
+[109.A]--<LOAD load-109.A; customer=109>--[GROUND]
+[109.B]--<LOAD load-109.B; customer=109>--[GROUND]
+[109.C]--<LOAD load-109.C; customer=109>--[GROUND]
+[110.A]--<LOAD load-110.A; customer=110>--[GROUND]
+[110.B]--<LOAD load-110.B; customer=110>--[GROUND]
+[110.C]--<LOAD load-110.C; customer=110>--[GROUND]
+[112.A]--<LOAD load-112.A; customer=112>--[GROUND]
+[112.B]--<LOAD load-112.B; customer=112>--[GROUND]
+[112.C]--<LOAD load-112.C; customer=112>--[GROUND]
+[113.A]--<LOAD load-113.A; customer=113>--[GROUND]
+[113.B]--<LOAD load-113.B; customer=113>--[GROUND]
+[113.C]--<LOAD load-113.C; customer=113>--[GROUND]
+[114.A]--<LOAD load-114.A; customer=114>--[GROUND]
+[114.B]--<LOAD load-114.B; customer=114>--[GROUND]
+[114.C]--<LOAD load-114.C; customer=114>--[GROUND]
+[115.A]--<LOAD load-115.A; customer=115>--[GROUND]
+[115.B]--<LOAD load-115.B; customer=115>--[GROUND]
+[115.C]--<LOAD load-115.C; customer=115>--[GROUND]
+[116.A]--<LOAD load-116.A; customer=116>--[GROUND]
+[116.B]--<LOAD load-116.B; customer=116>--[GROUND]
+[116.C]--<LOAD load-116.C; customer=116>--[GROUND]
+[117.A]--<LOAD load-117.A; customer=117>--[GROUND]
+[117.B]--<LOAD load-117.B; customer=117>--[GROUND]
+[117.C]--<LOAD load-117.C; customer=117>--[GROUND]
+[118.A]--<LOAD load-118.A; customer=118>--[GROUND]
+[118.B]--<LOAD load-118.B; customer=118>--[GROUND]
+[118.C]--<LOAD load-118.C; customer=118>--[GROUND]
+[1.A] PV V=0.955 pu / 10.1170402 deg P=1.68241653e-15 Q=0.141691462 pu
+[1.B] PV V=0.955 pu / -109.88296 deg P=-1.63018823e-15 Q=0.141691462 pu
+[1.C] PV V=0.955 pu / 130.11704 deg P=2.80082026e-15 Q=0.141691462 pu
+[2.A] PQ V=0.980949677 pu / 11.9563763 deg P=-1.51731925e-15 Q=6.83193545e-17 pu
+[2.B] PQ V=0.980949677 pu / -108.043624 deg P=1.70017774e-15 Q=3.19734118e-15 pu
+[2.C] PQ V=0.980949677 pu / 131.956376 deg P=8.5830679e-16 Q=-1.44339861e-15 pu
+[3.A] PQ V=0.967593974 pu / 11.359249 deg P=-5.08748783e-16 Q=-1.94655645e-16 pu
+[3.B] PQ V=0.967593974 pu / -108.640751 deg P=5.04065026e-16 Q=-1.53049802e-15 pu
+[3.C] PQ V=0.967593974 pu / 131.359249 deg P=-3.85908423e-15 Q=-2.93221965e-15 pu
+[4.A] PV V=0.998 pu / 15.5474869 deg P=8.31912986e-15 Q=-0.147505393 pu
+[4.B] PV V=0.998 pu / -104.452513 deg P=1.02463791e-14 Q=-0.147505393 pu
+[4.C] PV V=0.998 pu / 135.547487 deg P=-1.27245511e-14 Q=-0.147505393 pu
+[5.A] PQ V=1.00196527 pu / 15.9838912 deg P=5.8639267e-15 Q=5.38252093e-15 pu
+[5.B] PQ V=1.00196527 pu / -104.016109 deg P=-1.30223512e-15 Q=2.0504178e-14 pu
+[5.C] PQ V=1.00196527 pu / 135.983891 deg P=2.39736142e-14 Q=-3.36446546e-15 pu
+[6.A] PV V=0.99 pu / 13.3250295 deg P=-3.46557105e-15 Q=0.158704068 pu
+[6.B] PV V=0.99 pu / -106.674971 deg P=-4.03352514e-15 Q=0.158704068 pu
+[6.C] PV V=0.99 pu / 133.325029 deg P=2.43828023e-16 Q=0.158704068 pu
+[7.A] PQ V=0.989322832 pu / 12.9070285 deg P=6.73169098e-15 Q=-2.20763203e-15 pu
+[7.B] PQ V=0.989322832 pu / -107.092971 deg P=-1.34841097e-15 Q=-1.28865005e-14 pu
+[7.C] PQ V=0.989322832 pu / 132.907029 deg P=2.88862087e-16 Q=-1.39977056e-15 pu
+[8.A] PV V=1.015 pu / 21.0187688 deg P=-9.65901898e-15 Q=0.629196006 pu
+[8.B] PV V=1.015 pu / -98.9812312 deg P=6.6461743e-16 Q=0.629196006 pu
+[8.C] PV V=1.015 pu / 141.018769 deg P=-3.97603485e-15 Q=0.629196006 pu
+[9.A] PQ V=1.04291821 pu / 28.2728739 deg P=-6.52633392e-15 Q=-3.51008413e-15 pu
+[9.B] PQ V=1.04291821 pu / -91.7271261 deg P=2.07509819e-15 Q=7.3511768e-15 pu
+[9.C] PQ V=1.04291821 pu / 148.272874 deg P=3.5242117e-15 Q=2.17726227e-15 pu
+[10.A] PV V=1.05 pu / 35.853783 deg P=4.5 Q=-0.510421516 pu
+[10.B] PV V=1.05 pu / -84.146217 deg P=4.5 Q=-0.510421516 pu
+[10.C] PV V=1.05 pu / 155.853783 deg P=4.5 Q=-0.510421516 pu
+[11.A] PQ V=0.985112846 pu / 13.0593322 deg P=6.43453284e-15 Q=-4.02287513e-15 pu
+[11.B] PQ V=0.985112846 pu / -106.940668 deg P=5.91876287e-15 Q=1.11736807e-14 pu
+[11.C] PQ V=0.985112846 pu / 133.059332 deg P=2.66981603e-15 Q=1.14762068e-15 pu
+[12.A] PV V=0.99 pu / 12.5923005 deg P=0.85 Q=0.759305336 pu
+[12.B] PV V=0.99 pu / -107.4077 deg P=0.85 Q=0.759305336 pu
+[12.C] PV V=0.99 pu / 132.5923 deg P=0.85 Q=0.759305336 pu
+[13.A] PQ V=0.968319676 pu / 11.6794085 deg P=-1.39014775e-16 Q=-9.20682433e-16 pu
+[13.B] PQ V=0.968319676 pu / -108.320592 deg P=4.71058904e-16 Q=2.44866364e-15 pu
+[13.C] PQ V=0.968319676 pu / 131.679408 deg P=-2.14745233e-15 Q=3.91104628e-16 pu
+[14.A] PQ V=0.983587137 pu / 11.8572708 deg P=-1.62396579e-15 Q=-1.29985753e-15 pu
+[14.B] PQ V=0.983587137 pu / -108.142729 deg P=1.00022663e-15 Q=4.89361629e-15 pu
+[14.C] PQ V=0.983587137 pu / 131.857271 deg P=-6.10675535e-16 Q=4.97524422e-16 pu
+[15.A] PV V=0.97 pu / 11.5104765 deg P=1.44600908e-16 Q=0.0305652011 pu
+[15.B] PV V=0.97 pu / -108.489523 deg P=-3.67299472e-15 Q=0.0305652011 pu
+[15.C] PV V=0.97 pu / 131.510477 deg P=-1.78815352e-15 Q=0.0305652011 pu
+[16.A] PQ V=0.983917199 pu / 12.2655297 deg P=1.66796956e-16 Q=-7.6721723e-16 pu
+[16.B] PQ V=0.983917199 pu / -107.73447 deg P=-3.88987775e-16 Q=-6.78408251e-16 pu
+[16.C] PQ V=0.983917199 pu / 132.26553 deg P=-7.93362005e-16 Q=1.60382691e-15 pu
+[17.A] PQ V=0.995128218 pu / 14.0191701 deg P=3.24753919e-16 Q=9.22679558e-16 pu
+[17.B] PQ V=0.995128218 pu / -105.98083 deg P=6.41904105e-15 Q=2.55030602e-15 pu
+[17.C] PQ V=0.995128218 pu / 134.01917 deg P=2.96809212e-16 Q=5.07670353e-16 pu
+[18.A] PV V=0.973 pu / 11.8071238 deg P=2.0072274e-15 Q=0.255365731 pu
+[18.B] PV V=0.973 pu / -108.192876 deg P=1.58571146e-15 Q=0.255365731 pu
+[18.C] PV V=0.973 pu / 131.807124 deg P=1.79463188e-15 Q=0.255365731 pu
+[19.A] PQ V=0.963425838 pu / 11.3241704 deg P=2.67268208e-15 Q=-0.08 pu
+[19.B] PQ V=0.963425838 pu / -108.67583 deg P=9.43271152e-16 Q=-0.08 pu
+[19.C] PQ V=0.963425838 pu / 131.32417 deg P=-7.77501955e-15 Q=-0.08 pu
+[20.A] PQ V=0.958066339 pu / 12.201106 deg P=8.23656463e-16 Q=-1.796054e-15 pu
+[20.B] PQ V=0.958066339 pu / -107.798894 deg P=-6.24900876e-16 Q=-9.0255418e-16 pu
+[20.C] PQ V=0.958066339 pu / 132.201106 deg P=-2.46369754e-15 Q=-1.87506812e-15 pu
+[21.A] PQ V=0.95863406 pu / 13.786898 deg P=4.22640365e-16 Q=-3.82584781e-16 pu
+[21.B] PQ V=0.95863406 pu / -106.213102 deg P=-1.18203473e-15 Q=-5.01807236e-15 pu
+[21.C] PQ V=0.95863406 pu / 133.786898 deg P=-8.02847937e-17 Q=-1.56964626e-15 pu
+[22.A] PQ V=0.969660309 pu / 16.3389596 deg P=-7.889929e-16 Q=-1.78713633e-16 pu
+[22.B] PQ V=0.969660309 pu / -103.66104 deg P=-2.16299792e-16 Q=1.35663505e-16 pu
+[22.C] PQ V=0.969660309 pu / 136.33896 deg P=-7.05866994e-16 Q=1.2874607e-15 pu
+[23.A] PQ V=0.999660334 pu / 21.2558759 deg P=3.86650511e-15 Q=1.80828544e-15 pu
+[23.B] PQ V=0.999660334 pu / -98.7441241 deg P=1.38242219e-15 Q=9.99169863e-15 pu
+[23.C] PQ V=0.999660334 pu / 141.255876 deg P=9.76711707e-15 Q=4.43584889e-15 pu
+[24.A] PV V=0.992 pu / 21.1227484 deg P=-5.55709893e-16 Q=-0.15286917 pu
+[24.B] PV V=0.992 pu / -98.8772516 deg P=2.81545496e-16 Q=-0.15286917 pu
+[24.C] PV V=0.992 pu / 141.122748 deg P=-2.25220413e-15 Q=-0.15286917 pu
+[25.A] PV V=1.05 pu / 28.1878636 deg P=2.2 Q=0.497917818 pu
+[25.B] PV V=1.05 pu / -91.8121364 deg P=2.2 Q=0.497917818 pu
+[25.C] PV V=1.05 pu / 148.187864 deg P=2.2 Q=0.497917818 pu
+[26.A] PV V=1.015 pu / 29.9666419 deg P=3.14 Q=0.0988417226 pu
+[26.B] PV V=1.015 pu / -90.0333581 deg P=3.14 Q=0.0988417226 pu
+[26.C] PV V=1.015 pu / 149.966642 deg P=3.14 Q=0.0988417226 pu
+[27.A] PV V=0.968 pu / 15.6200982 deg P=7.3434103e-15 Q=0.0281959568 pu
+[27.B] PV V=0.968 pu / -104.379902 deg P=3.33582658e-16 Q=0.0281959568 pu
+[27.C] PV V=0.968 pu / 135.620098 deg P=3.64758108e-15 Q=0.0281959568 pu
+[28.A] PQ V=0.961568236 pu / 13.8963693 deg P=7.53450148e-16 Q=-6.00594045e-16 pu
+[28.B] PQ V=0.961568236 pu / -106.103631 deg P=-1.10018173e-15 Q=-5.44649078e-15 pu
+[28.C] PQ V=0.961568236 pu / 133.896369 deg P=-2.28343833e-15 Q=2.51136167e-17 pu
+[29.A] PQ V=0.963215878 pu / 12.9049675 deg P=1.08253427e-15 Q=3.89415907e-15 pu
+[29.B] PQ V=0.963215878 pu / -107.095032 deg P=9.80744213e-16 Q=5.51473488e-16 pu
+[29.C] PQ V=0.963215878 pu / 132.904968 deg P=1.61869518e-15 Q=-2.29140493e-15 pu
+[30.A] PQ V=0.985540885 pu / 19.0374139 deg P=6.8525271e-15 Q=-1.98590476e-14 pu
+[30.B] PQ V=0.985540885 pu / -100.962586 deg P=1.05288173e-15 Q=-3.77037232e-15 pu
+[30.C] PQ V=0.985540885 pu / 139.037414 deg P=-5.11367794e-15 Q=2.12104518e-15 pu
+[31.A] PV V=0.967 pu / 13.0221762 deg P=0.07 Q=0.319758343 pu
+[31.B] PV V=0.967 pu / -106.977824 deg P=0.07 Q=0.319758343 pu
+[31.C] PV V=0.967 pu / 133.022176 deg P=0.07 Q=0.319758343 pu
+[32.A] PQ V=0.963590625 pu / 15.0682103 deg P=2.95937537e-16 Q=-0.14 pu
+[32.B] PQ V=0.963590625 pu / -104.93179 deg P=1.21150604e-15 Q=-0.14 pu
+[32.C] PQ V=0.963590625 pu / 135.06821 deg P=8.52637893e-15 Q=-0.14 pu
+[33.A] PQ V=0.971560776 pu / 10.8777064 deg P=-1.32342044e-15 Q=8.85257494e-16 pu
+[33.B] PQ V=0.971560776 pu / -109.122294 deg P=-1.41435861e-16 Q=-2.54820027e-15 pu
+[33.C] PQ V=0.971560776 pu / 130.877706 deg P=-1.64742701e-16 Q=-1.62266967e-15 pu
+[34.A] PQ V=0.985862725 pu / 11.511363 deg P=6.37574108e-16 Q=-0.08 pu
+[34.B] PQ V=0.985862725 pu / -108.488637 deg P=-8.21785431e-15 Q=-0.08 pu
+[34.C] PQ V=0.985862725 pu / 131.511363 deg P=-4.45519994e-15 Q=-0.08 pu
+[35.A] PQ V=0.980678857 pu / 11.0840357 deg P=1.27537665e-15 Q=1.35946693e-14 pu
+[35.B] PQ V=0.980678857 pu / -108.915964 deg P=-5.99438286e-15 Q=1.65137734e-15 pu
+[35.C] PQ V=0.980678857 pu / 131.084036 deg P=-1.12099756e-14 Q=5.89902873e-15 pu
+[36.A] PV V=0.98 pu / 11.0885156 deg P=8.34947704e-15 Q=-0.0125885814 pu
+[36.B] PV V=0.98 pu / -108.911484 deg P=1.87533521e-15 Q=-0.0125885814 pu
+[36.C] PV V=0.98 pu / 131.088516 deg P=1.20581454e-14 Q=-0.0125885814 pu
+[37.A] PQ V=0.991983227 pu / 11.9747846 deg P=-1.65913324e-15 Q=-2.82722727e-14 pu
+[37.B] PQ V=0.991983227 pu / -108.025215 deg P=9.15960933e-15 Q=1.4623511e-14 pu
+[37.C] PQ V=0.991983227 pu / 131.974785 deg P=-1.95769229e-14 Q=1.91268983e-14 pu
+[38.A] PQ V=0.961997949 pu / 17.1086566 deg P=-1.94713073e-15 Q=-2.3873096e-15 pu
+[38.B] PQ V=0.961997949 pu / -102.891343 deg P=8.35839352e-16 Q=-1.07095224e-14 pu
+[38.C] PQ V=0.961997949 pu / 137.108657 deg P=-6.08207226e-15 Q=9.85219745e-16 pu
+[39.A] PQ V=0.970452573 pu / 8.60173728 deg P=-3.0839714e-16 Q=-4.82520499e-16 pu
+[39.B] PQ V=0.970452573 pu / -111.398263 deg P=-6.48022189e-16 Q=1.81613734e-15 pu
+[39.C] PQ V=0.970452573 pu / 128.601737 deg P=1.49696745e-15 Q=-5.79926894e-16 pu
+[40.A] PV V=0.97 pu / 7.52756463 deg P=-1.15861244e-15 Q=0.268853111 pu
+[40.B] PV V=0.97 pu / -112.472435 deg P=8.49750438e-16 Q=0.268853111 pu
+[40.C] PV V=0.97 pu / 127.527565 deg P=-4.47285734e-15 Q=0.268853111 pu
+[41.A] PQ V=0.966833238 pu / 7.08122009 deg P=1.1662759e-15 Q=6.24861754e-16 pu
+[41.B] PQ V=0.966833238 pu / -112.91878 deg P=-6.27014894e-17 Q=-1.4829959e-16 pu
+[41.C] PQ V=0.966833238 pu / 127.08122 deg P=1.29298609e-15 Q=1.58267841e-15 pu
+[42.A] PV V=0.985 pu / 8.6760199 deg P=-1.19071222e-15 Q=0.410013033 pu
+[42.B] PV V=0.985 pu / -111.32398 deg P=4.50797429e-17 Q=0.410013033 pu
+[42.C] PV V=0.985 pu / 128.67602 deg P=9.20356464e-16 Q=0.410013033 pu
+[43.A] PQ V=0.978483682 pu / 11.4641632 deg P=6.19583883e-16 Q=-1.14213693e-15 pu
+[43.B] PQ V=0.978483682 pu / -108.535837 deg P=3.59283729e-16 Q=-8.07927804e-16 pu
+[43.C] PQ V=0.978483682 pu / 131.464163 deg P=8.31083172e-16 Q=3.71937971e-16 pu
+[44.A] PQ V=0.985011384 pu / 13.948155 deg P=4.1959236e-16 Q=1.25340572e-16 pu
+[44.B] PQ V=0.985011384 pu / -106.051845 deg P=-8.23706456e-16 Q=-6.87582531e-16 pu
+[44.C] PQ V=0.985011384 pu / 133.948155 deg P=-1.10889479e-15 Q=-1.68597581e-15 pu
+[45.A] PQ V=0.986656606 pu / 15.7782844 deg P=-1.51255281e-16 Q=-2.7039876e-16 pu
+[45.B] PQ V=0.986656606 pu / -104.221716 deg P=-1.5305942e-15 Q=-9.11631187e-16 pu
+[45.C] PQ V=0.986656606 pu / 135.778284 deg P=1.38284873e-15 Q=3.69833719e-15 pu
+[46.A] PV V=1.005 pu / 18.5837786 deg P=0.19 Q=-0.0523400419 pu
+[46.B] PV V=1.005 pu / -101.416221 deg P=0.19 Q=-0.0523400419 pu
+[46.C] PV V=1.005 pu / 138.583779 deg P=0.19 Q=-0.0523400419 pu
+[47.A] PQ V=1.01705461 pu / 20.8058976 deg P=-1.46372144e-15 Q=1.15000951e-15 pu
+[47.B] PQ V=1.01705461 pu / -99.1941024 deg P=-6.66702804e-16 Q=-5.85548924e-16 pu
+[47.C] PQ V=1.01705461 pu / 140.805898 deg P=2.42171626e-15 Q=-3.35609193e-16 pu
+[48.A] PQ V=1.02063346 pu / 20.0262549 deg P=-2.0725165e-15 Q=-2.17252328e-15 pu
+[48.B] PQ V=1.02063346 pu / -99.9737451 deg P=-4.45818016e-16 Q=-8.9954143e-16 pu
+[48.C] PQ V=1.02063346 pu / 140.026255 deg P=-1.8317401e-15 Q=-2.49368079e-15 pu
+[49.A] PV V=1.025 pu / 21.0292872 deg P=2.04 Q=1.1563897 pu
+[49.B] PV V=1.025 pu / -98.9707128 deg P=2.04 Q=1.1563897 pu
+[49.C] PV V=1.025 pu / 141.029287 deg P=2.04 Q=1.1563897 pu
+[50.A] PQ V=1.00108226 pu / 18.9901889 deg P=-2.03357595e-15 Q=9.56747328e-16 pu
+[50.B] PQ V=1.00108226 pu / -101.009811 deg P=1.04111488e-15 Q=4.62372005e-15 pu
+[50.C] PQ V=1.00108226 pu / 138.990189 deg P=1.93628646e-15 Q=1.04104149e-15 pu
+[51.A] PQ V=0.96687579 pu / 16.3710861 deg P=-8.94040932e-16 Q=7.5827225e-16 pu
+[51.B] PQ V=0.96687579 pu / -103.628914 deg P=-1.5497108e-16 Q=-2.00584221e-15 pu
+[51.C] PQ V=0.96687579 pu / 136.371086 deg P=6.16645981e-15 Q=-6.87594182e-16 pu
+[52.A] PQ V=0.956817023 pu / 15.4176415 deg P=8.6328603e-16 Q=-2.03154557e-15 pu
+[52.B] PQ V=0.956817023 pu / -104.582358 deg P=8.50415234e-16 Q=3.05795898e-15 pu
+[52.C] PQ V=0.956817023 pu / 135.417642 deg P=-3.39843289e-15 Q=-8.11097792e-17 pu
+[53.A] PQ V=0.945982413 pu / 14.4426311 deg P=-1.20431868e-15 Q=2.57059709e-15 pu
+[53.B] PQ V=0.945982413 pu / -105.557369 deg P=-3.47932606e-16 Q=-1.34764092e-15 pu
+[53.C] PQ V=0.945982413 pu / 134.442631 deg P=7.41159942e-16 Q=-1.55745187e-16 pu
+[54.A] PV V=0.955 pu / 15.3543089 deg P=0.48 Q=0.0390273541 pu
+[54.B] PV V=0.955 pu / -104.645691 deg P=0.48 Q=0.0390273541 pu
+[54.C] PV V=0.955 pu / 135.354309 deg P=0.48 Q=0.0390273541 pu
+[55.A] PV V=0.952 pu / 15.0643659 deg P=-5.87916181e-15 Q=0.0466418782 pu
+[55.B] PV V=0.952 pu / -104.935634 deg P=9.99894584e-16 Q=0.0466418782 pu
+[55.C] PV V=0.952 pu / 135.064366 deg P=5.80673551e-15 Q=0.0466418782 pu
+[56.A] PV V=0.954 pu / 15.25108 deg P=-3.21295589e-14 Q=-0.0228557965 pu
+[56.B] PV V=0.954 pu / -104.74892 deg P=1.01140883e-15 Q=-0.0228557965 pu
+[56.C] PV V=0.954 pu / 135.25108 deg P=-1.39589766e-14 Q=-0.0228557965 pu
+[57.A] PQ V=0.970582015 pu / 16.4559238 deg P=2.30742451e-16 Q=-4.01450249e-15 pu
+[57.B] PQ V=0.970582015 pu / -103.544076 deg P=5.53920332e-16 Q=-2.30171671e-15 pu
+[57.C] PQ V=0.970582015 pu / 136.455924 deg P=-1.53960143e-16 Q=-6.89891105e-16 pu
+[58.A] PQ V=0.959038097 pu / 15.5990932 deg P=-1.46200133e-15 Q=-5.25623703e-15 pu
+[58.B] PQ V=0.959038097 pu / -104.400907 deg P=2.41981779e-15 Q=6.90876888e-15 pu
+[58.C] PQ V=0.959038097 pu / 135.599093 deg P=1.65297286e-15 Q=3.93252245e-15 pu
+[59.A] PV V=0.985 pu / 19.4534819 deg P=1.55 Q=0.76833096 pu
+[59.B] PV V=0.985 pu / -100.546518 deg P=1.55 Q=0.76833096 pu
+[59.C] PV V=0.985 pu / 139.453482 deg P=1.55 Q=0.76833096 pu
+[60.A] PQ V=0.993156278 pu / 23.2347197 deg P=1.73993694e-16 Q=-4.05279268e-16 pu
+[60.B] PQ V=0.993156278 pu / -96.7652803 deg P=9.96615519e-16 Q=-1.89479681e-15 pu
+[60.C] PQ V=0.993156278 pu / 143.23472 deg P=2.31172423e-14 Q=1.47291992e-14 pu
+[61.A] PV V=0.995 pu / 24.1260276 deg P=1.6 Q=-0.403942497 pu
+[61.B] PV V=0.995 pu / -95.8739724 deg P=1.6 Q=-0.403942497 pu
+[61.C] PV V=0.995 pu / 144.126028 deg P=1.6 Q=-0.403942497 pu
+[62.A] PV V=0.998 pu / 23.509514 deg P=-1.5371345e-15 Q=0.0125885788 pu
+[62.B] PV V=0.998 pu / -96.490486 deg P=-9.78343827e-17 Q=0.0125885788 pu
+[62.C] PV V=0.998 pu / 143.509514 deg P=-9.19307638e-16 Q=0.0125885788 pu
+[63.A] PQ V=0.968738063 pu / 22.8319334 deg P=-1.00212826e-15 Q=-1.53588636e-14 pu
+[63.B] PQ V=0.968738063 pu / -97.1680666 deg P=-1.71258735e-15 Q=-6.72213837e-15 pu
+[63.C] PQ V=0.968738063 pu / 142.831933 deg P=-4.15857942e-15 Q=-5.48507135e-15 pu
+[64.A] PQ V=0.983739433 pu / 24.5976168 deg P=1.50840572e-14 Q=-1.61572495e-14 pu
+[64.B] PQ V=0.983739433 pu / -95.4023832 deg P=6.63800957e-16 Q=1.39793772e-14 pu
+[64.C] PQ V=0.983739433 pu / 144.597617 deg P=-5.47371924e-15 Q=-4.68514742e-15 pu
+[65.A] PV V=1.005 pu / 27.7226408 deg P=3.91 Q=0.807916258 pu
+[65.B] PV V=1.005 pu / -92.2773592 deg P=3.91 Q=0.807916258 pu
+[65.C] PV V=1.005 pu / 147.722641 deg P=3.91 Q=0.807916258 pu
+[66.A] PV V=1.05 pu / 27.5638973 deg P=3.92 Q=-0.019502488 pu
+[66.B] PV V=1.05 pu / -92.4361027 deg P=3.92 Q=-0.019502488 pu
+[66.C] PV V=1.05 pu / 147.563897 deg P=3.92 Q=-0.019502488 pu
+[67.A] PQ V=1.01968159 pu / 24.9239412 deg P=-9.86885787e-16 Q=4.00419487e-15 pu
+[67.B] PQ V=1.01968159 pu / -95.0760588 deg P=-5.89872443e-16 Q=-4.08173637e-15 pu
+[67.C] PQ V=1.01968159 pu / 144.923941 deg P=-3.65687435e-15 Q=-3.48409969e-15 pu
+[68.A] PQ V=1.00324933 pu / 27.6011821 deg P=2.64219453e-14 Q=-5.05379805e-14 pu
+[68.B] PQ V=1.00324933 pu / -92.3988179 deg P=2.9740243e-15 Q=2.84144827e-14 pu
+[68.C] PQ V=1.00324933 pu / 147.601182 deg P=5.46317354e-14 Q=3.2872965e-14 pu
+[69.A] SLACK V=1.035 pu / 30 deg P=5.13397962 Q=-0.823799724 pu
+[69.B] SLACK V=1.035 pu / -90 deg P=5.13397962 Q=-0.823799724 pu
+[69.C] SLACK V=1.035 pu / 150 deg P=5.13397962 Q=-0.823799724 pu
+[70.A] PV V=0.984 pu / 22.6213863 deg P=-1.2150796e-15 Q=0.0965630326 pu
+[70.B] PV V=0.984 pu / -97.3786137 deg P=-5.59903583e-16 Q=0.0965630326 pu
+[70.C] PV V=0.984 pu / 142.621386 deg P=-8.06848291e-15 Q=0.0965630326 pu
+[71.A] PQ V=0.986844636 pu / 22.2108374 deg P=4.5711447e-15 Q=-1.92051497e-15 pu
+[71.B] PQ V=0.986844636 pu / -97.7891626 deg P=1.73681426e-15 Q=-2.37579288e-16 pu
+[71.C] PQ V=0.986844636 pu / 142.210837 deg P=-4.15600688e-15 Q=3.22247049e-15 pu
+[72.A] PV V=0.98 pu / 21.1148758 deg P=-9.09133323e-16 Q=-0.111305143 pu
+[72.B] PV V=0.98 pu / -98.8851242 deg P=7.4817821e-17 Q=-0.111305143 pu
+[72.C] PV V=0.98 pu / 141.114876 deg P=1.20488684e-15 Q=-0.111305143 pu
+[73.A] PV V=0.991 pu / 21.9993453 deg P=1.79266402e-15 Q=0.0965113144 pu
+[73.B] PV V=0.991 pu / -98.0006547 deg P=-5.99216026e-16 Q=0.0965113144 pu
+[73.C] PV V=0.991 pu / 141.999345 deg P=2.23645609e-16 Q=0.0965113144 pu
+[74.A] PV V=0.958 pu / 21.6720517 deg P=-1.94911163e-15 Q=-0.0562802622 pu
+[74.B] PV V=0.958 pu / -98.3279483 deg P=1.16541876e-15 Q=-0.0562802622 pu
+[74.C] PV V=0.958 pu / 141.672052 deg P=2.67026238e-15 Q=-0.0562802622 pu
+[75.A] PQ V=0.967333071 pu / 22.9336844 deg P=-2.22556665e-15 Q=5.12222022e-15 pu
+[75.B] PQ V=0.967333071 pu / -97.0663156 deg P=1.35487711e-15 Q=7.00146056e-15 pu
+[75.C] PQ V=0.967333071 pu / 142.933684 deg P=1.44597655e-15 Q=2.00335146e-15 pu
+[76.A] PV V=0.943 pu / 21.8036115 deg P=1.97073351e-15 Q=0.0526854193 pu
+[76.B] PV V=0.943 pu / -98.1963885 deg P=2.22337682e-16 Q=0.0526854193 pu
+[76.C] PV V=0.943 pu / 141.803612 deg P=1.60685796e-15 Q=0.0526854193 pu
+[77.A] PV V=1.006 pu / 26.7573379 deg P=1.60378167e-15 Q=0.119402071 pu
+[77.B] PV V=1.006 pu / -93.2426621 deg P=-8.89451448e-15 Q=0.119402071 pu
+[77.C] PV V=1.006 pu / 146.757338 deg P=5.06776861e-15 Q=0.119402071 pu
+[78.A] PQ V=1.00342383 pu / 26.4534841 deg P=-5.69768773e-15 Q=-9.30538995e-15 pu
+[78.B] PQ V=1.00342383 pu / -93.5465159 deg P=9.60344884e-15 Q=2.70856143e-14 pu
+[78.C] PQ V=1.00342383 pu / 146.453484 deg P=5.29757034e-15 Q=3.13743066e-14 pu
+[79.A] PQ V=1.00922297 pu / 26.7526357 deg P=3.59636287e-15 Q=-4.1472625e-15 pu
+[79.B] PQ V=1.00922297 pu / -93.2473643 deg P=-3.18819374e-15 Q=-7.73107399e-15 pu
+[79.C] PQ V=1.00922297 pu / 146.752636 deg P=5.28348593e-15 Q=6.98652677e-15 pu
+[80.A] PV V=1.04 pu / 28.9981798 deg P=4.77 Q=1.05042252 pu
+[80.B] PV V=1.04 pu / -91.0018202 deg P=4.77 Q=1.05042252 pu
+[80.C] PV V=1.04 pu / 148.99818 deg P=4.77 Q=1.05042252 pu
+[81.A] PQ V=0.996807792 pu / 28.150038 deg P=-1.29279889e-14 Q=9.14841582e-15 pu
+[81.B] PQ V=0.996807792 pu / -91.849962 deg P=1.48540156e-17 Q=1.4172398e-14 pu
+[81.C] PQ V=0.996807792 pu / 148.150038 deg P=6.01631667e-15 Q=-3.73754137e-15 pu
+[82.A] PQ V=0.98874248 pu / 27.2777488 deg P=1.74431452e-15 Q=-3.38277018e-15 pu
+[82.B] PQ V=0.98874248 pu / -92.7222512 deg P=-1.47805798e-15 Q=5.89479241e-15 pu
+[82.C] PQ V=0.98874248 pu / 147.277749 deg P=1.08733703e-15 Q=4.12908461e-15 pu
+[83.A] PQ V=0.984519918 pu / 28.4678407 deg P=6.44134616e-15 Q=2.05114179e-15 pu
+[83.B] PQ V=0.984519918 pu / -91.5321593 deg P=-1.75372874e-15 Q=-9.35656941e-15 pu
+[83.C] PQ V=0.984519918 pu / 148.467841 deg P=-1.49018277e-15 Q=2.61349618e-15 pu
+[84.A] PQ V=0.979751869 pu / 31.0012983 deg P=2.58202029e-15 Q=4.01965089e-16 pu
+[84.B] PQ V=0.979751869 pu / -88.9987017 deg P=-8.12901334e-16 Q=-4.84180478e-15 pu
+[84.C] PQ V=0.979751869 pu / 151.001298 deg P=-1.92108106e-15 Q=-1.81114771e-15 pu
+[85.A] PV V=0.985 pu / 32.555363 deg P=4.04375026e-15 Q=-0.0576948983 pu
+[85.B] PV V=0.985 pu / -87.444637 deg P=1.48489154e-15 Q=-0.0576948983 pu
+[85.C] PV V=0.985 pu / 152.555363 deg P=2.20063099e-15 Q=-0.0576948983 pu
+[86.A] PQ V=0.986690746 pu / 31.1859143 deg P=1.56027632e-15 Q=-1.30844599e-15 pu
+[86.B] PQ V=0.986690746 pu / -88.8140857 deg P=7.74474153e-16 Q=9.61057714e-16 pu
+[86.C] PQ V=0.986690746 pu / 151.185914 deg P=-7.54690682e-16 Q=-1.7872831e-16 pu
+[87.A] PV V=1.015 pu / 31.4451267 deg P=0.04 Q=0.110216074 pu
+[87.B] PV V=1.015 pu / -88.5548733 deg P=0.04 Q=0.110216074 pu
+[87.C] PV V=1.015 pu / 151.445127 deg P=0.04 Q=0.110216074 pu
+[88.A] PQ V=0.987456604 pu / 35.6863838 deg P=6.75546118e-15 Q=8.3635048e-16 pu
+[88.B] PQ V=0.987456604 pu / -84.3136162 deg P=-2.6772109e-15 Q=1.99194421e-15 pu
+[88.C] PQ V=0.987456604 pu / 155.686384 deg P=-3.82165812e-16 Q=-1.51153094e-15 pu
+[89.A] PV V=1.005 pu / 39.7418304 deg P=6.07 Q=-0.117937535 pu
+[89.B] PV V=1.005 pu / -80.2581696 deg P=6.07 Q=-0.117937535 pu
+[89.C] PV V=1.005 pu / 159.74183 deg P=6.07 Q=-0.117937535 pu
+[90.A] PV V=0.985 pu / 33.3369929 deg P=-2.41520249e-15 Q=0.592997425 pu
+[90.B] PV V=0.985 pu / -86.6630071 deg P=-1.85826937e-15 Q=0.592997425 pu
+[90.C] PV V=0.985 pu / 153.336993 deg P=-1.87820467e-15 Q=0.592997425 pu
+[91.A] PV V=0.98 pu / 33.3559622 deg P=5.74651913e-16 Q=-0.148466403 pu
+[91.B] PV V=0.98 pu / -86.6440378 deg P=-7.44484664e-17 Q=-0.148466403 pu
+[91.C] PV V=0.98 pu / 153.355962 deg P=-1.14805323e-15 Q=-0.148466403 pu
+[92.A] PQ V=0.992277975 pu / 33.8549348 deg P=-8.18232111e-16 Q=-0.03 pu
+[92.B] PQ V=0.992277975 pu / -86.1450652 deg P=-4.23577052e-15 Q=-0.03 pu
+[92.C] PQ V=0.992277975 pu / 153.854935 deg P=-3.56529394e-16 Q=-0.03 pu
+[93.A] PQ V=0.986906604 pu / 30.8439264 deg P=-6.92898118e-16 Q=3.58916822e-16 pu
+[93.B] PQ V=0.986906604 pu / -89.1560736 deg P=-9.70702418e-16 Q=-1.23879326e-16 pu
+[93.C] PQ V=0.986906604 pu / 150.843926 deg P=-1.65076462e-15 Q=-3.68994218e-15 pu
+[94.A] PQ V=0.990573984 pu / 28.6899486 deg P=-8.15582222e-15 Q=-1.17850535e-14 pu
+[94.B] PQ V=0.990573984 pu / -91.3100514 deg P=-1.86690173e-16 Q=-8.16356908e-15 pu
+[94.C] PQ V=0.990573984 pu / 148.689949 deg P=-8.79761613e-15 Q=-9.96675385e-15 pu
+[95.A] PQ V=0.980925349 pu / 27.7181667 deg P=-9.45295062e-16 Q=-2.64955511e-15 pu
+[95.B] PQ V=0.980925349 pu / -92.2818333 deg P=-2.56452082e-16 Q=-2.33308804e-15 pu
+[95.C] PQ V=0.980925349 pu / 147.718167 deg P=-7.99427772e-16 Q=1.79317692e-15 pu
+[96.A] PQ V=0.992671126 pu / 27.5508964 deg P=-8.67458367e-16 Q=7.26211377e-15 pu
+[96.B] PQ V=0.992671126 pu / -92.4491036 deg P=-1.29355225e-15 Q=-7.03205203e-15 pu
+[96.C] PQ V=0.992671126 pu / 147.550896 deg P=-1.45395328e-15 Q=-5.21371206e-15 pu
+[97.A] PQ V=1.01136695 pu / 27.9240424 deg P=1.50881783e-15 Q=2.06850664e-15 pu
+[97.B] PQ V=1.01136695 pu / -92.0759576 deg P=4.18603923e-16 Q=-3.17524323e-15 pu
+[97.C] PQ V=1.01136695 pu / 147.924042 deg P=3.46842596e-15 Q=1.56978308e-15 pu
+[98.A] PQ V=1.02350948 pu / 27.4466342 deg P=-1.67347841e-15 Q=2.2359152e-15 pu
+[98.B] PQ V=1.02350948 pu / -92.5533658 deg P=3.27729684e-17 Q=-4.36643774e-15 pu
+[98.C] PQ V=1.02350948 pu / 147.446634 deg P=-3.25507444e-16 Q=9.15564373e-16 pu
+[99.A] PV V=1.01 pu / 27.0848204 deg P=1.47780373e-16 Q=-0.17536937 pu
+[99.B] PV V=1.01 pu / -92.9151796 deg P=-1.55268743e-15 Q=-0.17536937 pu
+[99.C] PV V=1.01 pu / 147.08482 deg P=-1.04102109e-15 Q=-0.17536937 pu
+[100.A] PV V=1.017 pu / 28.0808938 deg P=2.52 Q=1.10079221 pu
+[100.B] PV V=1.017 pu / -91.9191062 deg P=2.52 Q=1.10079221 pu
+[100.C] PV V=1.017 pu / 148.080894 deg P=2.52 Q=1.10079221 pu
+[101.A] PQ V=0.992435961 pu / 29.6536939 deg P=-1.68880938e-15 Q=1.51881264e-15 pu
+[101.B] PQ V=0.992435961 pu / -90.3463061 deg P=-1.94888086e-16 Q=4.21573654e-15 pu
+[101.C] PQ V=0.992435961 pu / 149.653694 deg P=-3.75151979e-16 Q=-2.59155799e-16 pu
+[102.A] PQ V=0.991001605 pu / 32.3515568 deg P=4.51112955e-15 Q=2.8117154e-15 pu
+[102.B] PQ V=0.991001605 pu / -87.6484432 deg P=6.91432028e-16 Q=-3.42993699e-15 pu
+[102.C] PQ V=0.991001605 pu / 152.351557 deg P=-5.03359709e-17 Q=-2.22043161e-16 pu
+[103.A] PQ V=1.00070882 pu / 24.4859306 deg P=0.4 Q=0.4 pu
+[103.B] PQ V=1.00070882 pu / -95.5140694 deg P=0.4 Q=0.4 pu
+[103.C] PQ V=1.00070882 pu / 144.485931 deg P=0.4 Q=0.4 pu
+[104.A] PV V=0.971 pu / 21.7409486 deg P=3.53217189e-15 Q=0.0565191308 pu
+[104.B] PV V=0.971 pu / -98.2590514 deg P=-2.30567896e-15 Q=0.0565191308 pu
+[104.C] PV V=0.971 pu / 141.740949 deg P=-6.02490662e-15 Q=0.0565191308 pu
+[105.A] PQ V=0.965990191 pu / 20.6188507 deg P=7.24579689e-15 Q=-0.08 pu
+[105.B] PQ V=0.965990191 pu / -99.3811493 deg P=-1.61711349e-15 Q=-0.08 pu
+[105.C] PQ V=0.965990191 pu / 140.618851 deg P=4.96891219e-15 Q=-0.08 pu
+[106.A] PQ V=0.961787406 pu / 20.3710295 deg P=1.05514282e-15 Q=7.25553835e-17 pu
+[106.B] PQ V=0.961787406 pu / -99.6289705 deg P=-4.2479408e-16 Q=4.83752064e-15 pu
+[106.C] PQ V=0.961787406 pu / 140.371029 deg P=-3.14828225e-15 Q=1.22076031e-15 pu
+[107.A] PV V=0.952 pu / 17.5809097 deg P=-1.18254558e-15 Q=0.0569509732 pu
+[107.B] PV V=0.952 pu / -102.41909 deg P=-4.62597149e-16 Q=0.0569509732 pu
+[107.C] PV V=0.952 pu / 137.58091 deg P=2.86934415e-15 Q=0.0569509732 pu
+[108.A] PQ V=0.966810328 pu / 19.4279422 deg P=1.90462673e-15 Q=-1.30339941e-14 pu
+[108.B] PQ V=0.966810328 pu / -100.572058 deg P=8.04185393e-16 Q=2.27940716e-15 pu
+[108.C] PQ V=0.966810328 pu / 139.427942 deg P=2.37539563e-16 Q=2.56981475e-15 pu
+[109.A] PQ V=0.967461486 pu / 18.9787196 deg P=-2.24917729e-16 Q=7.38327369e-15 pu
+[109.B] PQ V=0.967461486 pu / -101.02128 deg P=3.26921899e-16 Q=-2.95667769e-15 pu
+[109.C] PQ V=0.967461486 pu / 138.97872 deg P=-7.55606546e-15 Q=-5.95483525e-15 pu
+[110.A] PV V=0.973 pu / 18.1398702 deg P=4.11997956e-15 Q=0.0486049375 pu
+[110.B] PV V=0.973 pu / -101.86013 deg P=7.02460625e-16 Q=0.0486049375 pu
+[110.C] PV V=0.973 pu / 138.13987 deg P=1.81718654e-15 Q=0.0486049375 pu
+[111.A] PV V=0.98 pu / 19.7849511 deg P=0.36 Q=-0.0184382478 pu
+[111.B] PV V=0.98 pu / -100.215049 deg P=0.36 Q=-0.0184382478 pu
+[111.C] PV V=0.98 pu / 139.784951 deg P=0.36 Q=-0.0184382478 pu
+[112.A] PV V=0.975 pu / 15.0406527 deg P=-1.46792344e-15 Q=0.415116934 pu
+[112.B] PV V=0.975 pu / -104.959347 deg P=-9.51118884e-16 Q=0.415116934 pu
+[112.C] PV V=0.975 pu / 135.040653 deg P=-1.99026673e-16 Q=0.415116934 pu
+[113.A] PV V=0.993 pu / 14.0165101 deg P=1.16452832e-15 Q=0.0633036351 pu
+[113.B] PV V=0.993 pu / -105.98349 deg P=-1.43669741e-15 Q=0.0633036351 pu
+[113.C] PV V=0.993 pu / 134.01651 deg P=-2.61259706e-15 Q=0.0633036351 pu
+[114.A] PQ V=0.960437466 pu / 14.7376721 deg P=-3.41810672e-15 Q=5.81623689e-15 pu
+[114.B] PQ V=0.960437466 pu / -105.262328 deg P=-2.12457905e-15 Q=1.00367897e-14 pu
+[114.C] PQ V=0.960437466 pu / 134.737672 deg P=-9.47343517e-16 Q=-1.4439393e-14 pu
+[115.A] PQ V=0.960325136 pu / 14.7299746 deg P=1.07043669e-14 Q=5.87020174e-16 pu
+[115.B] PQ V=0.960325136 pu / -105.270025 deg P=-7.41976755e-16 Q=5.479864e-15 pu
+[115.C] PQ V=0.960325136 pu / 134.729975 deg P=3.65346113e-15 Q=5.36380006e-15 pu
+[116.A] PV V=1.005 pu / 27.1661933 deg P=1.91264611e-14 Q=0.513247951 pu
+[116.B] PV V=1.005 pu / -92.8338067 deg P=-1.19773186e-15 Q=0.513247951 pu
+[116.C] PV V=1.005 pu / 147.166193 deg P=-7.90197495e-15 Q=0.513247951 pu
+[117.A] PQ V=0.973824447 pu / 11.0513001 deg P=-4.81855798e-16 Q=-1.05800258e-15 pu
+[117.B] PQ V=0.973824447 pu / -108.9487 deg P=3.21333732e-16 Q=1.51860608e-15 pu
+[117.C] PQ V=0.973824447 pu / 131.0513 deg P=1.37508894e-15 Q=-7.55866311e-16 pu
+[118.A] PQ V=0.949438278 pu / 21.9459666 deg P=1.18645531e-17 Q=2.08588319e-15 pu
+[118.B] PQ V=0.949438278 pu / -98.0540334 deg P=9.06283974e-16 Q=7.90940489e-15 pu
+[118.C] PQ V=0.949438278 pu / 141.945967 deg P=-6.62157312e-15 Q=-5.12415583e-15 pu
