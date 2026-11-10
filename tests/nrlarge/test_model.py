@@ -301,6 +301,20 @@ class SolverTests(unittest.TestCase):
         self.assertEqual(len(solved.history), 1)
         self.assertEqual(solved.history[-1]['residual'], 0)
 
+    def test_fractional_reactive_limit_survives_integer_q_inputs(self):
+        # Python callers may supply integer placeholders. Clamping a PV bus must
+        # retain the physical fractional limit rather than truncate it to zero.
+        stamps = []
+        add_series(stamps, "line", ["S"], ["G"], [[.1j]])
+        net = Network(Case([Node("S", type="SLACK", p=0, q=0),
+                            Node("G", type="PV", p=.4, q=0, vm=1.02, qmin=-1, qmax=.1)], stamps))
+        result = solve(net, tolerance=1e-11)
+        self.assertTrue(result.converged, result.reason)
+        self.assertEqual(result.types[1], "PQ")
+        _, generation, _ = evaluate(net, result.voltage, result.types, jacobian=False)
+        self.assertAlmostEqual(generation[1].real, .4, delta=1e-11)
+        self.assertAlmostEqual(generation[1].imag, .1, delta=1e-11)
+
 
 if __name__ == "__main__":
     unittest.main()

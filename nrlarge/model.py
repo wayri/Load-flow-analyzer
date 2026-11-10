@@ -222,9 +222,9 @@ class Network:
             raise ValueError('Every electrical component must have a SLACK reference')
         self.initial = np.array([v.vm*np.exp(1j*np.deg2rad(v.va)) for v in case.nodes])
         self.types = np.array([v.type for v in case.nodes])
-        self.p = np.array([v.p for v in case.nodes]); self.q = np.array([v.q for v in case.nodes])
-        self.vset = np.array([v.vm for v in case.nodes])
-        self.qmin = np.array([v.qmin for v in case.nodes]); self.qmax = np.array([v.qmax for v in case.nodes])
+        self.p = np.array([v.p for v in case.nodes],dtype=float); self.q = np.array([v.q for v in case.nodes],dtype=float)
+        self.vset = np.array([v.vm for v in case.nodes],dtype=float)
+        self.qmin = np.array([v.qmin for v in case.nodes],dtype=float); self.qmax = np.array([v.qmax for v in case.nodes],dtype=float)
         self.free = np.flatnonzero(self.types != 'SLACK')
         if ordering not in ('input','rcm'):
             raise ValueError('Unknown conductor partition ordering')
@@ -232,9 +232,9 @@ class Network:
         if ordering == 'rcm' and len(self.free):
             adjacency = graph[self.free,:][:,self.free].tocsr()
             self.free = self.free[reverse_cuthill_mckee(adjacency,symmetric_mode=False)]
-        self.power = np.array([complex(v.p,v.q) for v in case.loads])
-        self.z = np.array([v.z for v in case.loads]); self.i = np.array([v.i for v in case.loads])
-        self.cp = np.array([v.power for v in case.loads]); self.nominal = np.array([v.nominal for v in case.loads])
+        self.power = np.array([complex(v.p,v.q) for v in case.loads],dtype=complex)
+        self.z = np.array([v.z for v in case.loads],dtype=float); self.i = np.array([v.i for v in case.loads],dtype=float)
+        self.cp = np.array([v.power for v in case.loads],dtype=float); self.nominal = np.array([v.nominal for v in case.loads],dtype=float)
 
 
 def current_and_derivatives(voltage, power, z, i, cp, nominal):
