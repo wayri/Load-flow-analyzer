@@ -1,0 +1,2 @@
+id,site,energy_mwh,p_max_mw,start_slot,end_slot,value_per_mwh
+overnight-EV,distribution-meter,3.0,1.5,0,6,112.0

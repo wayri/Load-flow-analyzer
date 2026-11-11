@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "boundary": "2030-01-15T06:00:00+00:00",
+  "source": "projected",
+  "after_slot": 6,
+  "batteries": {
+    "B1": {
+      "soc_mwh": 5.4,
+      "remaining_discharge_mwh": 9.0
+    }
+  },
+  "generators": {},
+  "sites": {
+    "battery-meter": {
+      "historical_peak_mw": 1.9999999999999991
+    }
+  },
+  "flexible_loads": {}
+}

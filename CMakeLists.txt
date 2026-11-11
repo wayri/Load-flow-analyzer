@@ -28,6 +28,9 @@ if(BUILD_TESTING)
                     RESULT_VARIABLE NRLARGE_PYTHON_READY OUTPUT_QUIET ERROR_QUIET)
   endif()
   if(Python3_Interpreter_FOUND AND NRLARGE_PYTHON_READY EQUAL 0)
+    add_test(NAME nrlarge_economics COMMAND "${Python3_EXECUTABLE}" -B -m unittest discover
+             -s tests/economics -p test_*.py -v)
+    set_tests_properties(nrlarge_economics PROPERTIES WORKING_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}" TIMEOUT 180)
     foreach(component model runtime cluster benchmark_cases)
       add_test(NAME nrlarge_${component} COMMAND "${Python3_EXECUTABLE}" -m unittest discover
                -s tests/nrlarge -p test_${component}.py -v)

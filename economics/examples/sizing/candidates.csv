@@ -1,0 +1,5 @@
+candidate_id,battery_id,capacity_mwh,charge_max_mw,discharge_max_mw,horizon_fixed_cost
+none,B1,0,0,0,0
+small,B1,3,1,1,5
+reference,B1,6,2,2,10
+large,B1,9,3,3,20

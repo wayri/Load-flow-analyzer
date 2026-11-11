@@ -1,0 +1,1 @@
+id,site,p_max_mw,marginal_cost_per_mwh,p_min_mw,no_load_cost_per_h,startup_cost,ramp_up_mw_per_h,ramp_down_mw_per_h,startup_ramp_mw,shutdown_ramp_mw,initial_on,initial_p_mw,min_up_h,min_down_h,initial_state_h

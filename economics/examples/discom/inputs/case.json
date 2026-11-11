@@ -1,0 +1,289 @@
+{
+  "sites": [
+    {
+      "id": "distribution-meter",
+      "import_limit_mw": 8.0,
+      "export_limit_mw": 2.0,
+      "demand_charge_per_mw": 6.0,
+      "historical_peak_mw": 4.0
+    }
+  ],
+  "periods": {
+    "distribution-meter": [
+      {
+        "time": "2030-01-15T00:00:00+00:00",
+        "duration_h": 1.0,
+        "buy_price": 32.0,
+        "sell_price": 23.04,
+        "load_mw": 4.6,
+        "renewable_mw": 0.0,
+        "retail_price": 112.0,
+        "loss_mw": 0.13799999999999998
+      },
+      {
+        "time": "2030-01-15T01:00:00+00:00",
+        "duration_h": 1.0,
+        "buy_price": 32.0,
+        "sell_price": 23.04,
+        "load_mw": 4.6,
+        "renewable_mw": 0.0,
+        "retail_price": 112.0,
+        "loss_mw": 0.13799999999999998
+      },
+      {
+        "time": "2030-01-15T02:00:00+00:00",
+        "duration_h": 1.0,
+        "buy_price": 32.0,
+        "sell_price": 23.04,
+        "load_mw": 4.6,
+        "renewable_mw": 0.0,
+        "retail_price": 112.0,
+        "loss_mw": 0.13799999999999998
+      },
+      {
+        "time": "2030-01-15T03:00:00+00:00",
+        "duration_h": 1.0,
+        "buy_price": 32.0,
+        "sell_price": 23.04,
+        "load_mw": 4.6,
+        "renewable_mw": 0.0,
+        "retail_price": 112.0,
+        "loss_mw": 0.13799999999999998
+      },
+      {
+        "time": "2030-01-15T04:00:00+00:00",
+        "duration_h": 1.0,
+        "buy_price": 32.0,
+        "sell_price": 23.04,
+        "load_mw": 4.6,
+        "renewable_mw": 0.0,
+        "retail_price": 112.0,
+        "loss_mw": 0.13799999999999998
+      },
+      {
+        "time": "2030-01-15T05:00:00+00:00",
+        "duration_h": 1.0,
+        "buy_price": 32.0,
+        "sell_price": 23.04,
+        "load_mw": 4.6,
+        "renewable_mw": 0.0,
+        "retail_price": 112.0,
+        "loss_mw": 0.13799999999999998
+      },
+      {
+        "time": "2030-01-15T06:00:00+00:00",
+        "duration_h": 1.0,
+        "buy_price": 58.0,
+        "sell_price": 41.76,
+        "load_mw": 4.6,
+        "renewable_mw": 0.0,
+        "retail_price": 112.0,
+        "loss_mw": 0.13799999999999998
+      },
+      {
+        "time": "2030-01-15T07:00:00+00:00",
+        "duration_h": 1.0,
+        "buy_price": 58.0,
+        "sell_price": 41.76,
+        "load_mw": 5.1,
+        "renewable_mw": 0.5694018992255456,
+        "retail_price": 112.0,
+        "loss_mw": 0.153
+      },
+      {
+        "time": "2030-01-15T08:00:00+00:00",
+        "duration_h": 1.0,
+        "buy_price": 58.0,
+        "sell_price": 41.76,
+        "load_mw": 5.1,
+        "renewable_mw": 1.0999999999999999,
+        "retail_price": 112.0,
+        "loss_mw": 0.153
+      },
+      {
+        "time": "2030-01-15T09:00:00+00:00",
+        "duration_h": 1.0,
+        "buy_price": 58.0,
+        "sell_price": 41.76,
+        "load_mw": 5.1,
+        "renewable_mw": 1.5556349186104048,
+        "retail_price": 112.0,
+        "loss_mw": 0.153
+      },
+      {
+        "time": "2030-01-15T10:00:00+00:00",
+        "duration_h": 1.0,
+        "buy_price": 58.0,
+        "sell_price": 41.76,
+        "load_mw": 5.1,
+        "renewable_mw": 1.905255888325765,
+        "retail_price": 112.0,
+        "loss_mw": 0.153
+      },
+      {
+        "time": "2030-01-15T11:00:00+00:00",
+        "duration_h": 1.0,
+        "buy_price": 58.0,
+        "sell_price": 41.76,
+        "load_mw": 5.1,
+        "renewable_mw": 2.1250368178359507,
+        "retail_price": 112.0,
+        "loss_mw": 0.153
+      },
+      {
+        "time": "2030-01-15T12:00:00+00:00",
+        "duration_h": 1.0,
+        "buy_price": 58.0,
+        "sell_price": 41.76,
+        "load_mw": 5.1,
+        "renewable_mw": 2.2,
+        "retail_price": 112.0,
+        "loss_mw": 0.153
+      },
+      {
+        "time": "2030-01-15T13:00:00+00:00",
+        "duration_h": 1.0,
+        "buy_price": 58.0,
+        "sell_price": 41.76,
+        "load_mw": 5.1,
+        "renewable_mw": 2.1250368178359507,
+        "retail_price": 112.0,
+        "loss_mw": 0.153
+      },
+      {
+        "time": "2030-01-15T14:00:00+00:00",
+        "duration_h": 1.0,
+        "buy_price": 58.0,
+        "sell_price": 41.76,
+        "load_mw": 5.1,
+        "renewable_mw": 1.9052558883257653,
+        "retail_price": 112.0,
+        "loss_mw": 0.153
+      },
+      {
+        "time": "2030-01-15T15:00:00+00:00",
+        "duration_h": 1.0,
+        "buy_price": 58.0,
+        "sell_price": 41.76,
+        "load_mw": 5.1,
+        "renewable_mw": 1.5556349186104048,
+        "retail_price": 112.0,
+        "loss_mw": 0.153
+      },
+      {
+        "time": "2030-01-15T16:00:00+00:00",
+        "duration_h": 1.0,
+        "buy_price": 158.0,
+        "sell_price": 113.75999999999999,
+        "load_mw": 5.1,
+        "renewable_mw": 1.0999999999999999,
+        "retail_price": 112.0,
+        "loss_mw": 0.153
+      },
+      {
+        "time": "2030-01-15T17:00:00+00:00",
+        "duration_h": 1.0,
+        "buy_price": 158.0,
+        "sell_price": 113.75999999999999,
+        "load_mw": 6.199999999999999,
+        "renewable_mw": 0.5694018992255463,
+        "retail_price": 112.0,
+        "loss_mw": 0.18599999999999997
+      },
+      {
+        "time": "2030-01-15T18:00:00+00:00",
+        "duration_h": 1.0,
+        "buy_price": 158.0,
+        "sell_price": 113.75999999999999,
+        "load_mw": 6.199999999999999,
+        "renewable_mw": 2.6942229581241775e-16,
+        "retail_price": 112.0,
+        "loss_mw": 0.18599999999999997
+      },
+      {
+        "time": "2030-01-15T19:00:00+00:00",
+        "duration_h": 1.0,
+        "buy_price": 158.0,
+        "sell_price": 113.75999999999999,
+        "load_mw": 6.199999999999999,
+        "renewable_mw": 0.0,
+        "retail_price": 112.0,
+        "loss_mw": 0.18599999999999997
+      },
+      {
+        "time": "2030-01-15T20:00:00+00:00",
+        "duration_h": 1.0,
+        "buy_price": 158.0,
+        "sell_price": 113.75999999999999,
+        "load_mw": 6.199999999999999,
+        "renewable_mw": 0.0,
+        "retail_price": 112.0,
+        "loss_mw": 0.18599999999999997
+      },
+      {
+        "time": "2030-01-15T21:00:00+00:00",
+        "duration_h": 1.0,
+        "buy_price": 158.0,
+        "sell_price": 113.75999999999999,
+        "load_mw": 6.199999999999999,
+        "renewable_mw": 0.0,
+        "retail_price": 112.0,
+        "loss_mw": 0.18599999999999997
+      },
+      {
+        "time": "2030-01-15T22:00:00+00:00",
+        "duration_h": 1.0,
+        "buy_price": 45.0,
+        "sell_price": 32.4,
+        "load_mw": 4.6,
+        "renewable_mw": 0.0,
+        "retail_price": 112.0,
+        "loss_mw": 0.13799999999999998
+      },
+      {
+        "time": "2030-01-15T23:00:00+00:00",
+        "duration_h": 1.0,
+        "buy_price": 45.0,
+        "sell_price": 32.4,
+        "load_mw": 4.6,
+        "renewable_mw": 0.0,
+        "retail_price": 112.0,
+        "loss_mw": 0.13799999999999998
+      }
+    ]
+  },
+  "batteries": [
+    {
+      "id": "substation-B1",
+      "site": "distribution-meter",
+      "capacity_mwh": 8.0,
+      "charge_max_mw": 2.0,
+      "discharge_max_mw": 2.0,
+      "eta_charge": 0.95,
+      "eta_discharge": 0.95,
+      "soc_min_mwh": 0.8,
+      "soc_max_mwh": 7.2,
+      "initial_soc_mwh": 2.0,
+      "terminal_soc_mwh": 2.0,
+      "degradation_cost_per_mwh": 1.5,
+      "self_discharge_per_h": 0,
+      "max_discharge_mwh": null
+    }
+  ],
+  "generators": [],
+  "flexible_loads": [
+    {
+      "id": "overnight-EV",
+      "site": "distribution-meter",
+      "energy_mwh": 3.0,
+      "p_max_mw": 1.5,
+      "start_slot": 0,
+      "end_slot": 6,
+      "value_per_mwh": 112.0
+    }
+  ],
+  "currency": "CUR",
+  "role": "discom",
+  "renewable_curtail_cost_per_mwh": 0.5,
+  "fixed_horizon_cost": 75.0
+}

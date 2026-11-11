@@ -1,0 +1,3 @@
+type,site,amount,currency,peak_import_mw,historical_peak_mw,rate_per_mw
+incremental_demand_charge,battery-meter,0.0,CUR,2.0,1.9999999999999991,0
+fixed_horizon_cost,ALL,10.0,CUR,,,

@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "role": "aggregator",
+  "currency": "CUR",
+  "status": "optimal",
+  "feasible": true,
+  "optimal": true,
+  "objective_cost": -2421.561880569484,
+  "accounting": {
+    "import_cost": 702.4125286517836,
+    "export_revenue": 862.9412513265313,
+    "retail_revenue": 1700.5,
+    "generator_cost": 0.0,
+    "startup_cost": 0.0,
+    "degradation_cost": 12.280000000000001,
+    "curtailment_cost": 3.4290110376125893e-16,
+    "flexible_revenue": 599.9999999999999,
+    "demand_charge": 2.1868421052631586,
+    "fixed_horizon_cost": 25.0,
+    "peak_import_mw": {
+      "depot-meter": 0.8763157894736844,
+      "roof-meter": 0.8289473684210528
+    },
+    "total_cost": -2421.561880569484,
+    "net_profit": 2421.561880569484,
+    "currency": "CUR"
+  },
+  "cashflow_records": 48,
+  "validation": {
+    "valid": true,
+    "violations": [],
+    "tolerance": 1e-06
+  },
+  "solver": {
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "seconds": 0.10856380002223887,
+    "variables": 436,
+    "constraints": 342,
+    "mip_gap": 0.0,
+    "mip_node_count": 1,
+    "mip_dual_bound_variable_cost": -765.2299920851149
+  },
+  "grid_check": null,
+  "summary_json": "summary.json",
+  "artifacts": {
+    "readme": "README.md",
+    "topology_txt": "topology.txt",
+    "dispatch_csv": "dispatch.csv",
+    "battery_csv": "battery_soc.csv",
+    "generator_csv": "generator_dispatch.csv",
+    "flexible_csv": "flexible_dispatch.csv",
+    "cashflow_csv": "cashflow.csv",
+    "horizon_charges_csv": "horizon_charges.csv",
+    "dispatch_svg": "dispatch.svg",
+    "dispatch_png": "dispatch.png",
+    "soc_svg": "soc.svg",
+    "soc_png": "soc.png",
+    "prices_svg": "prices.svg",
+    "prices_png": "prices.png",
+    "cash_svg": "cash.svg",
+    "cash_png": "cash.png"
+  },
+  "baseline": {
+    "status": "optimal",
+    "feasible": true,
+    "optimal": true,
+    "total_cost": -1834.1735574378906,
+    "net_profit": 1834.1735574378906,
+    "baseline_cost_minus_dispatch_cost": 587.3883231315933,
+    "dispatch_profit_minus_baseline_profit": 587.3883231315933
+  }
+}

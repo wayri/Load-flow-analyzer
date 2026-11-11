@@ -1,0 +1,8 @@
+BATTERY ASSET OVERVIEW
+Each PCC has its own meter balance in the dispatch model.
+
+[Grid market] <--> [PCC: battery-meter]
+                    Meter limits: import 2 MW / export 2 MW
+                    |-- Fixed load + supplied losses: 0..0 MW
+                    |-- Renewable availability: 0..0 MW
+                    '-- Battery B1: 6 MWh; charge 2 MW / discharge 2 MW

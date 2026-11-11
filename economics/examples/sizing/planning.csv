@@ -1,0 +1,5 @@
+candidate_id,battery_id,capacity_mwh,charge_max_mw,discharge_max_mw,horizon_fixed_cost,status,optimal,feasible,total_horizon_cost,net_horizon_value
+none,B1,0,0,0,0,optimal,True,True,10.0,-10.0
+small,B1,3,1,1,5,optimal,True,True,-142.54964210526322,142.54964210526322
+reference,B1,6,2,2,10,optimal,True,True,-295.0992842105263,295.0992842105263
+large,B1,9,3,3,20,optimal,True,True,-442.6489263157896,442.6489263157896

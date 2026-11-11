@@ -1,0 +1,16 @@
+AGGREGATOR ASSET OVERVIEW
+Each PCC has its own meter balance in the dispatch model.
+
+[Grid market] <--> [PCC: depot-meter]
+                    Meter limits: import 2 MW / export 1.5 MW
+                    |-- Fixed load + supplied losses: 0.35..0.7 MW
+                    |-- Renewable availability: 0..0.8 MW
+                    |-- Battery depot-B1: 3 MWh; charge 1 MW / discharge 1 MW
+                    '-- Flexible load depot-EV: 4 MWh obligation; 1.5 MW maximum
+
+[Grid market] <--> [PCC: roof-meter]
+                    Meter limits: import 1.5 MW / export 1.2 MW
+                    |-- Fixed load + supplied losses: 0.25..0.25 MW
+                    |-- Renewable availability: 0..2 MW
+                    |-- Battery roof-B1: 4 MWh; charge 1.2 MW / discharge 1.2 MW
+                    '-- Flexible load roof-process: 2 MWh obligation; 0.8 MW maximum

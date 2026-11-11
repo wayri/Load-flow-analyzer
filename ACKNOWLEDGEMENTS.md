@@ -11,6 +11,8 @@ technical references and software ecosystems:
   headers, upstream usage notes and [source provenance](benchmarks/sources/matpower/provenance.json).
 - [NumPy](https://numpy.org/) and [SciPy](https://scipy.org/): array operations,
   sparse matrices and numerical solvers used by NRlarge.
+- [SciPy MILP and HiGHS](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.milp.html):
+  mixed-integer economic scheduling, commitment and storage dispatch optimization.
 - [Matplotlib](https://matplotlib.org/), [NetworkX](https://networkx.org/) and
   [Pillow](https://python-pillow.org/): benchmark plots, network layouts and image previews.
 - [PETSc](https://petsc.org/): distributed-network and scalable-solver references.

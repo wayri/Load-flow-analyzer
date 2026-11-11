@@ -1,0 +1,66 @@
+{
+  "scope": "Supplied forecast horizon; candidate cost is charged once over this horizon",
+  "currency": "CUR",
+  "best_candidate": "large",
+  "all_feasible_candidates_optimal": true,
+  "ranking": [
+    "large",
+    "reference",
+    "small",
+    "none"
+  ],
+  "candidates": [
+    {
+      "candidate_id": "none",
+      "battery_id": "B1",
+      "capacity_mwh": "0",
+      "charge_max_mw": "0",
+      "discharge_max_mw": "0",
+      "horizon_fixed_cost": "0",
+      "status": "optimal",
+      "optimal": true,
+      "feasible": true,
+      "total_horizon_cost": 10.0,
+      "net_horizon_value": -10.0
+    },
+    {
+      "candidate_id": "small",
+      "battery_id": "B1",
+      "capacity_mwh": "3",
+      "charge_max_mw": "1",
+      "discharge_max_mw": "1",
+      "horizon_fixed_cost": "5",
+      "status": "optimal",
+      "optimal": true,
+      "feasible": true,
+      "total_horizon_cost": -142.54964210526322,
+      "net_horizon_value": 142.54964210526322
+    },
+    {
+      "candidate_id": "reference",
+      "battery_id": "B1",
+      "capacity_mwh": "6",
+      "charge_max_mw": "2",
+      "discharge_max_mw": "2",
+      "horizon_fixed_cost": "10",
+      "status": "optimal",
+      "optimal": true,
+      "feasible": true,
+      "total_horizon_cost": -295.0992842105263,
+      "net_horizon_value": 295.0992842105263
+    },
+    {
+      "candidate_id": "large",
+      "battery_id": "B1",
+      "capacity_mwh": "9",
+      "charge_max_mw": "3",
+      "discharge_max_mw": "3",
+      "horizon_fixed_cost": "20",
+      "status": "optimal",
+      "optimal": true,
+      "feasible": true,
+      "total_horizon_cost": -442.6489263157896,
+      "net_horizon_value": 442.6489263157896
+    }
+  ]
+}

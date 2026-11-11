@@ -1,0 +1,9 @@
+element,row,col,g_pu,b_pu
+feeder,source.A,source.A,400.0,-800.0
+feeder,source.A,station.A,-400.0,800.0
+feeder,source.N,source.N,400.0,-800.0
+feeder,source.N,station.N,-400.0,800.0
+feeder,station.A,source.A,-400.0,800.0
+feeder,station.A,station.A,400.0,-800.0
+feeder,station.N,source.N,-400.0,800.0
+feeder,station.N,station.N,400.0,-800.0

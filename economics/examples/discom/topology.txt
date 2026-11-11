@@ -1,0 +1,9 @@
+DISCOM ASSET OVERVIEW
+Each PCC has its own meter balance in the dispatch model.
+
+[Grid market] <--> [PCC: distribution-meter]
+                    Meter limits: import 8 MW / export 2 MW
+                    |-- Fixed load + supplied losses: 4.738..6.386 MW
+                    |-- Renewable availability: 0..2.2 MW
+                    |-- Battery substation-B1: 8 MWh; charge 2 MW / discharge 2 MW
+                    '-- Flexible load overnight-EV: 3 MWh obligation; 1.5 MW maximum

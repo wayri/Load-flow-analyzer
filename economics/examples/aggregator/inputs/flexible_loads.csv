@@ -1,0 +1,3 @@
+id,site,energy_mwh,p_max_mw,start_slot,end_slot,value_per_mwh
+depot-EV,depot-meter,4.0,1.5,7,18,100.0
+roof-process,roof-meter,2.0,0.8,9,16,100.0

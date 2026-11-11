@@ -1,0 +1,2 @@
+id,site,p_max_mw,marginal_cost_per_mwh,p_min_mw,no_load_cost_per_h,startup_cost,ramp_up_mw_per_h,ramp_down_mw_per_h,startup_ramp_mw,shutdown_ramp_mw,initial_on,initial_p_mw,min_up_h,min_down_h,initial_state_h
+G1,generator-meter,4.0,67.0,0.8,6.0,80.0,1.5,1.5,1.5,1.5,0,0,3.0,2.0,4.0

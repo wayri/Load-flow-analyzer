@@ -1,0 +1,72 @@
+{
+  "schema": 1,
+  "role": "discom",
+  "currency": "CUR",
+  "status": "optimal",
+  "feasible": true,
+  "optimal": true,
+  "objective_cost": -5600.6767304957575,
+  "accounting": {
+    "import_cost": 8459.101585293714,
+    "export_revenue": 0.0,
+    "retail_revenue": 13820.799999999997,
+    "generator_cost": 0.0,
+    "startup_cost": 0.0,
+    "degradation_cost": 9.120000000000003,
+    "curtailment_cost": 1.3471114790620887e-16,
+    "flexible_revenue": 336.0,
+    "demand_charge": 12.90168421052632,
+    "fixed_horizon_cost": 75.0,
+    "peak_import_mw": {
+      "distribution-meter": 6.150280701754387
+    },
+    "total_cost": -5600.6767304957575,
+    "net_profit": 5600.6767304957575,
+    "currency": "CUR"
+  },
+  "cashflow_records": 24,
+  "validation": {
+    "valid": true,
+    "violations": [],
+    "tolerance": 1e-06
+  },
+  "solver": {
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "seconds": 0.015601099992636591,
+    "variables": 218,
+    "constraints": 171,
+    "mip_gap": 2.228943914254055e-16,
+    "mip_node_count": 1,
+    "mip_dual_bound_variable_cost": 8160.767939980242
+  },
+  "grid_check": null,
+  "summary_json": "summary.json",
+  "artifacts": {
+    "readme": "README.md",
+    "topology_txt": "topology.txt",
+    "dispatch_csv": "dispatch.csv",
+    "battery_csv": "battery_soc.csv",
+    "generator_csv": "generator_dispatch.csv",
+    "flexible_csv": "flexible_dispatch.csv",
+    "cashflow_csv": "cashflow.csv",
+    "horizon_charges_csv": "horizon_charges.csv",
+    "dispatch_svg": "dispatch.svg",
+    "dispatch_png": "dispatch.png",
+    "soc_svg": "soc.svg",
+    "soc_png": "soc.png",
+    "prices_svg": "prices.svg",
+    "prices_png": "prices.png",
+    "cash_svg": "cash.svg",
+    "cash_png": "cash.png"
+  },
+  "baseline": {
+    "status": "optimal",
+    "feasible": true,
+    "optimal": true,
+    "total_cost": -4879.742414706284,
+    "net_profit": 4879.742414706284,
+    "baseline_cost_minus_dispatch_cost": 720.9343157894737,
+    "dispatch_profit_minus_baseline_profit": 720.9343157894737
+  }
+}

@@ -2,6 +2,10 @@
 
 [IEEE benchmark results, grid scenarios, plots and network diagrams](benchmarks/README.md)
 
+[Economic dispatch planning: batteries, generators, DISCOMs and aggregators](docs/economics.md)
+includes editable price/forecast CSVs, battery sizing, rolling replanning,
+independent schedule checks and [worked results with plots](economics/README.md).
+
 This **NRlarge** branch adds a sparse Python engine for unbalanced, phase-domain
 steady-state studies, CPU multicore execution, authenticated multi-computer row
 workers (up to 20), and optional FP64 OpenCL/OpenGL compute acceleration.

@@ -1,0 +1,415 @@
+{
+  "passed": false,
+  "scope": "Independent AC replay using supplied port mapping and limits",
+  "economic_dispatch_ac_constrained": false,
+  "intervals": [
+    {
+      "site": "battery-meter",
+      "slot": 0,
+      "time": "2030-01-15T00:00:00+00:00",
+      "converged": true,
+      "reason": "converged",
+      "passed": true,
+      "actual_pcc_mw": 0.0,
+      "scheduled_pcc_mw": 0.0,
+      "interchange_error_mw": 0.0,
+      "voltage_min_pu": 1.0,
+      "voltage_max_pu": 1.0,
+      "terminal_current_max_pu": {
+        "feeder": 0.0
+      },
+      "thermal_limits_checked": true
+    },
+    {
+      "site": "battery-meter",
+      "slot": 1,
+      "time": "2030-01-15T01:00:00+00:00",
+      "converged": true,
+      "reason": "converged",
+      "passed": true,
+      "actual_pcc_mw": 0.0,
+      "scheduled_pcc_mw": -0.0,
+      "interchange_error_mw": 0.0,
+      "voltage_min_pu": 1.0,
+      "voltage_max_pu": 1.0,
+      "terminal_current_max_pu": {
+        "feeder": 0.0
+      },
+      "thermal_limits_checked": true
+    },
+    {
+      "site": "battery-meter",
+      "slot": 2,
+      "time": "2030-01-15T02:00:00+00:00",
+      "converged": true,
+      "reason": "converged",
+      "passed": false,
+      "actual_pcc_mw": 0.5265930900637272,
+      "scheduled_pcc_mw": 0.5263157894736847,
+      "interchange_error_mw": 0.0002773005900424952,
+      "voltage_min_pu": 0.999472852016553,
+      "voltage_max_pu": 0.999472852016553,
+      "terminal_current_max_pu": {
+        "feeder": 0.5265933821131623
+      },
+      "thermal_limits_checked": true
+    },
+    {
+      "site": "battery-meter",
+      "slot": 3,
+      "time": "2030-01-15T03:00:00+00:00",
+      "converged": true,
+      "reason": "converged",
+      "passed": false,
+      "actual_pcc_mw": 2.004016145228036,
+      "scheduled_pcc_mw": 1.9999999999999991,
+      "interchange_error_mw": 0.004016145228036727,
+      "voltage_min_pu": 0.997987935435023,
+      "voltage_max_pu": 0.997987935435023,
+      "terminal_current_max_pu": {
+        "feeder": 2.004032242261738
+      },
+      "thermal_limits_checked": true
+    },
+    {
+      "site": "battery-meter",
+      "slot": 4,
+      "time": "2030-01-15T04:00:00+00:00",
+      "converged": true,
+      "reason": "converged",
+      "passed": true,
+      "actual_pcc_mw": 0.0,
+      "scheduled_pcc_mw": -0.0,
+      "interchange_error_mw": 0.0,
+      "voltage_min_pu": 1.0,
+      "voltage_max_pu": 1.0,
+      "terminal_current_max_pu": {
+        "feeder": 0.0
+      },
+      "thermal_limits_checked": true
+    },
+    {
+      "site": "battery-meter",
+      "slot": 5,
+      "time": "2030-01-15T05:00:00+00:00",
+      "converged": true,
+      "reason": "converged",
+      "passed": true,
+      "actual_pcc_mw": 0.0,
+      "scheduled_pcc_mw": -0.0,
+      "interchange_error_mw": 0.0,
+      "voltage_min_pu": 1.0,
+      "voltage_max_pu": 1.0,
+      "terminal_current_max_pu": {
+        "feeder": 0.0
+      },
+      "thermal_limits_checked": true
+    },
+    {
+      "site": "battery-meter",
+      "slot": 6,
+      "time": "2030-01-15T06:00:00+00:00",
+      "converged": true,
+      "reason": "converged",
+      "passed": true,
+      "actual_pcc_mw": 0.0,
+      "scheduled_pcc_mw": 0.0,
+      "interchange_error_mw": 0.0,
+      "voltage_min_pu": 1.0,
+      "voltage_max_pu": 1.0,
+      "terminal_current_max_pu": {
+        "feeder": 0.0
+      },
+      "thermal_limits_checked": true
+    },
+    {
+      "site": "battery-meter",
+      "slot": 7,
+      "time": "2030-01-15T07:00:00+00:00",
+      "converged": true,
+      "reason": "converged",
+      "passed": true,
+      "actual_pcc_mw": 0.0,
+      "scheduled_pcc_mw": 0.0,
+      "interchange_error_mw": 0.0,
+      "voltage_min_pu": 1.0,
+      "voltage_max_pu": 1.0,
+      "terminal_current_max_pu": {
+        "feeder": 0.0
+      },
+      "thermal_limits_checked": true
+    },
+    {
+      "site": "battery-meter",
+      "slot": 8,
+      "time": "2030-01-15T08:00:00+00:00",
+      "converged": true,
+      "reason": "converged",
+      "passed": true,
+      "actual_pcc_mw": 0.0,
+      "scheduled_pcc_mw": 0.0,
+      "interchange_error_mw": 0.0,
+      "voltage_min_pu": 1.0,
+      "voltage_max_pu": 1.0,
+      "terminal_current_max_pu": {
+        "feeder": 0.0
+      },
+      "thermal_limits_checked": true
+    },
+    {
+      "site": "battery-meter",
+      "slot": 9,
+      "time": "2030-01-15T09:00:00+00:00",
+      "converged": true,
+      "reason": "converged",
+      "passed": true,
+      "actual_pcc_mw": 0.0,
+      "scheduled_pcc_mw": 0.0,
+      "interchange_error_mw": 0.0,
+      "voltage_min_pu": 1.0,
+      "voltage_max_pu": 1.0,
+      "terminal_current_max_pu": {
+        "feeder": 0.0
+      },
+      "thermal_limits_checked": true
+    },
+    {
+      "site": "battery-meter",
+      "slot": 10,
+      "time": "2030-01-15T10:00:00+00:00",
+      "converged": true,
+      "reason": "converged",
+      "passed": true,
+      "actual_pcc_mw": 0.0,
+      "scheduled_pcc_mw": 0.0,
+      "interchange_error_mw": 0.0,
+      "voltage_min_pu": 1.0,
+      "voltage_max_pu": 1.0,
+      "terminal_current_max_pu": {
+        "feeder": 0.0
+      },
+      "thermal_limits_checked": true
+    },
+    {
+      "site": "battery-meter",
+      "slot": 11,
+      "time": "2030-01-15T11:00:00+00:00",
+      "converged": true,
+      "reason": "converged",
+      "passed": true,
+      "actual_pcc_mw": 0.0,
+      "scheduled_pcc_mw": 0.0,
+      "interchange_error_mw": 0.0,
+      "voltage_min_pu": 1.0,
+      "voltage_max_pu": 1.0,
+      "terminal_current_max_pu": {
+        "feeder": 0.0
+      },
+      "thermal_limits_checked": true
+    },
+    {
+      "site": "battery-meter",
+      "slot": 12,
+      "time": "2030-01-15T12:00:00+00:00",
+      "converged": true,
+      "reason": "converged",
+      "passed": true,
+      "actual_pcc_mw": 0.0,
+      "scheduled_pcc_mw": 0.0,
+      "interchange_error_mw": 0.0,
+      "voltage_min_pu": 1.0,
+      "voltage_max_pu": 1.0,
+      "terminal_current_max_pu": {
+        "feeder": 0.0
+      },
+      "thermal_limits_checked": true
+    },
+    {
+      "site": "battery-meter",
+      "slot": 13,
+      "time": "2030-01-15T13:00:00+00:00",
+      "converged": true,
+      "reason": "converged",
+      "passed": true,
+      "actual_pcc_mw": 0.0,
+      "scheduled_pcc_mw": -0.0,
+      "interchange_error_mw": 0.0,
+      "voltage_min_pu": 1.0,
+      "voltage_max_pu": 1.0,
+      "terminal_current_max_pu": {
+        "feeder": 0.0
+      },
+      "thermal_limits_checked": true
+    },
+    {
+      "site": "battery-meter",
+      "slot": 14,
+      "time": "2030-01-15T14:00:00+00:00",
+      "converged": true,
+      "reason": "converged",
+      "passed": true,
+      "actual_pcc_mw": 0.0,
+      "scheduled_pcc_mw": -0.0,
+      "interchange_error_mw": 0.0,
+      "voltage_min_pu": 1.0,
+      "voltage_max_pu": 1.0,
+      "terminal_current_max_pu": {
+        "feeder": 0.0
+      },
+      "thermal_limits_checked": true
+    },
+    {
+      "site": "battery-meter",
+      "slot": 15,
+      "time": "2030-01-15T15:00:00+00:00",
+      "converged": true,
+      "reason": "converged",
+      "passed": true,
+      "actual_pcc_mw": 0.0,
+      "scheduled_pcc_mw": -0.0,
+      "interchange_error_mw": 0.0,
+      "voltage_min_pu": 1.0,
+      "voltage_max_pu": 1.0,
+      "terminal_current_max_pu": {
+        "feeder": 0.0
+      },
+      "thermal_limits_checked": true
+    },
+    {
+      "site": "battery-meter",
+      "slot": 16,
+      "time": "2030-01-15T16:00:00+00:00",
+      "converged": true,
+      "reason": "converged",
+      "passed": true,
+      "actual_pcc_mw": 0.0,
+      "scheduled_pcc_mw": 0.0,
+      "interchange_error_mw": 0.0,
+      "voltage_min_pu": 1.0,
+      "voltage_max_pu": 1.0,
+      "terminal_current_max_pu": {
+        "feeder": 0.0
+      },
+      "thermal_limits_checked": true
+    },
+    {
+      "site": "battery-meter",
+      "slot": 17,
+      "time": "2030-01-15T17:00:00+00:00",
+      "converged": true,
+      "reason": "converged",
+      "passed": false,
+      "actual_pcc_mw": -1.99601585720427,
+      "scheduled_pcc_mw": -2.0,
+      "interchange_error_mw": 0.003984142795729895,
+      "voltage_min_pu": 1.0019880634448803,
+      "voltage_max_pu": 1.0019880634448803,
+      "terminal_current_max_pu": {
+        "feeder": 1.9960317622187687
+      },
+      "thermal_limits_checked": true
+    },
+    {
+      "site": "battery-meter",
+      "slot": 18,
+      "time": "2030-01-15T18:00:00+00:00",
+      "converged": true,
+      "reason": "converged",
+      "passed": false,
+      "actual_pcc_mw": -1.99601585720427,
+      "scheduled_pcc_mw": -2.0,
+      "interchange_error_mw": 0.003984142795729895,
+      "voltage_min_pu": 1.0019880634448803,
+      "voltage_max_pu": 1.0019880634448803,
+      "terminal_current_max_pu": {
+        "feeder": 1.9960317622187687
+      },
+      "thermal_limits_checked": true
+    },
+    {
+      "site": "battery-meter",
+      "slot": 19,
+      "time": "2030-01-15T19:00:00+00:00",
+      "converged": true,
+      "reason": "converged",
+      "passed": true,
+      "actual_pcc_mw": 0.0,
+      "scheduled_pcc_mw": 0.0,
+      "interchange_error_mw": 0.0,
+      "voltage_min_pu": 1.0,
+      "voltage_max_pu": 1.0,
+      "terminal_current_max_pu": {
+        "feeder": 0.0
+      },
+      "thermal_limits_checked": true
+    },
+    {
+      "site": "battery-meter",
+      "slot": 20,
+      "time": "2030-01-15T20:00:00+00:00",
+      "converged": true,
+      "reason": "converged",
+      "passed": false,
+      "actual_pcc_mw": -0.5596867503489875,
+      "scheduled_pcc_mw": -0.5600000000000006,
+      "interchange_error_mw": 0.0003132496510130922,
+      "voltage_min_pu": 1.0005590606014945,
+      "voltage_max_pu": 1.0005590606014945,
+      "terminal_current_max_pu": {
+        "feeder": 0.5596871009926755
+      },
+      "thermal_limits_checked": true
+    },
+    {
+      "site": "battery-meter",
+      "slot": 21,
+      "time": "2030-01-15T21:00:00+00:00",
+      "converged": true,
+      "reason": "converged",
+      "passed": true,
+      "actual_pcc_mw": 0.0,
+      "scheduled_pcc_mw": 0.0,
+      "interchange_error_mw": 0.0,
+      "voltage_min_pu": 1.0,
+      "voltage_max_pu": 1.0,
+      "terminal_current_max_pu": {
+        "feeder": 0.0
+      },
+      "thermal_limits_checked": true
+    },
+    {
+      "site": "battery-meter",
+      "slot": 22,
+      "time": "2030-01-15T22:00:00+00:00",
+      "converged": true,
+      "reason": "converged",
+      "passed": false,
+      "actual_pcc_mw": 0.5265930900637272,
+      "scheduled_pcc_mw": 0.5263157894736842,
+      "interchange_error_mw": 0.0002773005900430503,
+      "voltage_min_pu": 0.999472852016553,
+      "voltage_max_pu": 0.999472852016553,
+      "terminal_current_max_pu": {
+        "feeder": 0.5265933821131616
+      },
+      "thermal_limits_checked": true
+    },
+    {
+      "site": "battery-meter",
+      "slot": 23,
+      "time": "2030-01-15T23:00:00+00:00",
+      "converged": true,
+      "reason": "converged",
+      "passed": false,
+      "actual_pcc_mw": 2.0040161452280927,
+      "scheduled_pcc_mw": 2.0,
+      "interchange_error_mw": 0.004016145228092682,
+      "voltage_min_pu": 0.997987935435023,
+      "voltage_max_pu": 0.997987935435023,
+      "terminal_current_max_pu": {
+        "feeder": 2.0040322422617947
+      },
+      "thermal_limits_checked": true
+    }
+  ]
+}

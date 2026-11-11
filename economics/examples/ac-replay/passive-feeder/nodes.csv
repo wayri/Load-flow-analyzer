@@ -1,0 +1,5 @@
+id,bus,phase,type,p_pu,q_pu,vm_pu,va_deg,qmin_pu,qmax_pu,region,feeder,customer
+source.A,,A,SLACK,0.0,0.0,1.0,0.0,,,,,
+source.N,,N,SLACK,0.0,0.0,0,0.0,,,,,
+station.A,,A,PQ,0.0,0.0,1.0,0.0,,,,,
+station.N,,N,PQ,0.0,0.0,0,0.0,,,,,

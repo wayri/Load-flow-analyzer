@@ -1,0 +1,4 @@
+type,site,amount,currency,peak_import_mw,historical_peak_mw,rate_per_mw
+incremental_demand_charge,depot-meter,1.1289473684210531,CUR,0.8763157894736844,0.5,3.0
+incremental_demand_charge,roof-meter,1.0578947368421057,CUR,0.8289473684210528,0.3,2.0
+fixed_horizon_cost,ALL,25.0,CUR,,,

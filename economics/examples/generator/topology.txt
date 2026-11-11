@@ -1,0 +1,8 @@
+GENERATOR ASSET OVERVIEW
+Each PCC has its own meter balance in the dispatch model.
+
+[Grid market] <--> [PCC: generator-meter]
+                    Meter limits: import 1 MW / export 4 MW
+                    |-- Fixed load + supplied losses: 0..0 MW
+                    |-- Renewable availability: 0..0 MW
+                    '-- Generator G1: 0.8..4 MW; commitment + ramp limits

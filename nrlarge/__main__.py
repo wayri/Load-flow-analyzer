@@ -18,6 +18,7 @@ def parser():
     p = argparse.ArgumentParser(description='NRlarge: sparse unbalanced steady-state load flow; coordinator-limited cluster prototype')
     p.add_argument('--version',action='version',version=__version__)
     sub = p.add_subparsers(dest='command',required=True)
+    sub.add_parser('economics',help='Plan, optimize, check and replan economic dispatch; economics --help for commands')
     sub.add_parser('hardware',help='Probe actual OpenCL FP64/OpenGL compute devices')
     example = sub.add_parser('example',help='Write an editable unbalanced four-wire wye/delta case')
     example.add_argument('--out',required=True)
@@ -52,6 +53,10 @@ def parser():
 
 
 def main(argv=None):
+    argv = sys.argv[1:] if argv is None else list(argv)
+    if argv and argv[0] == 'economics':
+        from .economics.__main__ import main as economics_main
+        return economics_main(argv[1:])
     started = time.perf_counter()
     args = parser().parse_args(argv)
     try:

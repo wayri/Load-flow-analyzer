@@ -1,0 +1,3 @@
+type,site,amount,currency,peak_import_mw,historical_peak_mw,rate_per_mw
+incremental_demand_charge,distribution-meter,12.90168421052632,CUR,6.150280701754387,4.0,6.0
+fixed_horizon_cost,ALL,75.0,CUR,,,

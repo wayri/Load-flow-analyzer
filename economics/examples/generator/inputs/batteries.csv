@@ -1,0 +1,1 @@
+id,site,capacity_mwh,charge_max_mw,discharge_max_mw,eta_charge,eta_discharge,soc_min_mwh,soc_max_mwh,initial_soc_mwh,terminal_soc_mwh,degradation_cost_per_mwh,self_discharge_per_h,max_discharge_mwh

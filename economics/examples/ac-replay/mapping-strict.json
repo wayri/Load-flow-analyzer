@@ -1,0 +1,39 @@
+{
+  "sites": {
+    "battery-meter": {
+      "case": "passive-feeder",
+      "ports": {
+        "fixed_load": [
+          {
+            "from": "station.A",
+            "to": "station.N",
+            "weight": 1,
+            "q_per_p": 0
+          }
+        ],
+        "renewable": [
+          {
+            "from": "station.A",
+            "to": "station.N",
+            "weight": 1,
+            "q_per_p": 0
+          }
+        ],
+        "battery:B1": [
+          {
+            "from": "station.A",
+            "to": "station.N",
+            "weight": 1,
+            "q_per_p": 0
+          }
+        ]
+      },
+      "voltage_min_pu": 0.95,
+      "voltage_max_pu": 1.05,
+      "interchange_tolerance_mw": 1e-05,
+      "terminal_current_limits_pu": {
+        "feeder": 2.1
+      }
+    }
+  }
+}
